@@ -1,0 +1,22 @@
+{
+    "include": [
+        "default",
+        "common"
+    ],
+    "define": {
+        "keymap": {
+            "=": "set-input-mode-katakana",
+            "+": "start-preedit",
+            "Hiragana_Katakana": "abbrev",
+            "`": "set-input-mode-latin",
+            "~": "set-input-mode-wide-latin",
+            "|": "kuten",
+            "\\": "abbrev",
+            "\n": "commit-unhandled",
+            " ": "next-candidate",
+            "\t": "complete",
+            "x": "previous-candidate",
+            "X": "purge-candidate"
+        }
+    }
+}

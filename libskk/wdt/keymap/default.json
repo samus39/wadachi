@@ -1,0 +1,17 @@
+{
+    "include": [
+    ],
+    "define": {
+        "keymap": {
+            "Henkan": "set-input-mode-hiragana",
+            "Muhenkan": "set-input-mode-latin",
+            "A-Henkan": "set-input-mode-katakana",
+            "A-Muhenkan": "set-input-mode-wide-latin",
+            "C-Henkan": "set-input-mode-hankaku-katakana",
+            "A-`": "set-input-mode-hiragana",
+            "C-g": "abort",
+            "\b": "delete",
+            "C-h": "delete"
+        }
+    }
+}

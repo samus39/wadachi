@@ -1,0 +1,12 @@
+{
+    "define": {
+        "keymap": {
+            "<":  "upper-,",
+            ">":  "upper-.",
+            "?":  "upper-/",
+            ":":  "upper-;",
+            "\"": "upper-'",
+            "_":  "upper--"
+        }
+    }
+}
