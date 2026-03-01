@@ -536,112 +536,117 @@
             "zod":  ["", "ㇾ"],
             "zos":  ["", "ㇿ"],
             "zha":  ["", "ゎ"],
-            "zx":   ["", "゙"],                   /* U+3099 COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK */
-            "zc":   ["", "゚"],                   /* U+309A COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK */
-            "zv":   ["", "゛"],                 /* U+309B KATAKANA-HIRAGANA VOICED SOUND MARK */
-            "zb":   ["", "゜"],                 /* U+309C KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK */
-            "z1":   ["", "¹"],                  /* U+00B9 SUPERSCRIPT ONE */
-            "z2":   ["", "²"],                  /* U+00B2 SUPERSCRIPT TWO */
-            "z3":   ["", "³"],                  /* U+00B3 SUPERSCRIPT THREE */
-            "z4":   ["", "⁴"],                  /* U+2074 SUPERSCRIPT FOUR */
-            "z5":   ["", "⁵"],                  /* U+2075 SUPERSCRIPT FIVE */
-            "z6":   ["", "⁶"],                  /* U+2076 SUPERSCRIPT SIX */
-            "z7":   ["", "⁷"],                  /* U+2077 SUPERSCRIPT SEVEN */
-            "z8":   ["", "⁸"],                  /* U+2078 SUPERSCRIPT EIGHT */
-            "z9":   ["", "⁹"],                  /* U+2079 SUPERSCRIPT NINE */
-            "z0":   ["", "⁰"],                  /* U+2070 SUPERSCRIPT ZERO */
+            "zx":   ["", "゙"],                   /*          U+3099 COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK */
+            "zc":   ["", "゚"],                   /*          U+309A COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK */
+            "zv":   ["", "゛"],                 /* [1-1-11] U+309B KATAKANA-HIRAGANA VOICED SOUND MARK */
+            "zb":   ["", "゜"],                 /* [1-1-12] U+309C KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK */
+            "z1":   ["", "¹"],                  /* [1-9-16] U+00B9 SUPERSCRIPT ONE */
+            "z2":   ["", "²"],                  /* [1-9-12] U+00B2 SUPERSCRIPT TWO */
+            "z3":   ["", "³"],                  /* [1-9-13] U+00B3 SUPERSCRIPT THREE */
+            "z4":   ["", "⁴"],                  /*          U+2074 SUPERSCRIPT FOUR */
+            "z5":   ["", "⁵"],                  /*          U+2075 SUPERSCRIPT FIVE */
+            "z6":   ["", "⁶"],                  /*          U+2076 SUPERSCRIPT SIX */
+            "z7":   ["", "⁷"],                  /*          U+2077 SUPERSCRIPT SEVEN */
+            "z8":   ["", "⁸"],                  /*          U+2078 SUPERSCRIPT EIGHT */
+            "z9":   ["", "⁹"],                  /*          U+2079 SUPERSCRIPT NINE */
+            "z0":   ["", "⁰"],                  /*          U+2070 SUPERSCRIPT ZERO */
             "n":    ["", "ん"],
-            "w":    ["", "・"],                 /* U+30FB KATAKANA MIDDLE DOT */
+            "w":    ["", "・"],                 /* [1-1-6]  U+30FB KATAKANA MIDDLE DOT */
             "e":    ["", "っ"],
-            "r":    ["", "ー"],                 /* U+30FC KATAKANA-HIRAGANA PROLONGED SOUND MARK */
-            "t":    ["", "〜"],                 /* U+301C WAVE DASH */
-            "x":    ["", "。"],                 /* U+3002 IDEOGRAPHIC FULL STOP */
-            "c":    ["", "、"],                 /* U+3001 IDEOGRAPHIC COMMA */
-            "v":    ["", "？"],                 /* U+FF1F FULLWIDTH QUESTION MARK */
-            "b":    ["", "！"],                 /* U+FF01 FULLWIDTH EXCLAMATION MARK */
-            "[":    ["", "「"],                 /* U+300C LEFT CORNER BRACKET */
-            "]":    ["", "」"],                 /* U+300D RIGHT CORNER BRACKET */
-            "{":    ["", "『"],                 /* U+300E LEFT WHITE CORNER BRACKET */
-            "}":    ["", "』"],                 /* U+300F RIGHT WHITE CORNER BRACKET */
-            "q[":   ["", "〈"],                 /* U+3008 LEFT ANGLE BRACKET */
-            "q]":   ["", "〉"],                 /* U+3009 RIGHT ANGLE BRACKET */
-            "qq[":  ["", "《"],                 /* U+300A LEFT DOUBLE ANGLE BRACKET */
-            "qq]":  ["", "》"],                 /* U+300B RIGHT DOUBLE ANGLE BRACKET */
-            "q9":   ["", "（"],                 /* U+FF08 FULLWIDTH LEFT PARENTHESIS */
-            "q0":   ["", "）"],                 /* U+FF09 FULLWIDTH RIGHT PARENTHESIS */
-            "qq9":  ["", "【"],                 /* U+3010 LEFT BLACK LENTICULAR BRACKET */
-            "qq0":  ["", "】"],                 /* U+3011 RIGHT BLACK LENTICULAR BRACKET */
+            "r":    ["", "ー"],                 /* [1-1-28] U+30FC KATAKANA-HIRAGANA PROLONGED SOUND MARK */
+            "t":    ["", "〜"],                 /* [1-1-33] U+301C WAVE DASH */
+            "x":    ["", "。"],                 /* [1-1-3]  U+3002 IDEOGRAPHIC FULL STOP */
+            "c":    ["", "、"],                 /* [1-1-2]  U+3001 IDEOGRAPHIC COMMA */
+            "v":    ["", "？"],                 /*          U+FF1F FULLWIDTH QUESTION MARK */
+            "b":    ["", "！"],                 /*          U+FF01 FULLWIDTH EXCLAMATION MARK */
+            "[":    ["", "「"],                 /* [1-1-54] U+300C LEFT CORNER BRACKET */
+            "]":    ["", "」"],                 /* [1-1-55] U+300D RIGHT CORNER BRACKET */
+            "{":    ["", "『"],                 /* [1-1-56] U+300E LEFT WHITE CORNER BRACKET */
+            "}":    ["", "』"],                 /* [1-1-57] U+300F RIGHT WHITE CORNER BRACKET */
+            "q[":   ["", "〈"],                 /* [1-1-50] U+3008 LEFT ANGLE BRACKET */
+            "q]":   ["", "〉"],                 /* [1-1-51] U+3009 RIGHT ANGLE BRACKET */
+            "qq[":  ["", "《"],                 /* [1-1-52] U+300A LEFT DOUBLE ANGLE BRACKET */
+            "qq]":  ["", "》"],                 /* [1-1-53] U+300B RIGHT DOUBLE ANGLE BRACKET */
+            "q9":   ["", "（"],                 /*          U+FF08 FULLWIDTH LEFT PARENTHESIS */
+            "q0":   ["", "）"],                 /*          U+FF09 FULLWIDTH RIGHT PARENTHESIS */
+            "qq9":  ["", "【"],                 /* [1-1-58] U+3010 LEFT BLACK LENTICULAR BRACKET */
+            "qq0":  ["", "】"],                 /* [1-1-59] U+3011 RIGHT BLACK LENTICULAR BRACKET */
+            "q`":   ["", "‘"],                  /* [1-1-38] U+2018 LEFT SINGLE QUOTATION MARK */
+            "q'":   ["", "’"],                  /* [1-1-39] U+2019 RIGHT SINGLE QUOTATION MARK */
+            "qq`":  ["", "“"],                  /* [1-1-40] U+201C LEFT DOUBLE QUOTATION MARK */
+            "qq'":  ["", "”"],                  /* [1-1-41] U+201D RIGHT DOUBLE QUOTATION MARK */
+            "q1":   ["", "○"],                  /* [1-1-91] U+25CB WHITE CIRCLE */
+            "qq1":  ["", "●"],                  /* [1-1-92] U+25CF BLACK CIRCLE */
+            "q2":   ["", "▽"],                  /* [1-2-6]  U+25BD WHITE DOWN-POINTING TRIANGLE */
+            "qq2":  ["", "▼"],                  /* [1-2-7]  U+25BC BLACK DOWN-POINTING TRIANGLE */
+            "q3":   ["", "△"],                  /* [1-2-4]  U+25B3 WHITE UP-POINTING TRIANGLE */
+            "qq3":  ["", "▲"],                  /* [1-2-5]  U+25B2 BLACK UP-POINTING TRIANGLE */
+            "q4":   ["", "□"],                  /* [1-2-2]  U+25A1 WHITE SQUARE */
+            "qq4":  ["", "■"],                  /* [1-2-3]  U+25A0 BLACK SQUARE */
+            "q5":   ["", "◇"],                  /* [1-1-94] U+25C7 WHITE DIAMOND */
+            "qq5":  ["", "◆"],                  /* [1-2-1]  U+25C6 BLACK DIAMOND */
+            "q6":   ["", "☆"],                  /* [1-1-89] U+2606 WHITE STAR */
+            "qq6":  ["", "★"],                  /* [1-1-90] U+2605 BLACK STAR */
+            "q7":   ["", "◎"],                  /* [1-1-93] U+25CE BULLSEYE */
+            "qq7":  ["", "◉"],                  /* [1-3-27] U+25C9 FISHEYE */
+            "q8":   ["", "※"],                  /* [1-2-8]  U+203B REFERENCE MARK */
+            "qq8":  ["", "×"],                  /* [1-1-63] U+00D7 MULTIPLICATION SIGN */
+            "q-":   ["", "–"],                  /* [1-3-92] U+2013 EN DASH */
+            "qq-":  ["", "−"],                  /* [1-1-61] U+2212 MINUS SIGN */
+            "q=":   ["", "≒"],                  /* [1-2-66] U+2252 APPROXIMATELY EQUAL TO OR THE IMAGE OF */
+            "qq=":  ["", "≠"],                  /* [1-1-66] U+2260 NOT EQUAL TO */
+            "q\\":  ["", "¥"],                  /* [1-1-79] U+00A5 YEN SIGN */
+            "qq\\": ["", "±"],                  /* [1-1-62] U+00B1 PLUS-MINUS SIGN */
+            "qw":   ["", "゠"],                 /* [1-3-91] U+30A0 KATAKANA-HIRAGANA DOUBLE HYPHEN */
+            "qqw":  ["", "·"],                  /* [1-9-14] U+00B7 MIDDLE DOT */
+            "qe":   ["", "々"],                 /* [1-1-25] U+3005 IDEOGRAPHIC ITERATION MARK */
+            "qr":   ["", "〱"],                 /*          U+3031 VERTICAL KANA REPEAT MARK */
+            "qt":   ["", "〲"],                 /*          U+3032 VERTICAL KANA REPEAT WITH VOICED SOUND MARK */
+            "qa":   ["", "〃"],                 /* [1-1-23] U+3003 DITTO MARK */
+            "qs":   ["", "ゝ"],                 /* [1-1-21] U+309D HIRAGANA ITERATION MARK */
+            "qd":   ["", "ゞ"],                 /* [1-1-22] U+309E HIRAGANA VOICED ITERATION MARK */
+            "qf":   ["", "〳"],                 /* [1-2-19] U+3033 VERTICAL KANA REPEAT MARK UPPER HALF */
+            "qg":   ["", "〴"],                 /* [1-2-20] U+3034 VERTICAL KANA REPEAT WITH VOICED SOUND MARK UPPER HALF */
+            "qz":   ["", "〻"],                 /* [1-2-22] U+303B VERTICAL IDEOGRAPHIC ITERATION MARK */
+            "qx":   ["", "ヽ"],                 /* [1-1-19] U+30FD KATAKANA ITERATION MARK */
+            "qc":   ["", "ヾ"],                 /* [1-1-20] U+30FE KATAKANA VOICED ITERATION MARK */
+            "qv":   ["", "〵"],                 /* [1-2-21] U+3035 VERTICAL KANA REPEAT MARK LOWER HALF */
+            "qy":   ["", "ゟ"],                 /* [1-2-25] U+309F HIRAGANA DIGRAPH YORI */
+            "qu":   ["", "©"],                  /* [1-9-6]  U+00A9 COPYRIGHT SIGN */
+            "qqu":  ["", "®"],                  /* [1-9-10] U+00AE REGISTERED SIGN*/
+            "qi":   ["", "ヿ"],                 /* [1-2-24] U+30FF KATAKANA DIGRAPH KOTO */
+            "qo":   ["", "°"],                  /* [1-1-75] U+00B0 DEGREE SIGN */
+            "qp":   ["", "′"],                  /* [1-1-76] U+2032 PRIME */
+            "qqp":  ["", "″"],                  /* [1-1-77] U+2033 DOUBLE PRIME */
+            "qh":   ["", "←"],                  /* [1-2-11] U+2190 LEFTWARDS ARROW */
+            "qqh":  ["", "⇔"],                  /* [1-2-46] U+21D4 LEFT RIGHT DOUBLE ARROW */
+            "qj":   ["", "↓"],                  /* [1-2-13] U+2193 DOWNWARDS ARROW */
+            "qqj":  ["", "⤵"],                  /* [1-3-15] U+2935 ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS */
+            "qk":   ["", "↑"],                  /* [1-2-12] U+2191 UPWARDS ARROW */
+            "qqk":  ["", "⤴"],                  /* [1-3-14] U+2934 ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS */
+            "ql":   ["", "→"],                  /* [1-2-10] U+2192 RIGHTWARDS ARROW */
+            "qql":  ["", "⇒"],                  /* [1-2-45] U+21D2 RIGHTWARDS DOUBLE ARROW */
+            "q;":   ["", "："],                 /*          U+FF1A FULLWIDTH COLON */
+            "qq;":  ["", "∶"],                  /*          U+2236 RATIO */
+            "q,":   ["", "—"],                  /* [1-1-29] U+2014 EM DASH */
+            "qq,":  ["", "≦"],                  /* [1-1-69] U+2266 LESS-THAN OVER EQUAL TO */
+            "q.":   ["", "…"],                  /* [1-1-36] U+2026 HORIZONTAL ELLIPSIS */
+            "qq.":  ["", "≧"],                  /* [1-1-70] U+2267 GREATER-THAN OVER EQUAL TO */
+            "q/":   ["", "／"],                 /*          U+FF0F FULLWIDTH SOLIDUS */
+            "qq/":  ["", "÷"],                  /* [1-1-64] U+00F7 DIVISION SIGN */
+            "q ":   ["", "　"],                 /* [1-1-1]  U+3000 IDEOGRAPHIC SPACE */
+            "qq ":  ["", "␣"],                  /* [1-7-93] U+2423 OPEN BOX */
             /*"qq9":  ["", "〔"],                 /* U+3014 LEFT TORTOISE SHELL BRACKET */
             /*"qq0":  ["", "〕"],                 /* U+3015 RIGHT TORTOISE SHELL BRACKET */
-            "q`":   ["", "‘"],                  /* U+2018 LEFT SINGLE QUOTATION MARK */
-            "qq`":  ["", "“"],                  /* U+201C LEFT DOUBLE QUOTATION MARK */
-            "q'":   ["", "’"],                  /* U+2019 RIGHT SINGLE QUOTATION MARK (apostrophe) */
-            "qq'":  ["", "”"],                  /* U+201D RIGHT DOUBLE QUOTATION MARK */
-            "q1":   ["", "○"],                  /* U+25CB WHITE CIRCLE */
-            "qq1":  ["", "●"],                  /* U+25CF BLACK CIRCLE */
-            "q2":   ["", "▽"],                  /* U+25BD WHITE DOWN-POINTING TRIANGLE */
-            "qq2":  ["", "▼"],                  /* U+25BC BLACK DOWN-POINTING TRIANGLE */
-            "q3":   ["", "△"],                  /* U+25B3 WHITE UP-POINTING TRIANGLE */
-            "qq3":  ["", "▲"],                  /* U+25B2 BLACK UP-POINTING TRIANGLE */
-            "q4":   ["", "□"],                  /* U+25A1 WHITE SQUARE */
-            "qq4":  ["", "■"],                  /* U+25A0 BLACK SQUARE */
-            "q5":   ["", "◇"],                  /* U+25C7 WHITE DIAMOND */
-            "qq5":  ["", "◆"],                  /* U+25C6 BLACK DIAMOND */
-            "q6":   ["", "☆"],                  /* U+2606 WHITE STAR */
-            "qq6":  ["", "★"],                  /* U+2605 BLACK STAR */
-            "q7":   ["", "◎"],                  /* U+25CE BULLSEYE */
-            "qq7":  ["", "♪"],                  /* U+266A EIGHTH NOTE */
-            "q8":   ["", "※"],                  /* U+203B REFERENCE MARK */
-            "qq8":  ["", "×"],                  /* U+00D7 MULTIPLICATION SIGN */
-            "q-":   ["", "‐"],                  /* U+2010 HYPHEN */
-            "qq-":  ["", "−"],                  /* U+2212 MINUS SIGN */
-            "q=":   ["", "≒"],                 /* U+2252 APPROXIMATELY EQUAL TO OR THE IMAGE OF */
-            "qq=":  ["", "±"],                  /* U+00B1 PLUS-MINUS SIGN */
-            "q\\":  ["", "¥"],                  /* U+00A5 YEN SIGN */
-            "qq\\": ["", "≠"],                  /* U+2260 NOT EQUAL TO */
-            "qw":   ["", "゠"],                 /* U+30A0 KATAKANA-HIRAGANA DOUBLE HYPHEN */
-            "qqw":  ["", "·"],                  /* U+00B7 MIDDLE DOT */
-            "qe":   ["", "々"],                 /* U+3005 IDEOGRAPHIC ITERATION MARK */
-            "qr":   ["", "〱"],                 /* U+3031 VERTICAL KANA REPEAT MARK */
-            "qt":   ["", "〲"],                 /* U+3032 VERTICAL KANA REPEAT WITH VOICED SOUND MARK */
-            "qa":   ["", "〃"],                 /* U+3003 DITTO MARK */
-            "qs":   ["", "ゝ"],                 /* U+309D HIRAGANA ITERATION MARK */
-            "qd":   ["", "ゞ"],                 /* U+309E HIRAGANA VOICED ITERATION MARK */
-            "qf":   ["", "〳"],                 /* U+3033 VERTICAL KANA REPEAT MARK UPPER HALF */
-            "qg":   ["", "〴"],                 /* U+3034 VERTICAL KANA REPEAT WITH VOICED SOUND MARK UPPER HALF */
-            "qz":   ["", "〻"],                 /* U+303B VERTICAL IDEOGRAPHIC ITERATION MARK */
-            "qx":   ["", "ヽ"],                 /* U+30FD KATAKANA ITERATION MARK */
-            "qc":   ["", "ヾ"],                 /* U+30FE KATAKANA VOICED ITERATION MARK */
-            "qv":   ["", "〵"],                 /* U+3035 VERTICAL KANA REPEAT MARK LOWER HALF */
-            "qy":   ["", "ゟ"],                 /* U+309F HIRAGANA DIGRAPH YORI */
-            "qu":   ["", "〒"],                 /* U+3012 POSTAL MARK */
-            "qi":   ["", "ヿ"],                 /* U+30FF KATAKANA DIGRAPH KOTO */
-            "qo":   ["", "°"],                  /* U+00B0 DEGREE SIGN */
-            "qqo":  ["", "℃"],                 /* U+2103 DEGREE CELSIUS */
-            "qp":   ["", "©"],                  /* U+00A9 COPYRIGHT SIGN */
-            "qqp":  ["", "®"],                  /* U+00AE REGISTERED SIGN*/
-            "qh":   ["", "←"],                  /* U+2190 LEFTWARDS ARROW */
-            "qqh":  ["", "⇐"],                 /* U+21D0 LEFTWARDS DOUBLE ARROW */
-            /*"qqh":  ["", "⇔"],*/                 /* U+21D4 LEFT RIGHT DOUBLE ARROW */
-            "qj":   ["", "↓"],                  /* U+2193 DOWNWARDS ARROW */
-            "qqj":  ["", "⇓"],                  /* U+21D3 DOWNWARDS DOUBLE ARROW */
-            "qk":   ["", "↑"],                  /* U+2191 UPWARDS ARROW */
-            "qqk":  ["", "⇑"],                  /* U+21D1 UPWARDS DOUBLE ARROW */
-            "ql":   ["", "→"],                  /* U+2192 RIGHTWARDS ARROW */
-            "qql":  ["", "⇒"],                 /* U+21D2 RIGHTWARDS DOUBLE ARROW */
-            "q;":   ["", "："],                 /* U+FF1A FULLWIDTH COLON */
-            "qq;":  ["", "∶"],                  /* U+2236 RATIO */
-            "qn":   ["", "–"],                  /* U+2013 EN DASH */
-            "qm":   ["", "—"],                  /* U+2014 EM DASH */
-            "q,":   ["", "‥"],                  /* U+2025 TWO DOT LEADER */
-            "qq,":  ["", "≦"],                 /* U+2266 LESS-THAN OVER EQUAL TO */
-            "q.":   ["", "…"],                  /* U+2026 HORIZONTAL ELLIPSIS */
-            "qq.":  ["", "≧"],                 /* U+2267 GREATER-THAN OVER EQUAL TO */
-            "q/":   ["", "／"],                 /* U+FF0F FULLWIDTH SOLIDUS */
-            "qq/":  ["", "÷"],                  /* U+00F7 DIVISION SIGN */
-           /* "q ":   ["", " "], */                 /* U+0020 SPACE */
-            "q ":   ["", "　"],                 /* U+3000 IDEOGRAPHIC SPACE */
-           /* "q`":   ["", "∕"], */                 /* U+2215 DIVISION SLASH */
+            /*"q-":   ["", "‐"],                  /* U+2010 HYPHEN */
+            /*"qu":   ["", "〒"],                 /* U+3012 POSTAL MARK */
+            /*"qqo":  ["", "℃"],                 /* U+2103 DEGREE CELSIUS */
+            /*"qqh":  ["", "⇐"],                 /* U+21D0 LEFTWARDS DOUBLE ARROW */
+            /*"qqj":  ["", "⇓"],                 /* U+21D3 DOWNWARDS DOUBLE ARROW */
+            /*"qqk":  ["", "⇑"],                 /* U+21D1 UPWARDS DOUBLE ARROW */
+            /*"q,":   ["", "‥"],                 /* U+2025 TWO DOT LEADER */
+            /*"q ":   ["", " "],                 /* U+0020 SPACE */
+            /*"q`":   ["", "∕"],                 /* U+2215 DIVISION SLASH */
             "qqv":  ["", "ゔ"]
         },
         "option": {
