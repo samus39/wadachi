@@ -9,6 +9,7 @@
             "A-Muhenkan": "set-input-mode-wide-latin",
             "C-Henkan": "set-input-mode-hankaku-katakana",
             "A-`": "set-input-mode-hiragana",
+            "Escape": "abort",
             "C-g": "abort",
             "\b": "delete",
             "C-h": "delete"
