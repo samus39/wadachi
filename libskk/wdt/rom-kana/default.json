@@ -424,7 +424,6 @@
             "yr":   ["", "ゆう"],
             "ye":   ["", "いぇい"],
             "yw":   ["", "よう"],
-            "yhd":  ["", "𛀁"],
             "oa":   ["", "ら"],
             "og":   ["", "り"],
             "of":   ["", "る"],
@@ -543,16 +542,26 @@
             "zt":   ["", "ゟ"],                 /* U+309F HIRAGANA DIGRAPH YORI                                     [1-2-25] より */
             "zw":   ["", "ヿ"],                 /* U+30FF KATAKANA DIGRAPH KOTO                                     [1-2-24] コト */
             "zr":   ["", "ゔ"],
-            "z1":   ["", "¹"],                  /* U+00B9 SUPERSCRIPT ONE                                           [1-9-16] 上付き1 */
-            "z2":   ["", "²"],                  /* U+00B2 SUPERSCRIPT TWO                                           [1-9-12] 上付き2 */
-            "z3":   ["", "³"],                  /* U+00B3 SUPERSCRIPT THREE                                         [1-9-13] 上付き3 */
-            "z4":   ["", "⁴"],                  /* U+2074 SUPERSCRIPT FOUR */
-            "z5":   ["", "⁵"],                  /* U+2075 SUPERSCRIPT FIVE */
-            "z6":   ["", "⁶"],                  /* U+2076 SUPERSCRIPT SIX */
-            "z7":   ["", "⁷"],                  /* U+2077 SUPERSCRIPT SEVEN */
-            "z8":   ["", "⁸"],                  /* U+2078 SUPERSCRIPT EIGHT */
-            "z9":   ["", "⁹"],                  /* U+2079 SUPERSCRIPT NINE */
-            "z0":   ["", "⁰"],                  /* U+2070 SUPERSCRIPT ZERO */
+            "z1":   ["", "①"],                 /* U+2460 CIRCLED DIGIT ONE                                         [1-13-1] 丸1 */
+            "z2":   ["", "②"],                 /* U+2461 CIRCLED DIGIT TWO                                         [1-13-2] 丸2 */
+            "z3":   ["", "③"],                 /* U+2462 CIRCLED DIGIT THREE                                       [1-13-3] 丸3 */
+            "z4":   ["", "④"],                 /* U+2463 CIRCLED DIGIT FOUR                                        [1-13-4] 丸4 */
+            "z5":   ["", "⑤"],                 /* U+2464 CIRCLED DIGIT FIVE                                        [1-13-5] 丸5 */
+            "z6":   ["", "⑥"],                 /* U+2465 CIRCLED DIGIT SIX                                         [1-13-6] 丸6 */
+            "z7":   ["", "⑦"],                 /* U+2466 CIRCLED DIGIT SEVEN                                       [1-13-7] 丸7 */
+            "z8":   ["", "⑧"],                 /* U+2467 CIRCLED DIGIT EIGHT                                       [1-13-8] 丸8 */
+            "z9":   ["", "⑨"],                 /* U+2468 CIRCLED DIGIT NINE                                        [1-13-9] 丸9 */
+            "z0":   ["", "⑩"],                 /* U+2469 CIRCLED NUMBER TEN                                        [1-13-10] 丸10 */
+            "zz1":  ["", "¹"],                  /* U+00B9 SUPERSCRIPT ONE                                           [1-9-16] 上付き1 */
+            "zz2":  ["", "²"],                  /* U+00B2 SUPERSCRIPT TWO                                           [1-9-12] 上付き2 */
+            "zz3":  ["", "³"],                  /* U+00B3 SUPERSCRIPT THREE                                         [1-9-13] 上付き3 */
+            "zz4":  ["", "⁴"],                  /* U+2074 SUPERSCRIPT FOUR */
+            "zz5":  ["", "⁵"],                  /* U+2075 SUPERSCRIPT FIVE */
+            "zz6":  ["", "⁶"],                  /* U+2076 SUPERSCRIPT SIX */
+            "zz7":  ["", "⁷"],                  /* U+2077 SUPERSCRIPT SEVEN */
+            "zz8":  ["", "⁸"],                  /* U+2078 SUPERSCRIPT EIGHT */
+            "zz9":  ["", "⁹"],                  /* U+2079 SUPERSCRIPT NINE */
+            "zz0":  ["", "⁰"],                  /* U+2070 SUPERSCRIPT ZERO */
             "n":    ["", "ん"],
             "w":    ["", "・"],                 /* U+30FB KATAKANA MIDDLE DOT                                       [1-1-6]  中点 */
             "e":    ["", "っ"],
@@ -588,18 +597,18 @@
             "q'":   ["", "’"],                  /* U+2019 RIGHT SINGLE QUOTATION MARK                               [1-1-39] 右シングル引用符/右シングルクォーテーションマーク */
             "qq`":  ["", "“"],                  /* U+201C LEFT DOUBLE QUOTATION MARK                                [1-1-40] 左ダブル引用符/左ダブルクォーテーションマーク */
             "qq'":  ["", "”"],                  /* U+201D RIGHT DOUBLE QUOTATION MARK                               [1-1-41] 右ダブル引用符/右ダブルクォーテーションマーク */
-            "q1":   ["", "○"],                  /* U+25CB WHITE CIRCLE                                              [1-1-91] 丸印/白丸 */
-            "qq1":  ["", "●"],                  /* U+25CF BLACK CIRCLE                                              [1-1-92] 黒丸 */
-            "q2":   ["", "▽"],                  /* U+25BD WHITE DOWN-POINTING TRIANGLE                              [1-2-6]  逆三角 */
-            "qq2":  ["", "▼"],                  /* U+25BC BLACK DOWN-POINTING TRIANGLE                              [1-2-7]  逆黒三角 */
-            "q3":   ["", "△"],                  /* U+25B3 WHITE UP-POINTING TRIANGLE                                [1-2-4]  三角 */
-            "qq3":  ["", "▲"],                  /* U+25B2 BLACK UP-POINTING TRIANGLE                                [1-2-5]  黒三角 */
-            "q4":   ["", "□"],                  /* U+25A1 WHITE SQUARE                                              [1-2-2]  四角 */
-            "qq4":  ["", "■"],                  /* U+25A0 BLACK SQUARE                                              [1-2-3]  黒四角 */
-            "q5":   ["", "◇"],                  /* U+25C7 WHITE DIAMOND                                             [1-1-94] ひし形/ダイヤ（=ダイヤモンド）/斜め正方形 */
-            "qq5":  ["", "◆"],                  /* U+25C6 BLACK DIAMOND                                             [1-2-1]  黒ひし形 */
-            "q6":   ["", "☆"],                  /* U+2606 WHITE STAR                                                [1-1-89] 白星 */
-            "qq6":  ["", "★"],                  /* U+2605 BLACK STAR                                                [1-1-90] 黒星 */
+            "q1":   ["", "●"],                  /* U+25CF BLACK CIRCLE                                              [1-1-92] 黒丸 */
+            "qq1":  ["", "○"],                  /* U+25CB WHITE CIRCLE                                              [1-1-91] 丸印/白丸 */
+            "q2":   ["", "▼"],                  /* U+25BC BLACK DOWN-POINTING TRIANGLE                              [1-2-7]  逆黒三角 */
+            "qq2":  ["", "▽"],                  /* U+25BD WHITE DOWN-POINTING TRIANGLE                              [1-2-6]  逆三角 */
+            "q3":   ["", "▲"],                  /* U+25B2 BLACK UP-POINTING TRIANGLE                                [1-2-5]  黒三角 */
+            "qq3":  ["", "△"],                  /* U+25B3 WHITE UP-POINTING TRIANGLE                                [1-2-4]  三角 */
+            "q4":   ["", "■"],                  /* U+25A0 BLACK SQUARE                                              [1-2-3]  黒四角 */
+            "qq4":  ["", "□"],                  /* U+25A1 WHITE SQUARE                                              [1-2-2]  四角 */
+            "q5":   ["", "◆"],                  /* U+25C6 BLACK DIAMOND                                             [1-2-1]  黒ひし形 */
+            "qq5":  ["", "◇"],                  /* U+25C7 WHITE DIAMOND                                             [1-1-94] ひし形/ダイヤ（=ダイヤモンド）/斜め正方形 */
+            "q6":   ["", "★"],                  /* U+2605 BLACK STAR                                                [1-1-90] 黒星 */
+            "qq6":  ["", "☆"],                  /* U+2606 WHITE STAR                                                [1-1-89] 白星 */
             "q7":   ["", "◎"],                  /* U+25CE BULLSEYE                                                  [1-1-93] 二重丸 */
             "qq7":  ["", "◉"],                  /* U+25C9 FISHEYE                                                   [1-3-27] 蛇の目 */
             "q8":   ["", "※"],                  /* U+203B REFERENCE MARK                                            [1-2-8]  米印 */
@@ -635,6 +644,7 @@
             "qi":   ["", "°"],                  /* U+00B0 DEGREE SIGN                                               [1-1-75] 度 */
             "qo":   ["", "′"],                  /* U+2032 PRIME                                                     [1-1-76] 分 */
             "qp":   ["", "″"],                  /* U+2033 DOUBLE PRIME                                              [1-1-77] 秒 */
+            "qqp":  ["", "©"],                  /* U+00A9 COPYRIGHT SIGN                                            [1-9-6]  著作権表示記号 */
             "qh":   ["", "←"],                  /* U+2190 LEFTWARDS ARROW                                           [1-2-11] 左向矢印 */
             "qqh":  ["", "⇔"],                 /* U+21D4 LEFT RIGHT DOUBLE ARROW                                   [1-2-46] 同値 */
             "qj":   ["", "↓"],                  /* U+2193 DOWNWARDS ARROW                                           [1-2-13] 下向矢印 */
@@ -644,7 +654,7 @@
             "ql":   ["", "→"],                  /* U+2192 RIGHTWARDS ARROW                                          [1-2-10] 右向矢印 */
             "qql":  ["", "⇒"],                 /* U+21D2 RIGHTWARDS DOUBLE ARROW                                   [1-2-45] ならば（含意） */
             "q;":   ["", "："],                 /* U+FF1A FULLWIDTH COLON                                           [1-1-7]  コロン（全角） */
-            "qq;":  ["", "∶"],                  /* U+2236 RATIO */
+            "qq;":  ["", "®"],                  /* U+00AE REGISTERED SIGN                                           [1-9-10] 登録商標記号 */
             "q,":   ["", "—"],                  /* U+2014 EM DASH                                                   [1-1-29] ダッシュ（全角） */
             "qq,":  ["", "≦"],                  /* U+2266 LESS-THAN OVER EQUAL TO                                   [1-1-69] より小さいか又は等しい */
             "q.":   ["", "…"],                  /* U+2026 HORIZONTAL ELLIPSIS                                       [1-1-36] 三点リーダ */

@@ -294,250 +294,354 @@ gACT10 をベースに、以下を変更する。
 
 ### 1打目
 
-| 左小指              | 左薬指                 | 左中指                 | 左人差指                 | 左人差指                     | | 右人差指            | 右人差指            | 右中指              | 右薬指              | 右小指              | 右小指                |
-|:--------------------|:-----------------------|:-----------------------|:-------------------------|:-----------------------------|-|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:----------------------|
-| <kbd>Q</kbd> [記号] | <kbd>W</kbd> ・ (中黒) | <kbd>E</kbd> っ        | <kbd>R</kbd> ー (長音符) | <kbd>T</kbd> 〜 (波ダッシュ) | | <kbd>Y</kbd> [や行] | <kbd>U</kbd> [が行] | <kbd>I</kbd> [か行] | <kbd>O</kbd> [ら行] | <kbd>P</kbd> [ぱ行] | <kbd>-</kbd> [ヴァ行] |
-| <kbd>A</kbd> あ     | <kbd>S</kbd> お        | <kbd>D</kbd> え        | <kbd>F</kbd> う          | <kbd>G</kbd> い              | | <kbd>H</kbd> [わ行] | <kbd>J</kbd> [だ行] | <kbd>K</kbd> [た行] | <kbd>L</kbd> [な行] | <kbd>;</kbd> [さ行] | <kbd>'</kbd> [ファ行] |
-| <kbd>Z</kbd> [小書] | <kbd>X</kbd> 。 (句点) | <kbd>C</kbd> 、 (読点) | <kbd>V</kbd> ？ (全角)   | <kbd>B</kbd> ！ (全角)       | | <kbd>N</kbd> ん     | <kbd>M</kbd> [ま行] | <kbd>,</kbd> [は行] | <kbd>.</kbd> [ば行] | <kbd>/</kbd> [ざ行] |                       |
-
-| スペース                          | ブラケット               | ブラケット               | ブレース                                  | ブレース                                  |
-|:----------------------------------|:-------------------------|:-------------------------|:------------------------------------------|:------------------------------------------|
-| <kbd>Space</kbd> ␣ (半角スペース) | <kbd>[</kbd> 「 (鉤括弧) | <kbd>]</kbd> 」 (鉤括弧) | <kbd>Shift</kbd>+<kbd>[</kbd> 『 (鉤括弧) | <kbd>Shift</kbd>+<kbd>]</kbd> 』 (鉤括弧) |
+| 左小指              | 左薬指                 | 左中指                 | 左人差指                     | 左人差指                     | 右人差指            | 右人差指            | 右中指              | 右薬指              | 右小指              |                       |                          |                          |
+|:--------------------|:-----------------------|:-----------------------|:-----------------------------|:-----------------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:----------------------|:-------------------------|:-------------------------|
+| <kbd>Q</kbd> [記号] | <kbd>W</kbd> ・ (中黒) | <kbd>E</kbd> っ        | <kbd>R</kbd> ー (長音符)     | <kbd>T</kbd> 〜 (波ダッシュ) | <kbd>Y</kbd> [や行] | <kbd>U</kbd> [が行] | <kbd>I</kbd> [か行] | <kbd>O</kbd> [ら行] | <kbd>P</kbd> [ぱ行] | <kbd>-</kbd> [ヴァ行] | <kbd>[</kbd> 「 (鉤括弧) | <kbd>]</kbd> 」 (鉤括弧) |
+| <kbd>A</kbd> あ     | <kbd>S</kbd> お        | <kbd>D</kbd> え        | <kbd>F</kbd> う              | <kbd>G</kbd> い              | <kbd>H</kbd> [わ行] | <kbd>J</kbd> [だ行] | <kbd>K</kbd> [た行] | <kbd>L</kbd> [な行] | <kbd>;</kbd> [さ行] | <kbd>'</kbd> [ファ行] | <kbd>{</kbd> 『 (鉤括弧) | <kbd>}</kbd> 』 (鉤括弧) |
+| <kbd>Z</kbd> [小書] | <kbd>X</kbd> 。 (句点) | <kbd>C</kbd> 、 (読点) | <kbd>V</kbd> ？ (全角疑問符) | <kbd>B</kbd> ！ (全角感嘆符) | <kbd>N</kbd> ん     | <kbd>M</kbd> [ま行] | <kbd>,</kbd> [は行] | <kbd>.</kbd> [ば行] | <kbd>/</kbd> [ざ行] |                       |                          |                          |
 
 </section>
 
 <section>
 
-### か行（[か行] / {ky} / {kw}）
+### か行
 
-| 左小指                              | 左薬指                              | 左中指                              | 左人差指                            | 左人差指                            | | 右人差指     | 右人差指          | 右中指              | 右薬指       | 右小指       | 右小指       |
-|:------------------------------------|:------------------------------------|:------------------------------------|:------------------------------------|:------------------------------------|-|:-------------|:------------------|:--------------------|:-------------|:-------------|:-------------|
-| <kbd>Q</kbd> かい / きゃい / クァイ | <kbd>W</kbd> こう / きょう / クォー | <kbd>E</kbd> けい / キェイ / クェイ | <kbd>R</kbd> くう / きゅう / クゥー | <kbd>T</kbd> くい / キュイ / クィー | | <kbd>Y</kbd> | <kbd>U</kbd> {ky} | <kbd>I</kbd> [か行] | <kbd>O</kbd> | <kbd>P</kbd> | <kbd>-</kbd> |
-| <kbd>A</kbd> か / きゃ / クァ       | <kbd>S</kbd> こ / きょ / クォ       | <kbd>D</kbd> け / キェ / クェ       | <kbd>F</kbd> く / きゅ / クゥ       | <kbd>G</kbd> き / キィ / クィ       | | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> {kw}   | <kbd>L</kbd> | <kbd>;</kbd> | <kbd>'</kbd> |
-| <kbd>Z</kbd> かん / きゃん / クァン | <kbd>X</kbd> こん / きょん / クォン | <kbd>C</kbd> けん / キェン / クェン | <kbd>V</kbd> くん / きゅん / クゥン | <kbd>B</kbd> きん / キィン / クィン | | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd>        | <kbd>.</kbd> | <kbd>/</kbd> |              |
-
-</section>
-
-<section>
-
-### が行（[が行] / {gy} / {gw}）
-
-| 左小指                              | 左薬指                              | 左中指                              | 左人差指                            | 左人差指                            | | 右人差指     | 右人差指            | 右中指       | 右薬指            | 右小指       | 右小指       |
-|:------------------------------------|:------------------------------------|:------------------------------------|:------------------------------------|:------------------------------------|-|:-------------|:--------------------|:-------------|:------------------|:-------------|:-------------|
-| <kbd>Q</kbd> がい / ぎゃい / グァイ | <kbd>W</kbd> ごう / ぎょう / グォー | <kbd>E</kbd> げい / ギェイ / グェイ | <kbd>R</kbd> ぐう / ぎゅう / グゥー | <kbd>T</kbd> ぐい / ギュイ / グィー | | <kbd>Y</kbd> | <kbd>U</kbd> [が行] | <kbd>I</kbd> | <kbd>O</kbd> {gy} | <kbd>P</kbd> | <kbd>-</kbd> |
-| <kbd>A</kbd> が / ぎゃ / グァ       | <kbd>S</kbd> ご / ぎょ / グォ       | <kbd>D</kbd> げ / ギェ / グェ       | <kbd>F</kbd> ぐ / ぎゅ / グゥ       | <kbd>G</kbd> ぎ / ギィ / グィ       | | <kbd>H</kbd> | <kbd>J</kbd> {gw}   | <kbd>K</kbd> | <kbd>L</kbd>      | <kbd>;</kbd> | <kbd>'</kbd> |
-| <kbd>Z</kbd> がん / ぎゃん / グァン | <kbd>X</kbd> ごん / ぎょん / グォン | <kbd>C</kbd> げん / ギェン / グェン | <kbd>V</kbd> ぐん / ぎゅん / グゥン | <kbd>B</kbd> ぎん / ギィン / グィン | | <kbd>N</kbd> | <kbd>M</kbd>        | <kbd>,</kbd> | <kbd>.</kbd>      | <kbd>/</kbd> |              |
+| 前置キー                  | 左小指              | 左薬指              | 左中指              | 左人差指            | 左人差指            | 右人差指     | 右人差指          | 右中指              | 右薬指       | 右小指       |
+|:--------------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:-------------|:------------------|:--------------------|:-------------|:-------------|
+| <kbd>I</kbd>              | <kbd>Q</kbd> かい   | <kbd>W</kbd> こう   | <kbd>E</kbd> けい   | <kbd>R</kbd> くう   | <kbd>T</kbd> くい   | <kbd>Y</kbd> | <kbd>U</kbd> {ky} | <kbd>I</kbd> [か行] | <kbd>O</kbd> | <kbd>P</kbd> |
+| <kbd>I</kbd> <kbd>U</kbd> | <kbd>Q</kbd> きゃい | <kbd>W</kbd> きょう | <kbd>E</kbd> きぇい | <kbd>R</kbd> きゅう | <kbd>T</kbd> きゅい | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd>        | <kbd>O</kbd> | <kbd>P</kbd> |
+| <kbd>I</kbd> <kbd>K</kbd> | <kbd>Q</kbd> クァイ | <kbd>W</kbd> クォー | <kbd>E</kbd> クェイ | <kbd>R</kbd> クゥー | <kbd>T</kbd> クィー | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd>        | <kbd>O</kbd> | <kbd>P</kbd> |
+| <kbd>I</kbd>              | <kbd>A</kbd> か     | <kbd>S</kbd> こ     | <kbd>D</kbd> け     | <kbd>F</kbd> く     | <kbd>G</kbd> き     | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> {kw}   | <kbd>L</kbd> | <kbd>;</kbd> |
+| <kbd>I</kbd> <kbd>U</kbd> | <kbd>A</kbd> きゃ   | <kbd>S</kbd> きょ   | <kbd>D</kbd> きぇ   | <kbd>F</kbd> きゅ   | <kbd>G</kbd> きぃ   | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd>        | <kbd>L</kbd> | <kbd>;</kbd> |
+| <kbd>I</kbd> <kbd>K</kbd> | <kbd>A</kbd> クァ   | <kbd>S</kbd> クォ   | <kbd>D</kbd> クェ   | <kbd>F</kbd> クゥ   | <kbd>G</kbd> クィ   | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd>        | <kbd>L</kbd> | <kbd>;</kbd> |
+| <kbd>I</kbd>              | <kbd>Z</kbd> かん   | <kbd>X</kbd> こん   | <kbd>C</kbd> けん   | <kbd>V</kbd> くん   | <kbd>B</kbd> きん   | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd>        | <kbd>.</kbd> | <kbd>/</kbd> |
+| <kbd>I</kbd> <kbd>U</kbd> | <kbd>Z</kbd> きゃん | <kbd>X</kbd> きょん | <kbd>C</kbd> きぇん | <kbd>V</kbd> きゅん | <kbd>B</kbd> きぃん | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd>        | <kbd>.</kbd> | <kbd>/</kbd> |
+| <kbd>I</kbd> <kbd>K</kbd> | <kbd>Z</kbd> クァン | <kbd>X</kbd> クォン | <kbd>C</kbd> クェン | <kbd>V</kbd> クゥン | <kbd>B</kbd> クィン | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd>        | <kbd>.</kbd> | <kbd>/</kbd> |
 
 </section>
 
 <section>
 
-### さ行（[さ行] / {sy}）
+### が行
 
-| 左小指                     | 左薬指                     | 左中指                     | 左人差指                   | 左人差指                   | | 右人差指     | 右人差指          | 右中指       | 右薬指       | 右小指              | 右小指       |
-|:---------------------------|:---------------------------|:---------------------------|:---------------------------|:---------------------------|-|:-------------|:------------------|:-------------|:-------------|:--------------------|:-------------|
-| <kbd>Q</kbd> さい / しゃい | <kbd>W</kbd> そう / しょう | <kbd>E</kbd> せい / シェイ | <kbd>R</kbd> すう / しゅう | <kbd>T</kbd> すい / シュイ | | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd>        | <kbd>-</kbd> |
-| <kbd>A</kbd> さ / しゃ     | <kbd>S</kbd> そ / しょ     | <kbd>D</kbd> せ / シェ     | <kbd>F</kbd> す / しゅ     | <kbd>G</kbd> し / シィ     | | <kbd>H</kbd> | <kbd>J</kbd> {sy} | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd> [さ行] | <kbd>'</kbd> |
-| <kbd>Z</kbd> さん / しゃん | <kbd>X</kbd> そん / しょん | <kbd>C</kbd> せん / シェン | <kbd>V</kbd> すん / しゅん | <kbd>B</kbd> しん / シィン | | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd>        |              |
-
-</section>
-
-<section>
-
-### ざ行（[ざ行] / {zy}）
-
-| 左小指                     | 左薬指                     | 左中指                     | 左人差指                   | 左人差指                   | | 右人差指     | 右人差指          | 右中指       | 右薬指       | 右小指              | 右小指       |
-|:---------------------------|:---------------------------|:---------------------------|:---------------------------|:---------------------------|-|:-------------|:------------------|:-------------|:-------------|:--------------------|:-------------|
-| <kbd>Q</kbd> ざい / じゃい | <kbd>W</kbd> ぞう / じょう | <kbd>E</kbd> ぜい / ジェイ | <kbd>R</kbd> ずう / じゅう | <kbd>T</kbd> ずい / ジュイ | | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd>        | <kbd>-</kbd> |
-| <kbd>A</kbd> ざ / じゃ     | <kbd>S</kbd> ぞ / じょ     | <kbd>D</kbd> ぜ / ジェ     | <kbd>F</kbd> ず / じゅ     | <kbd>G</kbd> じ / ジィ     | | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd>        | <kbd>'</kbd> |
-| <kbd>Z</kbd> ざん / じゃん | <kbd>X</kbd> ぞん / じょん | <kbd>C</kbd> ぜん / ジェン | <kbd>V</kbd> ずん / じゅん | <kbd>B</kbd> じん / ジィン | | <kbd>N</kbd> | <kbd>M</kbd> {zy} | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd> [ざ行] |              |
+| 前置キー                  | 左小指              | 左薬指              | 左中指              | 左人差指            | 左人差指            | 右人差指     | 右人差指            | 右中指       | 右薬指            | 右小指       |
+|:--------------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:-------------|:--------------------|:-------------|:------------------|:-------------|
+| <kbd>U</kbd>              | <kbd>Q</kbd> がい   | <kbd>W</kbd> ごう   | <kbd>E</kbd> げい   | <kbd>R</kbd> ぐう   | <kbd>T</kbd> ぐい   | <kbd>Y</kbd> | <kbd>U</kbd> [が行] | <kbd>I</kbd> | <kbd>O</kbd> {gy} | <kbd>P</kbd> |
+| <kbd>U</kbd> <kbd>O</kbd> | <kbd>Q</kbd> ぎゃい | <kbd>W</kbd> ぎょう | <kbd>E</kbd> ぎぇい | <kbd>R</kbd> ぎゅう | <kbd>T</kbd> ぎゅい | <kbd>Y</kbd> | <kbd>U</kbd>        | <kbd>I</kbd> | <kbd>O</kbd>      | <kbd>P</kbd> |
+| <kbd>U</kbd> <kbd>J</kbd> | <kbd>Q</kbd> グァイ | <kbd>W</kbd> グォー | <kbd>E</kbd> グェイ | <kbd>R</kbd> グゥー | <kbd>T</kbd> グィー | <kbd>Y</kbd> | <kbd>U</kbd>        | <kbd>I</kbd> | <kbd>O</kbd>      | <kbd>P</kbd> |
+| <kbd>U</kbd>              | <kbd>A</kbd> が     | <kbd>S</kbd> ご     | <kbd>D</kbd> げ     | <kbd>F</kbd> ぐ     | <kbd>G</kbd> ぎ     | <kbd>H</kbd> | <kbd>J</kbd> {gw}   | <kbd>K</kbd> | <kbd>L</kbd>      | <kbd>;</kbd> |
+| <kbd>U</kbd> <kbd>O</kbd> | <kbd>A</kbd> ぎゃ   | <kbd>S</kbd> ぎょ   | <kbd>D</kbd> ぎぇ   | <kbd>F</kbd> ぎゅ   | <kbd>G</kbd> ぎぃ   | <kbd>H</kbd> | <kbd>J</kbd>        | <kbd>K</kbd> | <kbd>L</kbd>      | <kbd>;</kbd> |
+| <kbd>U</kbd> <kbd>J</kbd> | <kbd>A</kbd> グァ   | <kbd>S</kbd> グォ   | <kbd>D</kbd> グェ   | <kbd>F</kbd> グゥ   | <kbd>G</kbd> グィ   | <kbd>H</kbd> | <kbd>J</kbd>        | <kbd>K</kbd> | <kbd>L</kbd>      | <kbd>;</kbd> |
+| <kbd>U</kbd>              | <kbd>Z</kbd> がん   | <kbd>X</kbd> ごん   | <kbd>C</kbd> げん   | <kbd>V</kbd> ぐん   | <kbd>B</kbd> ぎん   | <kbd>N</kbd> | <kbd>M</kbd>        | <kbd>,</kbd> | <kbd>.</kbd>      | <kbd>/</kbd> |
+| <kbd>U</kbd> <kbd>O</kbd> | <kbd>Z</kbd> ぎゃん | <kbd>X</kbd> ぎょん | <kbd>C</kbd> ぎぇん | <kbd>V</kbd> ぎゅん | <kbd>B</kbd> ぎぃん | <kbd>N</kbd> | <kbd>M</kbd>        | <kbd>,</kbd> | <kbd>.</kbd>      | <kbd>/</kbd> |
+| <kbd>U</kbd> <kbd>J</kbd> | <kbd>Z</kbd> グァン | <kbd>X</kbd> グォン | <kbd>C</kbd> グェン | <kbd>V</kbd> グゥン | <kbd>B</kbd> グィン | <kbd>N</kbd> | <kbd>M</kbd>        | <kbd>,</kbd> | <kbd>.</kbd>      | <kbd>/</kbd> |
 
 </section>
 
 <section>
 
-### た行（[た行] / {ty} / {th} / {ts}）
+### さ行
 
-| 左小指                                       | 左薬指                                       | 左中指                                       | 左人差指                                     | 左人差指                                     | | 右人差指     | 右人差指          | 右中指              | 右薬指       | 右小指       | 右小指       |
-|:---------------------------------------------|:---------------------------------------------|:---------------------------------------------|:---------------------------------------------|:---------------------------------------------|-|:-------------|:------------------|:--------------------|:-------------|:-------------|:-------------|
-| <kbd>Q</kbd> たい / ちゃい / テャイ / ツァイ | <kbd>W</kbd> とう / ちょう / トゥー / ツォー | <kbd>E</kbd> てい / チェイ / テェイ / ツェイ | <kbd>R</kbd> つう / ちゅう / テュー / ツゥー | <kbd>T</kbd> つい / チュイ / ティー / ツィー | | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd> {ts}   | <kbd>O</kbd> | <kbd>P</kbd> | <kbd>-</kbd> |
-| <kbd>A</kbd> た / ちゃ / テャ / ツァ         | <kbd>S</kbd> と / ちょ / トゥ / ツォ         | <kbd>D</kbd> て / チェ / テェ / ツェ         | <kbd>F</kbd> つ / ちゅ / テュ / ツゥ         | <kbd>G</kbd> ち / チィ / ティ / ツィ         | | <kbd>H</kbd> | <kbd>J</kbd> {ty} | <kbd>K</kbd> [た行] | <kbd>L</kbd> | <kbd>;</kbd> | <kbd>'</kbd> |
-| <kbd>Z</kbd> たん / ちゃん / テャン / ツァン | <kbd>X</kbd> とん / ちょん / トゥン / ツォン | <kbd>C</kbd> てん / チェン / テェン / ツェン | <kbd>V</kbd> つん / ちゅん / テュン / ツゥン | <kbd>B</kbd> ちん / チィン / ティン / ツィン | | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> {th}   | <kbd>.</kbd> | <kbd>/</kbd> |              |
-
-</section>
-
-<section>
-
-### だ行（[だ行] / {dy} / {dh}）
-
-| 左小指                              | 左薬指                              | 左中指                              | 左人差指                            | 左人差指                            | | 右人差指     | 右人差指            | 右中指       | 右薬指            | 右小指       | 右小指       |
-|:------------------------------------|:------------------------------------|:------------------------------------|:------------------------------------|:------------------------------------|-|:-------------|:--------------------|:-------------|:------------------|:-------------|:-------------|
-| <kbd>Q</kbd> だい / ぢゃい / デャイ | <kbd>W</kbd> どう / ぢょう / ドゥー | <kbd>E</kbd> でい / ヂェイ / デェイ | <kbd>R</kbd> づう / ぢゅう / デュー | <kbd>T</kbd> づい / ヂュイ / ディー | | <kbd>Y</kbd> | <kbd>U</kbd>        | <kbd>I</kbd> | <kbd>O</kbd>      | <kbd>P</kbd> | <kbd>-</kbd> |
-| <kbd>A</kbd> だ / ぢゃ / デャ       | <kbd>S</kbd> ど / ぢょ / ドゥ       | <kbd>D</kbd> で / ヂェ / デェ       | <kbd>F</kbd> づ / ぢゅ / デュ       | <kbd>G</kbd> ぢ / ヂィ / ディ       | | <kbd>H</kbd> | <kbd>J</kbd> [だ行] | <kbd>K</kbd> | <kbd>L</kbd> {dy} | <kbd>;</kbd> | <kbd>'</kbd> |
-| <kbd>Z</kbd> だん / ぢゃん / デャン | <kbd>X</kbd> どん / ぢょん / ドゥン | <kbd>C</kbd> でん / ヂェン / デェン | <kbd>V</kbd> づん / ぢゅん / デュン | <kbd>B</kbd> ぢん / ヂィン / ディン | | <kbd>N</kbd> | <kbd>M</kbd> {dh}   | <kbd>,</kbd> | <kbd>.</kbd>      | <kbd>/</kbd> |              |
+| 前置キー                  | 左小指              | 左薬指              | 左中指              | 左人差指            | 左人差指            | 右人差指     | 右人差指          | 右中指       | 右薬指       | 右小指              |
+|:--------------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:-------------|:------------------|:-------------|:-------------|:--------------------|
+| <kbd>;</kbd>              | <kbd>Q</kbd> さい   | <kbd>W</kbd> そう   | <kbd>E</kbd> せい   | <kbd>R</kbd> すう   | <kbd>T</kbd> すい   | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd>        |
+| <kbd>;</kbd> <kbd>J</kbd> | <kbd>Q</kbd> しゃい | <kbd>W</kbd> しょう | <kbd>E</kbd> しぇい | <kbd>R</kbd> しゅう | <kbd>T</kbd> しゅい | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd>        |
+| <kbd>;</kbd>              | <kbd>A</kbd> さ     | <kbd>S</kbd> そ     | <kbd>D</kbd> せ     | <kbd>F</kbd> す     | <kbd>G</kbd> し     | <kbd>H</kbd> | <kbd>J</kbd> {sy} | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd> [さ行] |
+| <kbd>;</kbd> <kbd>J</kbd> | <kbd>A</kbd> しゃ   | <kbd>S</kbd> しょ   | <kbd>D</kbd> しぇ   | <kbd>F</kbd> しゅ   | <kbd>G</kbd> しぃ   | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd>        |
+| <kbd>;</kbd>              | <kbd>Z</kbd> さん   | <kbd>X</kbd> そん   | <kbd>C</kbd> せん   | <kbd>V</kbd> すん   | <kbd>B</kbd> しん   | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd>        |
+| <kbd>;</kbd> <kbd>J</kbd> | <kbd>Z</kbd> しゃん | <kbd>X</kbd> しょん | <kbd>C</kbd> しぇん | <kbd>V</kbd> しゅん | <kbd>B</kbd> しぃん | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd>        |
 
 </section>
 
 <section>
 
-### な行（[な行] / {ny}）
+### ざ行
 
-| 左小指                     | 左薬指                     | 左中指                     | 左人差指                   | 左人差指                   | | 右人差指     | 右人差指          | 右中指       | 右薬指              | 右小指       | 右小指       |
-|:---------------------------|:---------------------------|:---------------------------|:---------------------------|:---------------------------|-|:-------------|:------------------|:-------------|:--------------------|:-------------|:-------------|
-| <kbd>Q</kbd> ない / にゃい | <kbd>W</kbd> のう / にょう | <kbd>E</kbd> ねい / ニェイ | <kbd>R</kbd> ぬう / にゅう | <kbd>T</kbd> ぬい / ニュイ | | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd> | <kbd>O</kbd>        | <kbd>P</kbd> | <kbd>-</kbd> |
-| <kbd>A</kbd> な / にゃ     | <kbd>S</kbd> の / にょ     | <kbd>D</kbd> ね / ニェ     | <kbd>F</kbd> ぬ / にゅ     | <kbd>G</kbd> に / ニィ     | | <kbd>H</kbd> | <kbd>J</kbd> {ny} | <kbd>K</kbd> | <kbd>L</kbd> [な行] | <kbd>;</kbd> | <kbd>'</kbd> |
-| <kbd>Z</kbd> なん / にゃん | <kbd>X</kbd> のん / にょん | <kbd>C</kbd> ねん / ニェン | <kbd>V</kbd> ぬん / にゅん | <kbd>B</kbd> にん / ニィン | | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> | <kbd>.</kbd>        | <kbd>/</kbd> |              |
-
-</section>
-
-<section>
-
-### は行（[は行] / {hy}）
-
-| 左小指                     | 左薬指                     | 左中指                     | 左人差指                   | 左人差指                   | | 右人差指     | 右人差指          | 右中指              | 右薬指       | 右小指       | 右小指       |
-|:---------------------------|:---------------------------|:---------------------------|:---------------------------|:---------------------------|-|:-------------|:------------------|:--------------------|:-------------|:-------------|:-------------|
-| <kbd>Q</kbd> はい / ひゃい | <kbd>W</kbd> ほう / ひょう | <kbd>E</kbd> へい / ヒェイ | <kbd>R</kbd> ふう / ひゅう | <kbd>T</kbd> ふい / ヒュイ | | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd>        | <kbd>O</kbd> | <kbd>P</kbd> | <kbd>-</kbd> |
-| <kbd>A</kbd> は / ひゃ     | <kbd>S</kbd> ほ / ひょ     | <kbd>D</kbd> へ / ヒェ     | <kbd>F</kbd> ふ / ひゅ     | <kbd>G</kbd> ひ / ヒィ     | | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd>        | <kbd>L</kbd> | <kbd>;</kbd> | <kbd>'</kbd> |
-| <kbd>Z</kbd> はん / ひゃん | <kbd>X</kbd> ほん / ひょん | <kbd>C</kbd> へん / ヒェン | <kbd>V</kbd> ふん / ひゅん | <kbd>B</kbd> ひん / ヒィン | | <kbd>N</kbd> | <kbd>M</kbd> {hy} | <kbd>,</kbd> [は行] | <kbd>.</kbd> | <kbd>/</kbd> |              |
+| 前置キー                  | 左小指              | 左薬指              | 左中指              | 左人差指            | 左人差指            | 右人差指     | 右人差指          | 右中指       | 右薬指       | 右小指              |
+|:--------------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:-------------|:------------------|:-------------|:-------------|:--------------------|
+| <kbd>/</kbd>              | <kbd>Q</kbd> ざい   | <kbd>W</kbd> ぞう   | <kbd>E</kbd> ぜい   | <kbd>R</kbd> ずう   | <kbd>T</kbd> ずい   | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd>        |
+| <kbd>/</kbd> <kbd>M</kbd> | <kbd>Q</kbd> じゃい | <kbd>W</kbd> じょう | <kbd>E</kbd> じぇい | <kbd>R</kbd> じゅう | <kbd>T</kbd> じゅい | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd>        |
+| <kbd>/</kbd>              | <kbd>A</kbd> ざ     | <kbd>S</kbd> ぞ     | <kbd>D</kbd> ぜ     | <kbd>F</kbd> ず     | <kbd>G</kbd> じ     | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd>        |
+| <kbd>/</kbd> <kbd>M</kbd> | <kbd>A</kbd> じゃ   | <kbd>S</kbd> じょ   | <kbd>D</kbd> じぇ   | <kbd>F</kbd> じゅ   | <kbd>G</kbd> じぃ   | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd>        |
+| <kbd>/</kbd>              | <kbd>Z</kbd> ざん   | <kbd>X</kbd> ぞん   | <kbd>C</kbd> ぜん   | <kbd>V</kbd> ずん   | <kbd>B</kbd> じん   | <kbd>N</kbd> | <kbd>M</kbd> {zy} | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd> [ざ行] |
+| <kbd>/</kbd> <kbd>M</kbd> | <kbd>Z</kbd> じゃん | <kbd>X</kbd> じょん | <kbd>C</kbd> じぇん | <kbd>V</kbd> じゅん | <kbd>B</kbd> じぃん | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd>        |
 
 </section>
 
 <section>
 
-### ば行（[ば行] / {by}）
+### た行
 
-| 左小指                     | 左薬指                     | 左中指                     | 左人差指                   | 左人差指                   | | 右人差指     | 右人差指          | 右中指       | 右薬指              | 右小指       | 右小指       |
-|:---------------------------|:---------------------------|:---------------------------|:---------------------------|:---------------------------|-|:-------------|:------------------|:-------------|:--------------------|:-------------|:-------------|
-| <kbd>Q</kbd> ばい / びゃい | <kbd>W</kbd> ぼう / びょう | <kbd>E</kbd> べい / ビェイ | <kbd>R</kbd> ぶう / びゅう | <kbd>T</kbd> ぶい / ビュイ | | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd> | <kbd>O</kbd>        | <kbd>P</kbd> | <kbd>-</kbd> |
-| <kbd>A</kbd> ば / びゃ     | <kbd>S</kbd> ぼ / びょ     | <kbd>D</kbd> べ / ビェ     | <kbd>F</kbd> ぶ / びゅ     | <kbd>G</kbd> び / ビィ     | | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd>        | <kbd>;</kbd> | <kbd>'</kbd> |
-| <kbd>Z</kbd> ばん / びゃん | <kbd>X</kbd> ぼん / びょん | <kbd>C</kbd> べん / ビェン | <kbd>V</kbd> ぶん / びゅん | <kbd>B</kbd> びん / ビィン | | <kbd>N</kbd> | <kbd>M</kbd> {by} | <kbd>,</kbd> | <kbd>.</kbd> [ば行] | <kbd>/</kbd> |              |
-
-</section>
-
-<section>
-
-### ぱ行（[ぱ行] / {py}）
-
-| 左小指                     | 左薬指                     | 左中指                     | 左人差指                   | 左人差指                   | | 右人差指     | 右人差指          | 右中指       | 右薬指       | 右小指              | 右小指       |
-|:---------------------------|:---------------------------|:---------------------------|:---------------------------|:---------------------------|-|:-------------|:------------------|:-------------|:-------------|:--------------------|:-------------|
-| <kbd>Q</kbd> ぱい / ぴゃい | <kbd>W</kbd> ぽう / ぴょう | <kbd>E</kbd> ぺい / ピェイ | <kbd>R</kbd> ぷう / ぴゅう | <kbd>T</kbd> ぷい / ピュイ | | <kbd>Y</kbd> | <kbd>U</kbd> {py} | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd> [ぱ行] | <kbd>-</kbd> |
-| <kbd>A</kbd> ぱ / ぴゃ     | <kbd>S</kbd> ぽ / ぴょ     | <kbd>D</kbd> ぺ / ピェ     | <kbd>F</kbd> ぷ / ぴゅ     | <kbd>G</kbd> ぴ / ピィ     | | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd>        | <kbd>'</kbd> |
-| <kbd>Z</kbd> ぱん / ぴゃん | <kbd>X</kbd> ぽん / ぴょん | <kbd>C</kbd> ぺん / ピェン | <kbd>V</kbd> ぷん / ぴゅん | <kbd>B</kbd> ぴん / ピィン | | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd>        |              |
+| 前置キー                  | 左小指              | 左薬指              | 左中指              | 左人差指            | 左人差指            | 右人差指     | 右人差指          | 右中指              | 右薬指       | 右小指       |
+|:--------------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:-------------|:------------------|:--------------------|:-------------|:-------------|
+| <kbd>K</kbd>              | <kbd>Q</kbd> たい   | <kbd>W</kbd> とう   | <kbd>E</kbd> てい   | <kbd>R</kbd> つう   | <kbd>T</kbd> つい   | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd> {ts}   | <kbd>O</kbd> | <kbd>P</kbd> |
+| <kbd>K</kbd> <kbd>J</kbd> | <kbd>Q</kbd> ちゃい | <kbd>W</kbd> ちょう | <kbd>E</kbd> ちぇい | <kbd>R</kbd> ちゅう | <kbd>T</kbd> ちゅい | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd>        | <kbd>O</kbd> | <kbd>P</kbd> |
+| <kbd>K</kbd> <kbd>,</kbd> | <kbd>Q</kbd> テャイ | <kbd>W</kbd> トゥー | <kbd>E</kbd> テェイ | <kbd>R</kbd> テュー | <kbd>T</kbd> ティー | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd>        | <kbd>O</kbd> | <kbd>P</kbd> |
+| <kbd>K</kbd> <kbd>I</kbd> | <kbd>Q</kbd> ツァイ | <kbd>W</kbd> ツォー | <kbd>E</kbd> ツェイ | <kbd>R</kbd> ツゥー | <kbd>T</kbd> ツィー | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd>        | <kbd>O</kbd> | <kbd>P</kbd> |
+| <kbd>K</kbd>              | <kbd>A</kbd> た     | <kbd>S</kbd> と     | <kbd>D</kbd> て     | <kbd>F</kbd> つ     | <kbd>G</kbd> ち     | <kbd>H</kbd> | <kbd>J</kbd> {ty} | <kbd>K</kbd> [た行] | <kbd>L</kbd> | <kbd>;</kbd> |
+| <kbd>K</kbd> <kbd>J</kbd> | <kbd>A</kbd> ちゃ   | <kbd>S</kbd> ちょ   | <kbd>D</kbd> ちぇ   | <kbd>F</kbd> ちゅ   | <kbd>G</kbd> ちぃ   | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd>        | <kbd>L</kbd> | <kbd>;</kbd> |
+| <kbd>K</kbd> <kbd>,</kbd> | <kbd>A</kbd> テャ   | <kbd>S</kbd> トゥ   | <kbd>D</kbd> テェ   | <kbd>F</kbd> テュ   | <kbd>G</kbd> ティ   | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd>        | <kbd>L</kbd> | <kbd>;</kbd> |
+| <kbd>K</kbd> <kbd>I</kbd> | <kbd>A</kbd> ツァ   | <kbd>S</kbd> ツォ   | <kbd>D</kbd> ツェ   | <kbd>F</kbd> ツゥ   | <kbd>G</kbd> ツィ   | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd>        | <kbd>L</kbd> | <kbd>;</kbd> |
+| <kbd>K</kbd>              | <kbd>Z</kbd> たん   | <kbd>X</kbd> とん   | <kbd>C</kbd> てん   | <kbd>V</kbd> つん   | <kbd>B</kbd> ちん   | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> {th}   | <kbd>.</kbd> | <kbd>/</kbd> |
+| <kbd>K</kbd> <kbd>J</kbd> | <kbd>Z</kbd> ちゃん | <kbd>X</kbd> ちょん | <kbd>C</kbd> ちぇん | <kbd>V</kbd> ちゅん | <kbd>B</kbd> ちぃん | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd>        | <kbd>.</kbd> | <kbd>/</kbd> |
+| <kbd>K</kbd> <kbd>,</kbd> | <kbd>Z</kbd> テャン | <kbd>X</kbd> トゥン | <kbd>C</kbd> テェン | <kbd>V</kbd> テュン | <kbd>B</kbd> ティン | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd>        | <kbd>.</kbd> | <kbd>/</kbd> |
+| <kbd>K</kbd> <kbd>I</kbd> | <kbd>Z</kbd> ツァン | <kbd>X</kbd> ツォン | <kbd>C</kbd> ツェン | <kbd>V</kbd> ツゥン | <kbd>B</kbd> ツィン | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd>        | <kbd>.</kbd> | <kbd>/</kbd> |
 
 </section>
 
 <section>
 
-### ま行（[ま行] / {my}）
+### だ行
 
-| 左小指                     | 左薬指                     | 左中指                     | 左人差指                   | 左人差指                   | | 右人差指     | 右人差指            | 右中指       | 右薬指            | 右小指       | 右小指       |
-|:---------------------------|:---------------------------|:---------------------------|:---------------------------|:---------------------------|-|:-------------|:--------------------|:-------------|:------------------|:-------------|:-------------|
-| <kbd>Q</kbd> まい / みゃい | <kbd>W</kbd> もう / みょう | <kbd>E</kbd> めい / ミェイ | <kbd>R</kbd> むう / みゅう | <kbd>T</kbd> むい / ミュイ | | <kbd>Y</kbd> | <kbd>U</kbd>        | <kbd>I</kbd> | <kbd>O</kbd>      | <kbd>P</kbd> | <kbd>-</kbd> |
-| <kbd>A</kbd> ま / みゃ     | <kbd>S</kbd> も / みょ     | <kbd>D</kbd> め / ミェ     | <kbd>F</kbd> む / みゅ     | <kbd>G</kbd> み / ミィ     | | <kbd>H</kbd> | <kbd>J</kbd>        | <kbd>K</kbd> | <kbd>L</kbd>      | <kbd>;</kbd> | <kbd>'</kbd> |
-| <kbd>Z</kbd> まん / みゃん | <kbd>X</kbd> もん / みょん | <kbd>C</kbd> めん / ミィン | <kbd>V</kbd> むん / みゅん | <kbd>B</kbd> みん / ミィン | | <kbd>N</kbd> | <kbd>M</kbd> [ま行] | <kbd>,</kbd> | <kbd>.</kbd> {my} | <kbd>/</kbd> |              |
-
-</section>
-
-<section>
-
-### や行（[や行] / {yh}）
-
-| 左小指            | 左薬指            | 左中指                 | 左人差指          | 左人差指     | | 右人差指            | 右人差指     | 右中指       | 右薬指       | 右小指       | 右小指       |
-|:------------------|:------------------|:-----------------------|:------------------|:-------------|-|:--------------------|:-------------|:-------------|:-------------|:-------------|:-------------|
-| <kbd>Q</kbd> やい | <kbd>W</kbd> よう | <kbd>E</kbd> イェイ    | <kbd>R</kbd> ゆう | <kbd>T</kbd> | | <kbd>Y</kbd> [や行] | <kbd>U</kbd> | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd> | <kbd>-</kbd> |
-| <kbd>A</kbd> や   | <kbd>S</kbd> よ   | <kbd>D</kbd> イェ / 𛀁 | <kbd>F</kbd> ゆ   | <kbd>G</kbd> | | <kbd>H</kbd> {yh}   | <kbd>J</kbd> | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd> | <kbd>'</kbd> |
-| <kbd>Z</kbd> やん | <kbd>X</kbd> よん | <kbd>C</kbd> イェン    | <kbd>V</kbd> ゆん | <kbd>B</kbd> | | <kbd>N</kbd>        | <kbd>M</kbd> | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd> |              |
+| 前置キー                  | 左小指              | 左薬指              | 左中指              | 左人差指            | 左人差指            | 右人差指     | 右人差指            | 右中指       | 右薬指            | 右小指       |
+|:--------------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:-------------|:--------------------|:-------------|:------------------|:-------------|
+| <kbd>J</kbd>              | <kbd>Q</kbd> だい   | <kbd>W</kbd> どう   | <kbd>E</kbd> でい   | <kbd>R</kbd> づう   | <kbd>T</kbd> づい   | <kbd>Y</kbd> | <kbd>U</kbd>        | <kbd>I</kbd> | <kbd>O</kbd>      | <kbd>P</kbd> |
+| <kbd>J</kbd> <kbd>L</kbd> | <kbd>Q</kbd> ぢゃい | <kbd>W</kbd> ぢょう | <kbd>E</kbd> ぢぇい | <kbd>R</kbd> ぢゅう | <kbd>T</kbd> ぢゅい | <kbd>Y</kbd> | <kbd>U</kbd>        | <kbd>I</kbd> | <kbd>O</kbd>      | <kbd>P</kbd> |
+| <kbd>J</kbd> <kbd>M</kbd> | <kbd>Q</kbd> デャイ | <kbd>W</kbd> ドゥー | <kbd>E</kbd> デェイ | <kbd>R</kbd> デュー | <kbd>T</kbd> ディー | <kbd>Y</kbd> | <kbd>U</kbd>        | <kbd>I</kbd> | <kbd>O</kbd>      | <kbd>P</kbd> |
+| <kbd>J</kbd>              | <kbd>A</kbd> だ     | <kbd>S</kbd> ど     | <kbd>D</kbd> で     | <kbd>F</kbd> づ     | <kbd>G</kbd> ぢ     | <kbd>H</kbd> | <kbd>J</kbd> [だ行] | <kbd>K</kbd> | <kbd>L</kbd> {dy} | <kbd>;</kbd> |
+| <kbd>J</kbd> <kbd>L</kbd> | <kbd>A</kbd> ぢゃ   | <kbd>S</kbd> ぢょ   | <kbd>D</kbd> ぢぇ   | <kbd>F</kbd> ぢゅ   | <kbd>G</kbd> ぢぃ   | <kbd>H</kbd> | <kbd>J</kbd>        | <kbd>K</kbd> | <kbd>L</kbd>      | <kbd>;</kbd> |
+| <kbd>J</kbd> <kbd>M</kbd> | <kbd>A</kbd> デャ   | <kbd>S</kbd> ドゥ   | <kbd>D</kbd> デェ   | <kbd>F</kbd> デュ   | <kbd>G</kbd> ディ   | <kbd>H</kbd> | <kbd>J</kbd>        | <kbd>K</kbd> | <kbd>L</kbd>      | <kbd>;</kbd> |
+| <kbd>J</kbd>              | <kbd>Z</kbd> だん   | <kbd>X</kbd> どん   | <kbd>C</kbd> でん   | <kbd>V</kbd> づん   | <kbd>B</kbd> ぢん   | <kbd>N</kbd> | <kbd>M</kbd> {dh}   | <kbd>,</kbd> | <kbd>.</kbd>      | <kbd>/</kbd> |
+| <kbd>J</kbd> <kbd>L</kbd> | <kbd>Z</kbd> ぢゃん | <kbd>X</kbd> ぢょん | <kbd>C</kbd> ぢぇん | <kbd>V</kbd> ぢゅん | <kbd>B</kbd> ぢぃん | <kbd>N</kbd> | <kbd>M</kbd>        | <kbd>,</kbd> | <kbd>.</kbd>      | <kbd>/</kbd> |
+| <kbd>J</kbd> <kbd>M</kbd> | <kbd>Z</kbd> デャン | <kbd>X</kbd> ドゥン | <kbd>C</kbd> デェン | <kbd>V</kbd> デュン | <kbd>B</kbd> ディン | <kbd>N</kbd> | <kbd>M</kbd>        | <kbd>,</kbd> | <kbd>.</kbd>      | <kbd>/</kbd> |
 
 </section>
 
 <section>
 
-### ら行（[ら行] / {ry}）
+### な行
 
-| 左小指                     | 左薬指                     | 左中指                     | 左人差指                   | 左人差指                   | | 右人差指     | 右人差指          | 右中指       | 右薬指              | 右小指       | 右小指       |
-|:---------------------------|:---------------------------|:---------------------------|:---------------------------|:---------------------------|-|:-------------|:------------------|:-------------|:--------------------|:-------------|:-------------|
-| <kbd>Q</kbd> らい / りゃい | <kbd>W</kbd> ろう / りょう | <kbd>E</kbd> れい / リェイ | <kbd>R</kbd> るう / りゅう | <kbd>T</kbd> るい / リュイ | | <kbd>Y</kbd> | <kbd>U</kbd> {ry} | <kbd>I</kbd> | <kbd>O</kbd> [ら行] | <kbd>P</kbd> | <kbd>-</kbd> |
-| <kbd>A</kbd> ら / りゃ     | <kbd>S</kbd> ろ / りょ     | <kbd>D</kbd> れ / リェ     | <kbd>F</kbd> る / りゅ     | <kbd>G</kbd> り / リィ     | | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd>        | <kbd>;</kbd> | <kbd>'</kbd> |
-| <kbd>Z</kbd> らん / りゃん | <kbd>X</kbd> ろん / りょん | <kbd>C</kbd> れん / リェン | <kbd>V</kbd> るん / りゅん | <kbd>B</kbd> りん / リィン | | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> | <kbd>.</kbd>        | <kbd>/</kbd> |              |
-
-</section>
-
-<section>
-
-### わ行（[わ行] / {wh}）
-
-| 左小指                 | 左薬指                 | 左中指                 | 左人差指     | 左人差指               | | 右人差指            | 右人差指     | 右中指       | 右薬指       | 右小指       | 右小指       |
-|:-----------------------|:-----------------------|:-----------------------|:-------------|:-----------------------|-|:--------------------|:-------------|:-------------|:-------------|:-------------|:-------------|
-| <kbd>Q</kbd> わい      | <kbd>W</kbd> ウォー    | <kbd>E</kbd> ウェイ    | <kbd>R</kbd> | <kbd>T</kbd> ウィー    | | <kbd>Y</kbd>        | <kbd>U</kbd> | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd> | <kbd>-</kbd> |
-| <kbd>A</kbd> わ / ウァ | <kbd>S</kbd> を / ウォ | <kbd>D</kbd> ウェ / ゑ | <kbd>F</kbd> | <kbd>G</kbd> ウィ / ゐ | | <kbd>H</kbd> [わ行] | <kbd>J</kbd> | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd> | <kbd>'</kbd> |
-| <kbd>Z</kbd> わん      | <kbd>X</kbd> ウォン    | <kbd>C</kbd> ウェン    | <kbd>V</kbd> | <kbd>B</kbd> ウィン    | | <kbd>N</kbd> {wh}   | <kbd>M</kbd> | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd> |              |
+| 前置キー                  | 左小指              | 左薬指              | 左中指              | 左人差指            | 左人差指            | 右人差指     | 右人差指          | 右中指       | 右薬指              | 右小指       |
+|:--------------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:-------------|:------------------|:-------------|:--------------------|:-------------|
+| <kbd>L</kbd>              | <kbd>Q</kbd> ない   | <kbd>W</kbd> のう   | <kbd>E</kbd> ねい   | <kbd>R</kbd> ぬう   | <kbd>T</kbd> ぬい   | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd> | <kbd>O</kbd>        | <kbd>P</kbd> |
+| <kbd>L</kbd> <kbd>J</kbd> | <kbd>Q</kbd> にゃい | <kbd>W</kbd> にょう | <kbd>E</kbd> にぇい | <kbd>R</kbd> にゅう | <kbd>T</kbd> にゅい | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd> | <kbd>O</kbd>        | <kbd>P</kbd> |
+| <kbd>L</kbd>              | <kbd>A</kbd> な     | <kbd>S</kbd> の     | <kbd>D</kbd> ね     | <kbd>F</kbd> ぬ     | <kbd>G</kbd> に     | <kbd>H</kbd> | <kbd>J</kbd> {ny} | <kbd>K</kbd> | <kbd>L</kbd> [な行] | <kbd>;</kbd> |
+| <kbd>L</kbd> <kbd>J</kbd> | <kbd>A</kbd> にゃ   | <kbd>S</kbd> にょ   | <kbd>D</kbd> にぇ   | <kbd>F</kbd> にゅ   | <kbd>G</kbd> にぃ   | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd>        | <kbd>;</kbd> |
+| <kbd>L</kbd>              | <kbd>Z</kbd> なん   | <kbd>X</kbd> のん   | <kbd>C</kbd> ねん   | <kbd>V</kbd> ぬん   | <kbd>B</kbd> にん   | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> | <kbd>.</kbd>        | <kbd>/</kbd> |
+| <kbd>L</kbd> <kbd>J</kbd> | <kbd>Z</kbd> にゃん | <kbd>X</kbd> にょん | <kbd>C</kbd> にぇん | <kbd>V</kbd> にゅん | <kbd>B</kbd> にぃん | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> | <kbd>.</kbd>        | <kbd>/</kbd> |
 
 </section>
 
 <section>
 
-### ファ行（[ファ行]）
+### は行
 
-| 左小指              | 左薬指              | 左中指              | 左人差指            | 左人差指            | | 右人差指     | 右人差指     | 右中指       | 右薬指       | 右小指       | 右小指                |
-|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|-|:-------------|:-------------|:-------------|:-------------|:-------------|:----------------------|
-| <kbd>Q</kbd> ファイ | <kbd>W</kbd> フォー | <kbd>E</kbd> フェイ | <kbd>R</kbd> フュー | <kbd>T</kbd> フィー | | <kbd>Y</kbd> | <kbd>U</kbd> | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd> | <kbd>-</kbd>          |
-| <kbd>A</kbd> ファ   | <kbd>S</kbd> フォ   | <kbd>D</kbd> フェ   | <kbd>F</kbd> フュ   | <kbd>G</kbd> フィ   | | <kbd>H</kbd> | <kbd>J</kbd> | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd> | <kbd>'</kbd> [ファ行] |
-| <kbd>Z</kbd> ファン | <kbd>X</kbd> フォン | <kbd>C</kbd> フェン | <kbd>V</kbd> フュン | <kbd>B</kbd> フィン | | <kbd>N</kbd> | <kbd>M</kbd> | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd> |                       |
-
-</section>
-
-<section>
-
-### ヴァ行（[ヴァ行] / {vy}）
-
-| 左小指                 | 左薬指                 | 左中指                 | 左人差指               | 左人差指               | | 右人差指     | 右人差指          | 右中指       | 右薬指       | 右小指       | 右小指                |
-|:-----------------------|:-----------------------|:-----------------------|:-----------------------|:-----------------------|-|:-------------|:------------------|:-------------|:-------------|:-------------|:----------------------|
-| <kbd>Q</kbd> ヴァイ    | <kbd>W</kbd> ヴォー    | <kbd>E</kbd> ヴェイ    | <kbd>R</kbd> ヴュー    | <kbd>T</kbd> ヴィー    | | <kbd>Y</kbd> | <kbd>U</kbd> {vy} | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd> | <kbd>-</kbd> [ヴァ行] |
-| <kbd>A</kbd> ヴァ / ヷ | <kbd>S</kbd> ヴォ / ヺ | <kbd>D</kbd> ヴェ / ヹ | <kbd>F</kbd> ヴ / ヴュ | <kbd>G</kbd> ヴィ / ヸ | | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd> | <kbd>'</kbd>          |
-| <kbd>Z</kbd> ヴァン    | <kbd>X</kbd> ヴォン    | <kbd>C</kbd> ヴェン    | <kbd>V</kbd> ヴン      | <kbd>B</kbd> ヴィン    | | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd> |                       |
+| 前置キー                  | 左小指              | 左薬指              | 左中指              | 左人差指            | 左人差指            | 右人差指     | 右人差指          | 右中指              | 右薬指       | 右小指       |
+|:--------------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:-------------|:------------------|:--------------------|:-------------|:-------------|
+| <kbd>,</kbd>              | <kbd>Q</kbd> はい   | <kbd>W</kbd> ほう   | <kbd>E</kbd> へい   | <kbd>R</kbd> ふう   | <kbd>T</kbd> ふい   | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd>        | <kbd>O</kbd> | <kbd>P</kbd> |
+| <kbd>,</kbd> <kbd>M</kbd> | <kbd>Q</kbd> ひゃい | <kbd>W</kbd> ひょう | <kbd>E</kbd> ひぇい | <kbd>R</kbd> ひゅう | <kbd>T</kbd> ひゅい | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd>        | <kbd>O</kbd> | <kbd>P</kbd> |
+| <kbd>,</kbd>              | <kbd>A</kbd> は     | <kbd>S</kbd> ほ     | <kbd>D</kbd> へ     | <kbd>F</kbd> ふ     | <kbd>G</kbd> ひ     | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd>        | <kbd>L</kbd> | <kbd>;</kbd> |
+| <kbd>,</kbd> <kbd>M</kbd> | <kbd>A</kbd> ひゃ   | <kbd>S</kbd> ひょ   | <kbd>D</kbd> ひぇ   | <kbd>F</kbd> ひゅ   | <kbd>G</kbd> ひぃ   | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd>        | <kbd>L</kbd> | <kbd>;</kbd> |
+| <kbd>,</kbd>              | <kbd>Z</kbd> はん   | <kbd>X</kbd> ほん   | <kbd>C</kbd> へん   | <kbd>V</kbd> ふん   | <kbd>B</kbd> ひん   | <kbd>N</kbd> | <kbd>M</kbd> {hy} | <kbd>,</kbd> [は行] | <kbd>.</kbd> | <kbd>/</kbd> |
+| <kbd>,</kbd> <kbd>M</kbd> | <kbd>Z</kbd> ひゃん | <kbd>X</kbd> ひょん | <kbd>C</kbd> ひぇん | <kbd>V</kbd> ひゅん | <kbd>B</kbd> ひぃん | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd>        | <kbd>.</kbd> | <kbd>/</kbd> |
 
 </section>
 
 <section>
 
-### 小書き・濁点（[小書] / 各子音行）
+### ば行
 
-| 左小指                                   | 左薬指                              | 左中指                           | 左人差指                                                | 左人差指                       | | 右人差指         | 右人差指         | 右中指           | 右薬指           | 右小指           | 右小指       |
-|:-----------------------------------------|:------------------------------------|:---------------------------------|:--------------------------------------------------------|:-------------------------------|-|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-------------|
-| <kbd>Q</kbd>                             | <kbd>W</kbd> ヿ (コト)              | <kbd>E</kbd>                     | <kbd>R</kbd> ゔ (※)                                     | <kbd>T</kbd> ゟ (より)         | | <kbd>Y</kbd> {y} | <kbd>U</kbd>     | <kbd>I</kbd> {k} | <kbd>O</kbd> {r} | <kbd>P</kbd>     | <kbd>-</kbd> |
-| <kbd>A</kbd> ぁ / ゕ / ㇵ / ゃ / ㇻ / ゎ | <kbd>S</kbd> ぉ / ㇳ / ㇹ / ょ / ㇿ | <kbd>D</kbd> ぇ / ゖ / ㇸ / ㇾ   | <kbd>F</kbd> ぅ / ㇰ / ㇲ / っ / ㇴ / ㇷ / ㇺ / ゅ / ㇽ | <kbd>G</kbd> ぃ / ㇱ / ㇶ / ㇼ | | <kbd>H</kbd> {w} | <kbd>J</kbd>     | <kbd>K</kbd> {t} | <kbd>L</kbd> {n} | <kbd>;</kbd> {s} | <kbd>'</kbd> |
-| <kbd>Z</kbd> [小書]                      | <kbd>X</kbd> ◌゙ (合成用濁点)      | <kbd>C</kbd> ◌゚ (合成用半濁点) | <kbd>V</kbd> ゛ (濁点)                                  | <kbd>B</kbd> ゜ (半濁点)       | | <kbd>N</kbd>     | <kbd>M</kbd> {m} | <kbd>,</kbd> {h} | <kbd>.</kbd>     | <kbd>/</kbd>     |              |
+| 前置キー                  | 左小指              | 左薬指              | 左中指              | 左人差指            | 左人差指            | 右人差指     | 右人差指          | 右中指       | 右薬指              | 右小指       |
+|:--------------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:-------------|:------------------|:-------------|:--------------------|:-------------|
+| <kbd>.</kbd>              | <kbd>Q</kbd> ばい   | <kbd>W</kbd> ぼう   | <kbd>E</kbd> べい   | <kbd>R</kbd> ぶう   | <kbd>T</kbd> ぶい   | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd> | <kbd>O</kbd>        | <kbd>P</kbd> |
+| <kbd>.</kbd> <kbd>M</kbd> | <kbd>Q</kbd> びゃい | <kbd>W</kbd> びょう | <kbd>E</kbd> びぇい | <kbd>R</kbd> びゅう | <kbd>T</kbd> びゅい | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd> | <kbd>O</kbd>        | <kbd>P</kbd> |
+| <kbd>.</kbd>              | <kbd>A</kbd> ば     | <kbd>S</kbd> ぼ     | <kbd>D</kbd> べ     | <kbd>F</kbd> ぶ     | <kbd>G</kbd> び     | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd>        | <kbd>;</kbd> |
+| <kbd>.</kbd> <kbd>M</kbd> | <kbd>A</kbd> びゃ   | <kbd>S</kbd> びょ   | <kbd>D</kbd> びぇ   | <kbd>F</kbd> びゅ   | <kbd>G</kbd> びぃ   | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd>        | <kbd>;</kbd> |
+| <kbd>.</kbd>              | <kbd>Z</kbd> ばん   | <kbd>X</kbd> ぼん   | <kbd>C</kbd> べん   | <kbd>V</kbd> ぶん   | <kbd>B</kbd> びん   | <kbd>N</kbd> | <kbd>M</kbd> {by} | <kbd>,</kbd> | <kbd>.</kbd> [ば行] | <kbd>/</kbd> |
+| <kbd>.</kbd> <kbd>M</kbd> | <kbd>Z</kbd> びゃん | <kbd>X</kbd> びょん | <kbd>C</kbd> びぇん | <kbd>V</kbd> びゅん | <kbd>B</kbd> びぃん | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> | <kbd>.</kbd>        | <kbd>/</kbd> |
+
+</section>
+
+<section>
+
+### ぱ行
+
+| 前置キー                  | 左小指              | 左薬指              | 左中指              | 左人差指            | 左人差指            | 右人差指     | 右人差指          | 右中指       | 右薬指       | 右小指              |
+|:--------------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:-------------|:------------------|:-------------|:-------------|:--------------------|
+| <kbd>P</kbd>              | <kbd>Q</kbd> ぱい   | <kbd>W</kbd> ぽう   | <kbd>E</kbd> ぺい   | <kbd>R</kbd> ぷう   | <kbd>T</kbd> ぷい   | <kbd>Y</kbd> | <kbd>U</kbd> {py} | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd> [ぱ行] |
+| <kbd>P</kbd> <kbd>U</kbd> | <kbd>Q</kbd> ぴゃい | <kbd>W</kbd> ぴょう | <kbd>E</kbd> ぴぇい | <kbd>R</kbd> ぴゅう | <kbd>T</kbd> ぴゅい | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd>        |
+| <kbd>P</kbd>              | <kbd>A</kbd> ぱ     | <kbd>S</kbd> ぽ     | <kbd>D</kbd> ぺ     | <kbd>F</kbd> ぷ     | <kbd>G</kbd> ぴ     | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd>        |
+| <kbd>P</kbd> <kbd>U</kbd> | <kbd>A</kbd> ぴゃ   | <kbd>S</kbd> ぴょ   | <kbd>D</kbd> ぴぇ   | <kbd>F</kbd> ぴゅ   | <kbd>G</kbd> ぴぃ   | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd>        |
+| <kbd>P</kbd>              | <kbd>Z</kbd> ぱん   | <kbd>X</kbd> ぽん   | <kbd>C</kbd> ぺん   | <kbd>V</kbd> ぷん   | <kbd>B</kbd> ぴん   | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd>        |
+| <kbd>P</kbd> <kbd>U</kbd> | <kbd>Z</kbd> ぴゃん | <kbd>X</kbd> ぴょん | <kbd>C</kbd> ぴぇん | <kbd>V</kbd> ぴゅん | <kbd>B</kbd> ぴぃん | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd>        |
+
+</section>
+
+<section>
+
+### ま行
+
+| 前置キー                  | 左小指              | 左薬指              | 左中指              | 左人差指            | 左人差指            | 右人差指     | 右人差指            | 右中指       | 右薬指            | 右小指       |
+|:--------------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:-------------|:--------------------|:-------------|:------------------|:-------------|
+| <kbd>M</kbd>              | <kbd>Q</kbd> まい   | <kbd>W</kbd> もう   | <kbd>E</kbd> めい   | <kbd>R</kbd> むう   | <kbd>T</kbd> むい   | <kbd>Y</kbd> | <kbd>U</kbd>        | <kbd>I</kbd> | <kbd>O</kbd>      | <kbd>P</kbd> |
+| <kbd>M</kbd> <kbd>.</kbd> | <kbd>Q</kbd> みゃい | <kbd>W</kbd> みょう | <kbd>E</kbd> みぇい | <kbd>R</kbd> みゅう | <kbd>T</kbd> みゅい | <kbd>Y</kbd> | <kbd>U</kbd>        | <kbd>I</kbd> | <kbd>O</kbd>      | <kbd>P</kbd> |
+| <kbd>M</kbd>              | <kbd>A</kbd> ま     | <kbd>S</kbd> も     | <kbd>D</kbd> め     | <kbd>F</kbd> む     | <kbd>G</kbd> み     | <kbd>H</kbd> | <kbd>J</kbd>        | <kbd>K</kbd> | <kbd>L</kbd>      | <kbd>;</kbd> |
+| <kbd>M</kbd> <kbd>.</kbd> | <kbd>A</kbd> みゃ   | <kbd>S</kbd> みょ   | <kbd>D</kbd> みぇ   | <kbd>F</kbd> みゅ   | <kbd>G</kbd> みぃ   | <kbd>H</kbd> | <kbd>J</kbd>        | <kbd>K</kbd> | <kbd>L</kbd>      | <kbd>;</kbd> |
+| <kbd>M</kbd>              | <kbd>Z</kbd> まん   | <kbd>X</kbd> もん   | <kbd>C</kbd> めん   | <kbd>V</kbd> むん   | <kbd>B</kbd> みん   | <kbd>N</kbd> | <kbd>M</kbd> [ま行] | <kbd>,</kbd> | <kbd>.</kbd> {my} | <kbd>/</kbd> |
+| <kbd>M</kbd> <kbd>.</kbd> | <kbd>Z</kbd> みゃん | <kbd>X</kbd> みょん | <kbd>C</kbd> みぇん | <kbd>V</kbd> みゅん | <kbd>B</kbd> みぃん | <kbd>N</kbd> | <kbd>M</kbd>        | <kbd>,</kbd> | <kbd>.</kbd>      | <kbd>/</kbd> |
+
+</section>
+
+<section>
+
+### や行
+
+| 前置キー     | 左小指            | 左薬指            | 左中指              | 左人差指          | 左人差指     | 右人差指            | 右人差指     | 右中指       | 右薬指       | 右小指       |
+|:-------------|:------------------|:------------------|:--------------------|:------------------|:-------------|:--------------------|:-------------|:-------------|:-------------|:-------------|
+| <kbd>Y</kbd> | <kbd>Q</kbd> やい | <kbd>W</kbd> よう | <kbd>E</kbd> イェイ | <kbd>R</kbd> ゆう | <kbd>T</kbd> | <kbd>Y</kbd> [や行] | <kbd>U</kbd> | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd> |
+| <kbd>Y</kbd> | <kbd>A</kbd> や   | <kbd>S</kbd> よ   | <kbd>D</kbd> イェ   | <kbd>F</kbd> ゆ   | <kbd>G</kbd> | <kbd>H</kbd>        | <kbd>J</kbd> | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd> |
+| <kbd>Y</kbd> | <kbd>Z</kbd> やん | <kbd>X</kbd> よん | <kbd>C</kbd> イェン | <kbd>V</kbd> ゆん | <kbd>B</kbd> | <kbd>N</kbd>        | <kbd>M</kbd> | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd> |
+
+</section>
+
+<section>
+
+### ら行
+
+| 前置キー                  | 左小指              | 左薬指              | 左中指              | 左人差指            | 左人差指            | 右人差指     | 右人差指          | 右中指       | 右薬指              | 右小指       |
+|:--------------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:-------------|:------------------|:-------------|:--------------------|:-------------|
+| <kbd>O</kbd>              | <kbd>Q</kbd> らい   | <kbd>W</kbd> ろう   | <kbd>E</kbd> れい   | <kbd>R</kbd> るう   | <kbd>T</kbd> るい   | <kbd>Y</kbd> | <kbd>U</kbd> {ry} | <kbd>I</kbd> | <kbd>O</kbd> [ら行] | <kbd>P</kbd> |
+| <kbd>O</kbd> <kbd>U</kbd> | <kbd>Q</kbd> りゃい | <kbd>W</kbd> りょう | <kbd>E</kbd> りぇい | <kbd>R</kbd> りゅう | <kbd>T</kbd> りゅい | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd> | <kbd>O</kbd>        | <kbd>P</kbd> |
+| <kbd>O</kbd>              | <kbd>A</kbd> ら     | <kbd>S</kbd> ろ     | <kbd>D</kbd> れ     | <kbd>F</kbd> る     | <kbd>G</kbd> り     | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd>        | <kbd>;</kbd> |
+| <kbd>O</kbd> <kbd>U</kbd> | <kbd>A</kbd> りゃ   | <kbd>S</kbd> りょ   | <kbd>D</kbd> りぇ   | <kbd>F</kbd> りゅ   | <kbd>G</kbd> りぃ   | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd>        | <kbd>;</kbd> |
+| <kbd>O</kbd>              | <kbd>Z</kbd> らん   | <kbd>X</kbd> ろん   | <kbd>C</kbd> れん   | <kbd>V</kbd> るん   | <kbd>B</kbd> りん   | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> | <kbd>.</kbd>        | <kbd>/</kbd> |
+| <kbd>O</kbd> <kbd>U</kbd> | <kbd>Z</kbd> りゃん | <kbd>X</kbd> りょん | <kbd>C</kbd> りぇん | <kbd>V</kbd> りゅん | <kbd>B</kbd> りぃん | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> | <kbd>.</kbd>        | <kbd>/</kbd> |
+
+</section>
+
+<section>
+
+### わ行
+
+| 前置キー                  | 左小指            | 左薬指              | 左中指              | 左人差指     | 左人差指            | 右人差指            | 右人差指     | 右中指       | 右薬指       | 右小指       |
+|:--------------------------|:------------------|:--------------------|:--------------------|:-------------|:--------------------|:--------------------|:-------------|:-------------|:-------------|:-------------|
+| <kbd>H</kbd>              | <kbd>Q</kbd> わい | <kbd>W</kbd> ウォー | <kbd>E</kbd> ウェイ | <kbd>R</kbd> | <kbd>T</kbd> ウィー | <kbd>Y</kbd>        | <kbd>U</kbd> | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd> |
+| <kbd>H</kbd>              | <kbd>A</kbd> わ   | <kbd>S</kbd> を     | <kbd>D</kbd> ウェ   | <kbd>F</kbd> | <kbd>G</kbd> ウィ   | <kbd>H</kbd> [わ行] | <kbd>J</kbd> | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd> |
+| <kbd>H</kbd> <kbd>N</kbd> | <kbd>A</kbd> ウァ | <kbd>S</kbd> ウォ   | <kbd>D</kbd> ゑ     | <kbd>F</kbd> | <kbd>G</kbd> ゐ     | <kbd>H</kbd>        | <kbd>J</kbd> | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd> |
+| <kbd>H</kbd>              | <kbd>Z</kbd> わん | <kbd>X</kbd> ウォン | <kbd>C</kbd> ウェン | <kbd>V</kbd> | <kbd>B</kbd> ウィン | <kbd>N</kbd> {wh}   | <kbd>M</kbd> | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd> |
+
+</section>
+
+<section>
+
+### ファ行
+
+| 前置キー     | 左小指              | 左薬指              | 左中指              | 左人差指            | 左人差指            | | 右人差指     | 右人差指     | 右中指       | 右薬指       | 右小指       | 右小指                |
+|:-------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|-|:-------------|:-------------|:-------------|:-------------|:-------------|:----------------------|
+| <kbd>'</kbd> | <kbd>Q</kbd> ファイ | <kbd>W</kbd> フォー | <kbd>E</kbd> フェイ | <kbd>R</kbd> フュー | <kbd>T</kbd> フィー | | <kbd>Y</kbd> | <kbd>U</kbd> | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd> | <kbd>-</kbd>          |
+| <kbd>'</kbd> | <kbd>A</kbd> ファ   | <kbd>S</kbd> フォ   | <kbd>D</kbd> フェ   | <kbd>F</kbd> フュ   | <kbd>G</kbd> フィ   | | <kbd>H</kbd> | <kbd>J</kbd> | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd> | <kbd>'</kbd> [ファ行] |
+| <kbd>'</kbd> | <kbd>Z</kbd> ファン | <kbd>X</kbd> フォン | <kbd>C</kbd> フェン | <kbd>V</kbd> フュン | <kbd>B</kbd> フィン | | <kbd>N</kbd> | <kbd>M</kbd> | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd> |                       |
+
+</section>
+
+<section>
+
+### ヴァ行
+
+| 前置キー                  | 左小指              | 左薬指              | 左中指              | 左人差指            | 左人差指            | 右人差指     | 右人差指          | 右中指       | 右薬指       | 右小指       | 右小指                |
+|:--------------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:-------------|:------------------|:-------------|:-------------|:-------------|:----------------------|
+| <kbd>-</kbd>              | <kbd>Q</kbd> ヴァイ | <kbd>W</kbd> ヴォー | <kbd>E</kbd> ヴェイ | <kbd>R</kbd> ヴュー | <kbd>T</kbd> ヴィー | <kbd>Y</kbd> | <kbd>U</kbd> {vy} | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd> | <kbd>-</kbd> [ヴァ行] |
+| <kbd>-</kbd>              | <kbd>A</kbd> ヴァ   | <kbd>S</kbd> ヴォ   | <kbd>D</kbd> ヴェ   | <kbd>F</kbd> ヴ     | <kbd>G</kbd> ヴィ   | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd> | <kbd>'</kbd>          |
+| <kbd>-</kbd> <kbd>U</kbd> | <kbd>A</kbd> ヷ     | <kbd>S</kbd> ヺ     | <kbd>D</kbd> ヹ     | <kbd>F</kbd> ヴュ   | <kbd>G</kbd> ヸ     | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd> | <kbd>'</kbd>          |
+| <kbd>-</kbd>              | <kbd>Z</kbd> ヴァン | <kbd>X</kbd> ヴォン | <kbd>C</kbd> ヴェン | <kbd>V</kbd> ヴン   | <kbd>B</kbd> ヴィン | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd> |                       |
+
+</section>
+
+<section>
+
+### 小書き・濁点・合字・丸数字・上付き数字
+
+| 前置キー                  | 左小指                   | 左薬指                         | 左中指                           | 左人差指                 | 左人差指                 | 右人差指                 | 右人差指                 | 右中指                   | 右薬指                   | 右小指                   |
+|:--------------------------|:-------------------------|:-------------------------------|:---------------------------------|:-------------------------|:-------------------------|:-------------------------|:-------------------------|:-------------------------|:-------------------------|:-------------------------|
+| <kbd>Z</kbd>              | <kbd>1</kbd> ① (丸1)    | <kbd>2</kbd> ② (丸2)          | <kbd>3</kbd> ③ (丸3)            | <kbd>4</kbd> ④ (丸4)    | <kbd>5</kbd> ⑤ (丸5)    | <kbd>6</kbd> ⑥ (丸6)    | <kbd>7</kbd> ⑦ (丸7)    | <kbd>8</kbd> ⑧ (丸8)    | <kbd>9</kbd> ⑨ (丸9)    | <kbd>0</kbd> ⑩ (丸10)   |
+| <kbd>Z</kbd> <kbd>Z</kbd> | <kbd>1</kbd> ¹ (上付き1) | <kbd>2</kbd> ² (上付き2)       | <kbd>3</kbd> ³ (上付き3)         | <kbd>4</kbd> ⁴ (上付き4) | <kbd>5</kbd> ⁵ (上付き5) | <kbd>6</kbd> ⁶ (上付き6) | <kbd>7</kbd> ⁷ (上付き7) | <kbd>8</kbd> ⁸ (上付き8) | <kbd>9</kbd> ⁹ (上付き9) | <kbd>0</kbd> ⁰ (上付き0) |
+| <kbd>Z</kbd>              | <kbd>Q</kbd>             | <kbd>W</kbd> ヿ (コト)         | <kbd>E</kbd>                     | <kbd>R</kbd> ゔ (※)      | <kbd>T</kbd> ゟ (より)   | <kbd>Y</kbd> {y}         | <kbd>U</kbd>             | <kbd>I</kbd> {k}         | <kbd>O</kbd> {r}         | <kbd>P</kbd>             |
+| <kbd>Z</kbd>              | <kbd>A</kbd> ぁ          | <kbd>S</kbd> ぉ                | <kbd>D</kbd> ぇ                  | <kbd>F</kbd> ぅ          | <kbd>G</kbd> ぃ          | <kbd>H</kbd> {w}         | <kbd>J</kbd>             | <kbd>K</kbd> {t}         | <kbd>L</kbd> {n}         | <kbd>;</kbd> {s}         |
+| <kbd>Z</kbd> <kbd>I</kbd> | <kbd>A</kbd> ゕ          | <kbd>S</kbd>                   | <kbd>D</kbd> ゖ                  | <kbd>F</kbd> ㇰ          | <kbd>G</kbd>             | <kbd>H</kbd>             | <kbd>J</kbd>             | <kbd>K</kbd>             | <kbd>L</kbd>             | <kbd>;</kbd>             |
+| <kbd>Z</kbd> <kbd>;</kbd> | <kbd>A</kbd>             | <kbd>S</kbd>                   | <kbd>D</kbd>                     | <kbd>F</kbd> ㇲ          | <kbd>G</kbd> ㇱ          | <kbd>H</kbd>             | <kbd>J</kbd>             | <kbd>K</kbd>             | <kbd>L</kbd>             | <kbd>;</kbd>             |
+| <kbd>Z</kbd> <kbd>K</kbd> | <kbd>A</kbd>             | <kbd>S</kbd> ㇳ                | <kbd>D</kbd>                     | <kbd>F</kbd> っ          | <kbd>G</kbd>             | <kbd>H</kbd>             | <kbd>J</kbd>             | <kbd>K</kbd>             | <kbd>L</kbd>             | <kbd>;</kbd>             |
+| <kbd>Z</kbd> <kbd>L</kbd> | <kbd>A</kbd>             | <kbd>S</kbd>                   | <kbd>D</kbd>                     | <kbd>F</kbd> ㇴ          | <kbd>G</kbd>             | <kbd>H</kbd>             | <kbd>J</kbd>             | <kbd>K</kbd>             | <kbd>L</kbd>             | <kbd>;</kbd>             |
+| <kbd>Z</kbd> <kbd>,</kbd> | <kbd>A</kbd> ㇵ          | <kbd>S</kbd> ㇹ                | <kbd>D</kbd> ㇸ                  | <kbd>F</kbd> ㇷ          | <kbd>G</kbd> ㇶ          | <kbd>H</kbd>             | <kbd>J</kbd>             | <kbd>K</kbd>             | <kbd>L</kbd>             | <kbd>;</kbd>             |
+| <kbd>Z</kbd> <kbd>M</kbd> | <kbd>A</kbd>             | <kbd>S</kbd>                   | <kbd>D</kbd>                     | <kbd>F</kbd> ㇺ          | <kbd>G</kbd>             | <kbd>H</kbd>             | <kbd>J</kbd>             | <kbd>K</kbd>             | <kbd>L</kbd>             | <kbd>;</kbd>             |
+| <kbd>Z</kbd> <kbd>Y</kbd> | <kbd>A</kbd> ゃ          | <kbd>S</kbd> ょ                | <kbd>D</kbd>                     | <kbd>F</kbd> ゅ          | <kbd>G</kbd>             | <kbd>H</kbd>             | <kbd>J</kbd>             | <kbd>K</kbd>             | <kbd>L</kbd>             | <kbd>;</kbd>             |
+| <kbd>Z</kbd> <kbd>O</kbd> | <kbd>A</kbd> ㇻ          | <kbd>S</kbd> ㇿ                | <kbd>D</kbd> ㇾ                  | <kbd>F</kbd> ㇽ          | <kbd>G</kbd> ㇼ          | <kbd>H</kbd>             | <kbd>J</kbd>             | <kbd>K</kbd>             | <kbd>L</kbd>             | <kbd>;</kbd>             |
+| <kbd>Z</kbd> <kbd>H</kbd> | <kbd>A</kbd> ゎ          | <kbd>S</kbd>                   | <kbd>D</kbd>                     | <kbd>F</kbd>             | <kbd>G</kbd>             | <kbd>H</kbd>             | <kbd>J</kbd>             | <kbd>K</kbd>             | <kbd>L</kbd>             | <kbd>;</kbd>             |
+| <kbd>Z</kbd>              | <kbd>Z</kbd> [小書]      | <kbd>X</kbd> ◌゙ (合成用濁点) | <kbd>C</kbd> ◌゚ (合成用半濁点) | <kbd>V</kbd> ゛ (濁点)   | <kbd>B</kbd> ゜ (半濁点) | <kbd>N</kbd>             | <kbd>M</kbd> {m}         | <kbd>,</kbd> {h}         | <kbd>.</kbd>             | <kbd>/</kbd>             |
 
 ※ libskk では「ゔ」をカタカナ変換しても「ヴ」に変換できず、「ヴ」のひらがなとして正しく設定できないための処置。
 
-| 1                       | 2                       | 3                       | 4                       | 5                       | 6                       | 7                       | 8                       | 9                       | 0                       |
-|:------------------------|:------------------------|:------------------------|:------------------------|:------------------------|:------------------------|:------------------------|:------------------------|:------------------------|:------------------------|
-| <kbd>1</kbd> ¹ (上付き) | <kbd>2</kbd> ² (上付き) | <kbd>3</kbd> ³ (上付き) | <kbd>4</kbd> ⁴ (上付き) | <kbd>5</kbd> ⁵ (上付き) | <kbd>6</kbd> ⁶ (上付き) | <kbd>7</kbd> ⁷ (上付き) | <kbd>8</kbd> ⁸ (上付き) | <kbd>9</kbd> ⁹ (上付き) | <kbd>0</kbd> ⁰ (上付き) |
+</section>
 
-### 記号（[記号] / {記号2}）
+<section>
 
-| | 左小指                          | 左小指                        | 左薬指                                          | 左中指                                     | 左人差指                                   | 左人差指                        | 右人差指                        | 右人差指                        | 右中指                                 | 右薬指                                    | 右小指                                | 右小指                                       | 右小指                                   | 右小指                                        |
-|:-------------------------|:--------------------------------|:------------------------------|:------------------------------------------------|:-------------------------------------------|:-------------------------------------------|:--------------------------------|:--------------------------------|:--------------------------------|:---------------------------------------|:------------------------------------------|:--------------------------------------|:---------------------------------------------|:-----------------------------------------|:----------------------------------------------|
-| <kbd>Q</kbd>             | <kbd>`</kbd> ‘ (開き引用符) | <kbd>1</kbd> ○       | <kbd>2</kbd> ▽                   | <kbd>3</kbd> △             | <kbd>4</kbd> □                 | <kbd>5</kbd> ◇             | <kbd>6</kbd> ☆             | <kbd>7</kbd> ◎             | <kbd>8</kbd> ※ (米印)     | <kbd>9</kbd> （ (全角丸括弧) | <kbd>0</kbd> ） (全角丸括弧) | <kbd>-</kbd> – (二分ダッシュ) | <kbd>=</kbd> ≒ (近似記号)    | <kbd>\\</kbd> ¥ (円記号)         |
-| <kbd>Q</kbd><kbd>Q</kbd> | <kbd>`</kbd> “ (開き引用符) | <kbd>1</kbd> ●       | <kbd>2</kbd> ▼                   | <kbd>3</kbd> ▲             | <kbd>4</kbd> ■                 | <kbd>5</kbd> ◆             | <kbd>6</kbd> ★             | <kbd>7</kbd> ◉             | <kbd>8</kbd> × (乗算記号) | <kbd>9</kbd> ｟ (全角丸括弧) | <kbd>0</kbd> ｠ (全角丸括弧) | <kbd>-</kbd> − (マイナス)     | <kbd>=</kbd> ≠ (否定等号)    | <kbd>\\</kbd> ± (プラスマイナス) |
-| <kbd>Q</kbd>             |                             | <kbd>Q</kbd> [記号]  | <kbd>W</kbd> ゠ (ダブルハイフン) | <kbd>E</kbd> 〃 (ノノ字点) | <kbd>R</kbd> 々 (同の字点)     | <kbd>T</kbd> ゝ (一の字点) | <kbd>Y</kbd> 〔 (亀甲括弧) | <kbd>U</kbd> 〕 (亀甲括弧) | <kbd>I</kbd> ° (度)       | <kbd>O</kbd> ′ (分)          | <kbd>P</kbd> ″ (秒)          | <kbd>[</kbd> 【 (隅付き括弧)  | <kbd>]</kbd> 】 (隅付き括弧) |                                  |
-| <kbd>Q</kbd><kbd>Q</kbd> |                             | <kbd>Q</kbd> {記号2} | <kbd>W</kbd> · (欧文中黒)        | <kbd>E</kbd> 仝 (同上記号) | <kbd>R</kbd> 〻 (二の字点)     | <kbd>T</kbd> ゞ (一の字点) | <kbd>Y</kbd> 〘 (亀甲括弧) | <kbd>U</kbd> 〙 (亀甲括弧) | <kbd>I</kbd> 〝 (爪括弧)  | <kbd>O</kbd> 〟 (爪括弧)     | <kbd>P</kbd>                 | <kbd>[</kbd> 〖 (隅付き括弧)  | <kbd>]</kbd> 〗 (隅付き括弧) |                                  |
-| <kbd>Q</kbd>             |                             | <kbd>A</kbd>         | <kbd>S</kbd> • (ビュレット)      | <kbd>D</kbd> 〆 (しめ)     | <kbd>F</kbd> 〳 (くの字点・上) | <kbd>G</kbd> ヽ (一の字点) | <kbd>H</kbd> ←             | <kbd>J</kbd> ↓             | <kbd>K</kbd> ↑            | <kbd>L</kbd> →               | <kbd>;</kbd> ： (全角)       | <kbd>'</kbd> ’ (閉じ引用符)   |                              |                                  |
-| <kbd>Q</kbd><kbd>Q</kbd> |                             | <kbd>A</kbd>         | <kbd>S</kbd> ◦ (ビュレット)      | <kbd>D</kbd> 〼 (ます)     | <kbd>F</kbd> 〴 (くの字点・上) | <kbd>G</kbd> ヾ (一の字点) | <kbd>H</kbd> ⇔            | <kbd>J</kbd> ⤵            | <kbd>K</kbd> ⤴           | <kbd>L</kbd> ⇒              | <kbd>;</kbd> ∶ (比)          | <kbd>'</kbd> ” (閉じ引用符)   |                              |                                  |
-| <kbd>Q</kbd>             |                             | <kbd>Z</kbd>         | <kbd>X</kbd> ﹅ (ゴマ)           | <kbd>C</kbd> 〽 (庵点)     | <kbd>V</kbd> 〵 (くの字点・下) | <kbd>B</kbd> 〱 (くの字点) | <kbd>N</kbd> 〈 (山括弧)   | <kbd>M</kbd> 〉 (山括弧)   | <kbd>,</kbd> — (ダッシュ) | <kbd>.</kbd> … (三点リーダ)  | <kbd>/</kbd> ／ (全角)       |                               |                              |                                  |
-| <kbd>Q</kbd><kbd>Q</kbd> |                             | <kbd>Z</kbd>         | <kbd>X</kbd> ﹆ (ゴマ)           | <kbd>C</kbd>               | <kbd>V</kbd>                   | <kbd>B</kbd> 〲 (くの字点) | <kbd>N</kbd> 《 (山括弧)   | <kbd>M</kbd> 》 (山括弧)   | <kbd>,</kbd> ≦ (不等号)   | <kbd>.</kbd> ≧ (不等号)     | <kbd>/</kbd> ÷ (除算記号)    |                               |                              |                                  |
+### 記号
 
-| 1                  | 2                  | 3                  | 4                  | 5                  | 6                  | 7                  | 8                                    | 9                                 | 0                                 |
-|:-------------------|:-------------------|:-------------------|:-------------------|:-------------------|:-------------------|:-------------------|:-------------------------------------|:----------------------------------|:----------------------------------|
-| <kbd>1</kbd> ○ / ● | <kbd>2</kbd> ▽ / ▼ | <kbd>3</kbd> △ / ▲ | <kbd>4</kbd> □ / ■ | <kbd>5</kbd> ◇ / ◆ | <kbd>6</kbd> ☆ / ★ | <kbd>7</kbd> ◎ / ◉ | <kbd>8</kbd> ※ (米印) / × (乗算記号) | <kbd>9</kbd> （ / ｟ (全角丸括弧) | <kbd>0</kbd> ） / ｠ (全角丸括弧) |
+| 前置キー                  | 左小指               | 左薬指                           | 左中指                     | 左人差指                       | 左人差指                   | 右人差指                   | 右人差指                     | 右中指                       | 右薬指                       | 右小指                           |                               |                                    |
+|:--------------------------|:---------------------|:---------------------------------|:---------------------------|:-------------------------------|:---------------------------|:---------------------------|:-----------------------------|:-----------------------------|:-----------------------------|:---------------------------------|:------------------------------|:-----------------------------------|
+| <kbd>Q</kbd>              | <kbd>1</kbd> ● (丸)  | <kbd>2</kbd> ▼ (逆三角)          | <kbd>3</kbd> ▲ (三角)      | <kbd>4</kbd> ■ (四角)          | <kbd>5</kbd> ◆ (菱形)      | <kbd>6</kbd> ★ (星)        | <kbd>7</kbd> ◎ (二重丸)      | <kbd>8</kbd> ※ (米印)        | <kbd>9</kbd> （ (全角丸括弧) | <kbd>0</kbd> ） (全角丸括弧)     | <kbd>-</kbd> – (二分ダッシュ) | <kbd>=</kbd> ≒ (近似等号)          |
+| <kbd>Q</kbd> <kbd>Q</kbd> | <kbd>1</kbd> ○ (丸)  | <kbd>2</kbd> ▽ (逆三角)          | <kbd>3</kbd> △ (三角)      | <kbd>4</kbd> □ (四角)          | <kbd>5</kbd> ◇ (菱形)      | <kbd>6</kbd> ☆ (星)        | <kbd>7</kbd> ◉ (蛇の目)      | <kbd>8</kbd> × (乗算記号)    | <kbd>9</kbd> ｟ (全角丸括弧) | <kbd>0</kbd> ｠ (全角丸括弧)     | <kbd>-</kbd> − (マイナス)     | <kbd>=</kbd> ≠ (等号否定)          |
+| <kbd>Q</kbd>              | <kbd>Q</kbd> [記号]  | <kbd>W</kbd> ゠ (ダブルハイフン) | <kbd>E</kbd> 〃 (ノノ字点) | <kbd>R</kbd> 々 (同の字点)     | <kbd>T</kbd> ゝ (一の字点) | <kbd>Y</kbd> 〔 (亀甲括弧) | <kbd>U</kbd> 〕 (亀甲括弧)   | <kbd>I</kbd> ° (度)          | <kbd>O</kbd> ′ (分)          | <kbd>P</kbd> ″ (秒)              | <kbd>[</kbd> 【 (隅付き括弧)  | <kbd>]</kbd> 】 (隅付き括弧)       |
+| <kbd>Q</kbd> <kbd>Q</kbd> | <kbd>Q</kbd>         | <kbd>W</kbd> · (欧文中黒)        | <kbd>E</kbd> 仝 (同上記号) | <kbd>R</kbd> 〻 (二の字点)     | <kbd>T</kbd> ゞ (一の字点) | <kbd>Y</kbd> 〘 (亀甲括弧) | <kbd>U</kbd> 〙 (亀甲括弧)   | <kbd>I</kbd> 〝 (爪括弧)     | <kbd>O</kbd> 〟 (爪括弧)     | <kbd>P</kbd> © (著作権記号)      | <kbd>[</kbd> 〖 (隅付き括弧)  | <kbd>]</kbd> 〗 (隅付き括弧)       |
+| <kbd>Q</kbd>              | <kbd>A</kbd>         | <kbd>S</kbd> • (ビュレット)      | <kbd>D</kbd> 〆 (しめ)     | <kbd>F</kbd> 〳 (くの字点・上) | <kbd>G</kbd> ヽ (一の字点) | <kbd>H</kbd> ← (矢印)      | <kbd>J</kbd> ↓ (矢印)        | <kbd>K</kbd> ↑ (矢印)        | <kbd>L</kbd> → (矢印)        | <kbd>;</kbd> ： (全角コロン)     | <kbd>'</kbd> ’ (閉じ引用符)   | <kbd>\\</kbd> ¥ (円記号)           |
+| <kbd>Q</kbd> <kbd>Q</kbd> | <kbd>A</kbd>         | <kbd>S</kbd> ◦ (ビュレット)      | <kbd>D</kbd> 〼 (ます)     | <kbd>F</kbd> 〴 (くの字点・上) | <kbd>G</kbd> ヾ (一の字点) | <kbd>H</kbd> ⇔ (同値)     | <kbd>J</kbd> ⤵ (曲がり矢印) | <kbd>K</kbd> ⤴ (曲がり矢印) | <kbd>L</kbd> ⇒ (ならば)     | <kbd>;</kbd> ® (登録商標記号)    | <kbd>'</kbd> ” (閉じ引用符)   | <kbd>\\</kbd> ± (プラスマイナス)   |
+| <kbd>Q</kbd>              | <kbd>Z</kbd>         | <kbd>X</kbd> ﹅ (ゴマ)           | <kbd>C</kbd> 〽 (庵点)     | <kbd>V</kbd> 〵 (くの字点・下) | <kbd>B</kbd> 〱 (くの字点) | <kbd>N</kbd> 〈 (山括弧)   | <kbd>M</kbd> 〉 (山括弧)     | <kbd>,</kbd> — (ダッシュ)    | <kbd>.</kbd> … (三点リーダ)  | <kbd>/</kbd> ／ (全角スラッシュ) | <kbd>`</kbd> ‘ (開き引用符)   | <kbd>Space</kbd> 　 (全角スペース) |
+| <kbd>Q</kbd> <kbd>Q</kbd> | <kbd>Z</kbd>         | <kbd>X</kbd> ﹆ (ゴマ)           | <kbd>C</kbd>               | <kbd>V</kbd>                   | <kbd>B</kbd> 〲 (くの字点) | <kbd>N</kbd> 《 (山括弧)   | <kbd>M</kbd> 》 (山括弧)     | <kbd>,</kbd> ≦ (不等号)      | <kbd>.</kbd> ≧ (不等号)     | <kbd>/</kbd> ÷ (除算記号)        | <kbd>`</kbd> “ (開き引用符)   | <kbd>Space</kbd> ␣ (空白記号)      |
 
-| ハイフンマイナス                             | イコール                                 | バックスラッシュ                              | グレーブアクセント              | ブラケット                        | ブラケット                        |
-|:---------------------------------------------|:-----------------------------------------|:----------------------------------------------|:--------------------------------|:----------------------------------|:----------------------------------|
-| <kbd>-</kbd> – (二分ダッシュ) / − (マイナス) | <kbd>=</kbd> ≒ (近似記号) / ≠ (否定等号) | <kbd>\\</kbd> ¥ (円記号) / ± (プラスマイナス) | <kbd>`</kbd> ‘ / “ (開き引用符) | <kbd>[</kbd> 【 / 〖 (隅付き括弧) | <kbd>]</kbd> 】 / 〗 (隅付き括弧) |
+</section>
 
-| セミコロン                      | アポストロフィ                  | カンマ                                 | ピリオド                                 | スラッシュ                            | スペース                                           |
-|:--------------------------------|:--------------------------------|:---------------------------------------|:-----------------------------------------|:--------------------------------------|:---------------------------------------------------|
-| <kbd>;</kbd> ： (全角) / ∶ (比) | <kbd>'</kbd> ’ / ” (閉じ引用符) | <kbd>,</kbd> — (ダッシュ) / ≦ (不等号) | <kbd>.</kbd> … (三点リーダ) / ≧ (不等号) | <kbd>/</kbd> ／ (全角) / ÷ (除算記号) | <kbd>Space</kbd> 　 (全角スペース) / ␣ (空白記号) |
+<section>
+
+### 1打目 (JIS配列)
+
+| 左小指              | 左薬指                 | 左中指                 | 左人差指                     | 左人差指                     | 右人差指            | 右人差指            | 右中指              | 右薬指              | 右小指              |                       |                          |                          |
+|:--------------------|:-----------------------|:-----------------------|:-----------------------------|:-----------------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:----------------------|:-------------------------|:-------------------------|
+| <kbd>Q</kbd> [記号] | <kbd>W</kbd> ・ (中黒) | <kbd>E</kbd> っ        | <kbd>R</kbd> ー (長音符)     | <kbd>T</kbd> 〜 (波ダッシュ) | <kbd>Y</kbd> [や行] | <kbd>U</kbd> [が行] | <kbd>I</kbd> [か行] | <kbd>O</kbd> [ら行] | <kbd>P</kbd> [ぱ行] | <kbd>@</kbd> [ヴァ行] | <kbd>[</kbd> 「 (鉤括弧) | <kbd>{</kbd> 『 (鉤括弧) |
+| <kbd>A</kbd> あ     | <kbd>S</kbd> お        | <kbd>D</kbd> え        | <kbd>F</kbd> う              | <kbd>G</kbd> い              | <kbd>H</kbd> [わ行] | <kbd>J</kbd> [だ行] | <kbd>K</kbd> [た行] | <kbd>L</kbd> [な行] | <kbd>;</kbd> [さ行] | <kbd>:</kbd> [ファ行] | <kbd>]</kbd> 」 (鉤括弧) | <kbd>}</kbd> 』 (鉤括弧) |
+| <kbd>Z</kbd> [小書] | <kbd>X</kbd> 。 (句点) | <kbd>C</kbd> 、 (読点) | <kbd>V</kbd> ？ (全角疑問符) | <kbd>B</kbd> ！ (全角感嘆符) | <kbd>N</kbd> ん     | <kbd>M</kbd> [ま行] | <kbd>,</kbd> [は行] | <kbd>.</kbd> [ば行] | <kbd>/</kbd> [ざ行] |                       |                          |                          |
+
+</section>
+
+<section>
+
+### ファ行 (JIS配列)
+
+| 前置キー     | 左小指              | 左薬指              | 左中指              | 左人差指            | 左人差指            | | 右人差指     | 右人差指     | 右中指       | 右薬指       | 右小指       | 右小指                |
+|:-------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|-|:-------------|:-------------|:-------------|:-------------|:-------------|:----------------------|
+| <kbd>:</kbd> | <kbd>Q</kbd> ファイ | <kbd>W</kbd> フォー | <kbd>E</kbd> フェイ | <kbd>R</kbd> フュー | <kbd>T</kbd> フィー | | <kbd>Y</kbd> | <kbd>U</kbd> | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd> | <kbd>@</kbd>          |
+| <kbd>:</kbd> | <kbd>A</kbd> ファ   | <kbd>S</kbd> フォ   | <kbd>D</kbd> フェ   | <kbd>F</kbd> フュ   | <kbd>G</kbd> フィ   | | <kbd>H</kbd> | <kbd>J</kbd> | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd> | <kbd>:</kbd> [ファ行] |
+| <kbd>:</kbd> | <kbd>Z</kbd> ファン | <kbd>X</kbd> フォン | <kbd>C</kbd> フェン | <kbd>V</kbd> フュン | <kbd>B</kbd> フィン | | <kbd>N</kbd> | <kbd>M</kbd> | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd> |                       |
+
+</section>
+
+<section>
+
+### ヴァ行 (JIS配列)
+
+| 前置キー                  | 左小指              | 左薬指              | 左中指              | 左人差指            | 左人差指            | 右人差指     | 右人差指          | 右中指       | 右薬指       | 右小指       | 右小指                |
+|:--------------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:-------------|:------------------|:-------------|:-------------|:-------------|:----------------------|
+| <kbd>@</kbd>              | <kbd>Q</kbd> ヴァイ | <kbd>W</kbd> ヴォー | <kbd>E</kbd> ヴェイ | <kbd>R</kbd> ヴュー | <kbd>T</kbd> ヴィー | <kbd>Y</kbd> | <kbd>U</kbd> {vy} | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd> | <kbd>@</kbd> [ヴァ行] |
+| <kbd>@</kbd>              | <kbd>A</kbd> ヴァ   | <kbd>S</kbd> ヴォ   | <kbd>D</kbd> ヴェ   | <kbd>F</kbd> ヴ     | <kbd>G</kbd> ヴィ   | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd> | <kbd>:</kbd>          |
+| <kbd>@</kbd> <kbd>U</kbd> | <kbd>A</kbd> ヷ     | <kbd>S</kbd> ヺ     | <kbd>D</kbd> ヹ     | <kbd>F</kbd> ヴュ   | <kbd>G</kbd> ヸ     | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd> | <kbd>:</kbd>          |
+| <kbd>@</kbd>              | <kbd>Z</kbd> ヴァン | <kbd>X</kbd> ヴォン | <kbd>C</kbd> ヴェン | <kbd>V</kbd> ヴン   | <kbd>B</kbd> ヴィン | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd> |                       |
+
+</section>
+
+<section>
+
+### 記号 (JIS配列)
+
+| 前置キー                  | 左小指               | 左薬指                           | 左中指                     | 左人差指                       | 左人差指                   | 右人差指                   | 右人差指                     | 右中指                       | 右薬指                       | 右小指                           |                                  |                                    |
+|:--------------------------|:---------------------|:---------------------------------|:---------------------------|:-------------------------------|:---------------------------|:---------------------------|:-----------------------------|:-----------------------------|:-----------------------------|:---------------------------------|:---------------------------------|:-----------------------------------|
+| <kbd>Q</kbd>              | <kbd>1</kbd> ● (丸)  | <kbd>2</kbd> ▼ (逆三角)          | <kbd>3</kbd> ▲ (三角)      | <kbd>4</kbd> ■ (四角)          | <kbd>5</kbd> ◆ (菱形)      | <kbd>6</kbd> ★ (星)        | <kbd>7</kbd> ◎ (二重丸)      | <kbd>8</kbd> ※ (米印)        | <kbd>9</kbd> （ (全角丸括弧) | <kbd>0</kbd> ） (全角丸括弧)     | <kbd>-</kbd> – (二分ダッシュ)    | <kbd>^</kbd> ≒ (近似等号)          |
+| <kbd>Q</kbd> <kbd>Q</kbd> | <kbd>1</kbd> ○ (丸)  | <kbd>2</kbd> ▽ (逆三角)          | <kbd>3</kbd> △ (三角)      | <kbd>4</kbd> □ (四角)          | <kbd>5</kbd> ◇ (菱形)      | <kbd>6</kbd> ☆ (星)        | <kbd>7</kbd> ◉ (蛇の目)      | <kbd>8</kbd> × (乗算記号)    | <kbd>9</kbd> ｟ (全角丸括弧) | <kbd>0</kbd> ｠ (全角丸括弧)     | <kbd>-</kbd> − (マイナス)        | <kbd>^</kbd> ≠ (等号否定)          |
+| <kbd>Q</kbd>              | <kbd>Q</kbd> [記号]  | <kbd>W</kbd> ゠ (ダブルハイフン) | <kbd>E</kbd> 〃 (ノノ字点) | <kbd>R</kbd> 々 (同の字点)     | <kbd>T</kbd> ゝ (一の字点) | <kbd>Y</kbd> 〔 (亀甲括弧) | <kbd>U</kbd> 〕 (亀甲括弧)   | <kbd>I</kbd> ° (度)          | <kbd>O</kbd> ′ (分)          | <kbd>P</kbd> ″ (秒)              | <kbd>@</kbd> ‘ (開き引用符)      | <kbd>[</kbd> 【 (隅付き括弧)       |
+| <kbd>Q</kbd> <kbd>Q</kbd> | <kbd>Q</kbd>         | <kbd>W</kbd> · (欧文中黒)        | <kbd>E</kbd> 仝 (同上記号) | <kbd>R</kbd> 〻 (二の字点)     | <kbd>T</kbd> ゞ (一の字点) | <kbd>Y</kbd> 〘 (亀甲括弧) | <kbd>U</kbd> 〙 (亀甲括弧)   | <kbd>I</kbd> 〝 (爪括弧)     | <kbd>O</kbd> 〟 (爪括弧)     | <kbd>P</kbd> © (著作権記号)      | <kbd>@</kbd> “ (開き引用符)      | <kbd>[</kbd> 〖 (隅付き括弧)       |
+| <kbd>Q</kbd>              | <kbd>A</kbd>         | <kbd>S</kbd> • (ビュレット)      | <kbd>D</kbd> 〆 (しめ)     | <kbd>F</kbd> 〳 (くの字点・上) | <kbd>G</kbd> ヽ (一の字点) | <kbd>H</kbd> ← (矢印)      | <kbd>J</kbd> ↓ (矢印)        | <kbd>K</kbd> ↑ (矢印)        | <kbd>L</kbd> → (矢印)        | <kbd>;</kbd> ： (全角コロン)     | <kbd>:</kbd> ’ (閉じ引用符)      | <kbd>]</kbd> 】 (隅付き括弧)       |
+| <kbd>Q</kbd> <kbd>Q</kbd> | <kbd>A</kbd>         | <kbd>S</kbd> ◦ (ビュレット)      | <kbd>D</kbd> 〼 (ます)     | <kbd>F</kbd> 〴 (くの字点・上) | <kbd>G</kbd> ヾ (一の字点) | <kbd>H</kbd> ⇔ (同値)     | <kbd>J</kbd> ⤵ (曲がり矢印) | <kbd>K</kbd> ⤴ (曲がり矢印) | <kbd>L</kbd> ⇒ (ならば)     | <kbd>;</kbd> ® (登録商標記号)    | <kbd>:</kbd> ” (閉じ引用符)      | <kbd>]</kbd> 〗 (隅付き括弧)       |
+| <kbd>Q</kbd>              | <kbd>Z</kbd>         | <kbd>X</kbd> ﹅ (ゴマ)           | <kbd>C</kbd> 〽 (庵点)     | <kbd>V</kbd> 〵 (くの字点・下) | <kbd>B</kbd> 〱 (くの字点) | <kbd>N</kbd> 〈 (山括弧)   | <kbd>M</kbd> 〉 (山括弧)     | <kbd>,</kbd> — (ダッシュ)    | <kbd>.</kbd> … (三点リーダ)  | <kbd>/</kbd> ／ (全角スラッシュ) | <kbd>\\</kbd> ¥ (円記号)         | <kbd>Space</kbd> 　 (全角スペース) |
+| <kbd>Q</kbd> <kbd>Q</kbd> | <kbd>Z</kbd>         | <kbd>X</kbd> ﹆ (ゴマ)           | <kbd>C</kbd>               | <kbd>V</kbd>                   | <kbd>B</kbd> 〲 (くの字点) | <kbd>N</kbd> 《 (山括弧)   | <kbd>M</kbd> 》 (山括弧)     | <kbd>,</kbd> ≦ (不等号)      | <kbd>.</kbd> ≧ (不等号)     | <kbd>/</kbd> ÷ (除算記号)        | <kbd>\\</kbd> ± (プラスマイナス) | <kbd>Space</kbd> ␣ (空白記号)      |
+
+</section>
 
 ### libskk 用機能キー
 
