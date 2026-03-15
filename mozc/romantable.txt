@@ -562,6 +562,12 @@ qs	•
 qqs	◦
 qx	﹅
 qqx	﹆
+q-	—
+qq-	–
+q,	‥
+qq,	≦
+q.	…
+qq.	≧
 [	「
 ]	」
 {	『
@@ -624,8 +630,8 @@ qj	↓
 qqj	⤵
 qk	↑
 qqk	⤴
-q-	–
-qq-	−
+qb	✓
+qqb	−
 q\	¥
 qq\	±
 q8	※
@@ -634,10 +640,6 @@ q/	／
 qq/	÷
 q=	≒
 qq=	≠
-q,	—
-qq,	≦
-q.	…
-qq.	≧
 qd	〆
 qqd	〼
 q;	：
@@ -650,5 +652,3 @@ qz	†
 qqz	‡
 qc	©
 qqc	®
-qb	✓
-qqb	⦿

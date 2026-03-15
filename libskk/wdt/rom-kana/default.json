@@ -577,6 +577,12 @@
             "qqs":  ["", "◦"],                  /* U+25E6 WHITE BULLET                                              [1-3-31] 白ビュレット */
             "qx":   ["", "﹅"],                 /* U+FE45 SESAME DOT                                                [1-3-30] ゴマ */
             "qqx":  ["", "﹆"],                 /* U+FE46 WHITE SESAME DOT                                          [1-3-29] 白ゴマ */
+            "q-":   ["", "—"],                  /* U+2014 EM DASH                                                   [1-1-29] ダッシュ（全角） */
+            "qq-":  ["", "–"],                  /* U+2013 EN DASH                                                   [1-3-92] 二分ダーシ/ダッシュ（二分） */
+            "q,":   ["", "‥"],                 /* U+2025 TWO DOT LEADER                                            [1-1-37] 二点リーダ */
+            "qq,":  ["", "≦"],                  /* U+2266 LESS-THAN OVER EQUAL TO                                   [1-1-69] より小さいか又は等しい */
+            "q.":   ["", "…"],                  /* U+2026 HORIZONTAL ELLIPSIS                                       [1-1-36] 三点リーダ */
+            "qq.":  ["", "≧"],                  /* U+2267 GREATER-THAN OVER EQUAL TO                                [1-1-70] より大きいか又は等しい */
             "[":    ["", "「"],                 /* U+300C LEFT CORNER BRACKET                                       [1-1-54] 始めかぎ括弧 */
             "]":    ["", "」"],                 /* U+300D RIGHT CORNER BRACKET                                      [1-1-55] 終わりかぎ括弧 */
             "{":    ["", "『"],                 /* U+300E LEFT WHITE CORNER BRACKET                                 [1-1-56] 始め二重かぎ括弧 */
@@ -632,15 +638,15 @@
             "q7":   ["", "◎"],                  /* U+25CE BULLSEYE                                                  [1-1-93] 二重丸 */
             "qq7":  ["", "◉"],                  /* U+25C9 FISHEYE                                                   [1-3-27] 蛇の目 */
             "qh":   ["", "←"],                  /* U+2190 LEFTWARDS ARROW                                           [1-2-11] 左向矢印 */
-            "qqh":  ["", "⇔"],                 /* U+21D4 LEFT RIGHT DOUBLE ARROW                                   [1-2-46] 同値 */
+            "qqh":  ["", "⇔"],                  /* U+21D4 LEFT RIGHT DOUBLE ARROW                                   [1-2-46] 同値 */
             "ql":   ["", "→"],                  /* U+2192 RIGHTWARDS ARROW                                          [1-2-10] 右向矢印 */
-            "qql":  ["", "⇒"],                 /* U+21D2 RIGHTWARDS DOUBLE ARROW                                   [1-2-45] ならば（含意） */
+            "qql":  ["", "⇒"],                  /* U+21D2 RIGHTWARDS DOUBLE ARROW                                   [1-2-45] ならば（含意） */
             "qj":   ["", "↓"],                  /* U+2193 DOWNWARDS ARROW                                           [1-2-13] 下向矢印 */
             "qqj":  ["", "⤵"],                 /* U+2935 ARROW POINTING RIGHTWARDS THEN CURVING DOWNWARDS          [1-3-15] 曲がり矢印下がる */
             "qk":   ["", "↑"],                  /* U+2191 UPWARDS ARROW                                             [1-2-12] 上向矢印 */
             "qqk":  ["", "⤴"],                 /* U+2934 ARROW POINTING RIGHTWARDS THEN CURVING UPWARDS            [1-3-14] 曲がり矢印上がる */
-            "q-":   ["", "–"],                  /* U+2013 EN DASH                                                   [1-3-92] 二分ダーシ/ダッシュ（二分） */
-            "qq-":  ["", "−"],                  /* U+2212 MINUS SIGN                                                [1-1-61] 負符号/減算記号 */
+            "qb":   ["", "✓"],                  /* U+2713 CHECK MARK                                                [1-7-91] チェックマーク */
+            "qqb":  ["", "−"],                  /* U+2212 MINUS SIGN                                                [1-1-61] 負符号/減算記号 */
             "q\\":  ["", "¥"],                  /* U+00A5 YEN SIGN                                                  [1-1-79] 円記号 */
             "qq\\": ["", "±"],                  /* U+00B1 PLUS-MINUS SIGN                                           [1-1-62] 正又は負符号 */
             "q8":   ["", "※"],                  /* U+203B REFERENCE MARK                                            [1-2-8]  米印 */
@@ -649,10 +655,6 @@
             "qq/":  ["", "÷"],                  /* U+00F7 DIVISION SIGN                                             [1-1-64] 除算記号 */
             "q=":   ["", "≒"],                  /* U+2252 APPROXIMATELY EQUAL TO OR THE IMAGE OF                    [1-2-66] ほとんど等しい */
             "qq=":  ["", "≠"],                  /* U+2260 NOT EQUAL TO                                              [1-1-66] 等号否定 */
-            "q,":   ["", "—"],                  /* U+2014 EM DASH                                                   [1-1-29] ダッシュ（全角） */
-            "qq,":  ["", "≦"],                  /* U+2266 LESS-THAN OVER EQUAL TO                                   [1-1-69] より小さいか又は等しい */
-            "q.":   ["", "…"],                  /* U+2026 HORIZONTAL ELLIPSIS                                       [1-1-36] 三点リーダ */
-            "qq.":  ["", "≧"],                  /* U+2267 GREATER-THAN OVER EQUAL TO                                [1-1-70] より大きいか又は等しい */
             "qd":   ["", "〆"],                 /* U+3006 IDEOGRAPHIC CLOSING MARK                                  [1-1-26] しめ（締記号） */
             "qqd":  ["", "〼"],                 /* U+303C MASU MARK                                                 [1-2-23] ます記号 */
             "q;":   ["", "："],                 /* U+FF1A FULLWIDTH COLON                                           [1-1-7]  コロン（全角） */
@@ -665,8 +667,6 @@
             "qqz":  ["", "‡"],                  /* U+2021 DOUBLE DAGGER                                             [1-2-88] ダブルダガー */
             "qc":   ["", "©"],                  /* U+00A9 COPYRIGHT SIGN                                            [1-9-6]  著作権表示記号 */
             "qqc":  ["", "®"],                  /* U+00AE REGISTERED SIGN                                           [1-9-10] 登録商標記号 */
-            "qb":   ["", "✓"],                 /* U+2713 CHECK MARK                                                [1-7-91] チェックマーク */
-            "qqb":  ["", "⦿"],                 /* U+29BF CIRCLED BULLET                                            [1-3-26] 丸中黒 */
             "q ":   ["", "　"],                 /* U+3000 IDEOGRAPHIC SPACE                                         [1-1-1]  和字間隔 */
             "qq ":  ["", "␣"]                   /* U+2423 OPEN BOX                                                  [1-7-93] 空白記号 */
         }
