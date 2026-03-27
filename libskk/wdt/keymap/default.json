@@ -3,6 +3,7 @@
     ],
     "define": {
         "keymap": {
+            /* xmodmap -pke  or  xev */  
             "Henkan": "set-input-mode-hiragana",
             "C-Henkan": "start-preedit",
             "A-Henkan": "special-midasi",

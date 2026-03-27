@@ -10,6 +10,7 @@
             "\t": "complete",
             " ": "next-candidate",
             "b": "previous-candidate",
+            "Multi_key": "previous-candidate", /* Pause */
             "Delete": "purge-candidate",
             "C-d": "purge-candidate"
         }
