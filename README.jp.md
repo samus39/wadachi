@@ -9,7 +9,7 @@ css: |-
   section { break-inside: avoid; }
 ---
 
-# 拡張ローマ字入力方式「わだち式」
+# 拡張ローマ字入力方式「轍式」
 
 ## 設計方針
 
@@ -60,26 +60,29 @@ gACT10 をベースに、以下を変更する。
 
 ## 入力規則
 
+キー配列に基づいた盤面表では、表の記載の関係上、一部の記号キーは実際の配列からずれて記載している場合がある。
+
+平仮名で記載されている場合と片仮名で記載されている場合があるが、両者に特に区別は無く、いずれも入力モードによって平仮名も片仮名も入力可能である。
+
 ### 直音・撥音・促音
 
-母音キーを左手側、子音キーを右手側に分け、右手と左手の交互打鍵になるように配置する。
-各キーの配置は以下の図のようになっている。なお、通常の英語配列キーボードでは <kbd>-</kbd> キーは数字キーの段にあるが、図では <kbd>Q</kbd> キーと同じ段に記載している。
+- 母音キーを左手側、子音キーを右手側に分け、右手と左手の交互打鍵になるように配置する。
+- 撥音「ん」は [な行] の連続入力ではなく、単独キー <kbd>N</kbd> に割り当てる。
+- 促音「っ」も子音の連続入力ではなく、単独キー <kbd>E</kbd> に割り当てる。
 
-| 左小指          | 左薬指          | 左中指          | 左人差指        | 左人差指        | 右人差指            | 右人差指            | 右中指              | 右薬指              | 右小指              | 右小指                |
+| 左小指          | 左薬指          | 左中指          | 左人差指        | 左人差指        | 右人差指            | 右人差指            | 右中指              | 右薬指              | 右小指              |                       |
 |:----------------|:----------------|:----------------|:----------------|:----------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:----------------------|
 | <kbd>Q</kbd>    | <kbd>W</kbd>    | <kbd>E</kbd> っ | <kbd>R</kbd>    | <kbd>T</kbd>    | <kbd>Y</kbd> [や行] | <kbd>U</kbd> [が行] | <kbd>I</kbd> [か行] | <kbd>O</kbd> [ら行] | <kbd>P</kbd> [ぱ行] | <kbd>-</kbd> [ヴァ行] |
 | <kbd>A</kbd> -a | <kbd>S</kbd> -o | <kbd>D</kbd> -e | <kbd>F</kbd> -u | <kbd>G</kbd> -i | <kbd>H</kbd> [わ行] | <kbd>J</kbd> [だ行] | <kbd>K</kbd> [た行] | <kbd>L</kbd> [な行] | <kbd>;</kbd> [さ行] | <kbd>'</kbd> [ファ行] |
 | <kbd>Z</kbd>    | <kbd>X</kbd>    | <kbd>C</kbd>    | <kbd>V</kbd>    | <kbd>B</kbd>    | <kbd>N</kbd> ん     | <kbd>M</kbd> [ま行] | <kbd>,</kbd> [は行] | <kbd>.</kbd> [ば行] | <kbd>/</kbd> [ざ行] |                       |
 
-撥音「ん」は [な行] の連続入力ではなく、単独キー <kbd>N</kbd> に割り当てる。
-促音「っ」も子音の連続入力ではなく、単独キー <kbd>E</kbd> に割り当てる。
-
-- や行
-  - い段の割り当ては無い。
-- わ行
-  - う段の割り当ては無い。
-- ファ行
-  - う段は「フ」ではなく「フュ」とする。
+- 特殊な行
+  - や行
+    - い段の割り当ては無い。
+  - わ行
+    - う段の割り当ては無い。
+  - ファ行
+    - う段は「フ」ではなく「フュ」とする。
 
 |                                   キー | 文字            |                                   キー | 文字            |                                   キー | 文字            |                                   キー | 文字            |                                   キー | 文字            |
 |---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|
@@ -104,11 +107,10 @@ gACT10 をベースに、以下を変更する。
 
 ### 拗音
 
-子音キーを押した後、同じ段の人差し指のキーを押してから母音キーを押すと拗音が入力される。
-
-- か行、ぱ行、ら行 → <kbd>U</kbd>
-- さ行、た行、な行 → <kbd>J</kbd>
-- ざ行、は行、ば行 → <kbd>M</kbd>
+- 子音キーを押した後、同じ段の人差し指のキーを押してから母音キーを押すと拗音となる。
+  - か行、ぱ行、ら行 → <kbd>U</kbd>
+  - さ行、た行、な行 → <kbd>J</kbd>
+  - ざ行、は行、ば行 → <kbd>M</kbd>
 
 | 右人差指                | 右中指              | 右薬指              | 右小指              |
 |:------------------------|:--------------------|:--------------------|:--------------------|
@@ -116,11 +118,10 @@ gACT10 をベースに、以下を変更する。
 | <kbd>J</kbd> {ty/ny/sy} | <kbd>K</kbd> [た行] | <kbd>L</kbd> [な行] | <kbd>;</kbd> [さ行] |
 | <kbd>M</kbd> {hy/by/zy} | <kbd>,</kbd> [は行] | <kbd>.</kbd> [ば行] | <kbd>/</kbd> [ざ行] |
 
-子音キーが人差し指のキーの場合は、同じ段の薬指のキーを使う。
-
-- が行 → <kbd>O</kbd>
-- だ行 → <kbd>J</kbd>
-- ま行 → <kbd>M</kbd>
+- 子音キーが人差し指のキーの場合は、同じ段の薬指のキーを使う。
+  - が行 → <kbd>O</kbd>
+  - だ行 → <kbd>J</kbd>
+  - ま行 → <kbd>M</kbd>
 
 | 右人差指                | 右中指              | 右薬指              | 右小指              |
 |:------------------------|:--------------------|:--------------------|:--------------------|
@@ -128,7 +129,7 @@ gACT10 をベースに、以下を変更する。
 | <kbd>J</kbd> [だ行]     | <kbd>K</kbd>        | <kbd>L</kbd> {dy}   | <kbd>;</kbd>        |
 | <kbd>M</kbd> [ま行]     | <kbd>,</kbd>        | <kbd>.</kbd> {my}   | <kbd>/</kbd>        |
 
-拗音は全て「-iゃ」「-iぃ」「-iゅ」「-iぇ」「-iょ」に変化する。
+- 拗音は全て「-iゃ」「-iぃ」「-iゅ」「-iぇ」「-iょ」となる。
 
 |                                   キー | 文字            |                                   キー | 文字            |                                   キー | 文字            |                                   キー | 文字            |                                   キー | 文字            |
 |---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|
@@ -147,27 +148,27 @@ gACT10 をベースに、以下を変更する。
 
 ### 外来語用拗音・旧仮名
 
-外来語で使用する特殊な拗音（「ティ」等）は、子音キーの下もしくは上のキーを押してから母音キーを押す。
+- 外来語で使用する特殊な拗音（「ティ」等）は、子音キーの下もしくは上のキーを押してから母音キーを押す。
+- わ行、ヴァ行の旧仮名についても、子音キーの下のキーを使う。ヴァ行のみ例外で <kbd>U</kbd> とする（小指の連続は押しにくいため）。
 
-わ行、ヴァ行の旧仮名についても、子音キーの下のキーを使う。ヴァ行のみ例外で <kbd>U</kbd> とする（小指の連続は押しにくいため）。
-
-| 右人差指            | 右人差指            | 右中指              | 右薬指       | 右小指       | 右小指                |
+| 右人差指            | 右人差指            | 右中指              | 右薬指       | 右小指       |                       |
 |:--------------------|:--------------------|:--------------------|:-------------|:-------------|:----------------------|
 | <kbd>Y</kbd>        | <kbd>U</kbd> [が行] | <kbd>I</kbd> [か行] | <kbd>O</kbd> | <kbd>P</kbd> | <kbd>-</kbd>          |
 | <kbd>H</kbd>        | <kbd>J</kbd> {gw}   | <kbd>K</kbd> {kw}   | <kbd>L</kbd> | <kbd>;</kbd> | <kbd>'</kbd>          |
 | <kbd>N</kbd>        | <kbd>M</kbd>        | <kbd>,</kbd>        | <kbd>.</kbd> | <kbd>/</kbd> |                       |
 
-| 右人差指            | 右人差指            | 右中指              | 右薬指       | 右小指       | 右小指                |
+| 右人差指            | 右人差指            | 右中指              | 右薬指       | 右小指       |                       |
 |:--------------------|:--------------------|:--------------------|:-------------|:-------------|:----------------------|
 | <kbd>Y</kbd>        | <kbd>U</kbd> {vy}   | <kbd>I</kbd> {ts}   | <kbd>O</kbd> | <kbd>P</kbd> | <kbd>-</kbd> [ヴァ行] |
 | <kbd>H</kbd> [わ行] | <kbd>J</kbd> [だ行] | <kbd>K</kbd> [た行] | <kbd>L</kbd> | <kbd>;</kbd> | <kbd>'</kbd>          |
 | <kbd>N</kbd> {wh}   | <kbd>M</kbd> {dh}   | <kbd>,</kbd> {th}   | <kbd>.</kbd> | <kbd>/</kbd> |                       |
 
-- わ行
-  - 「わ」「を」は「ウァ」「ウォ」となる。
-- ヴァ行
-  - 「ヴ」は「ヴュ」となる。
-  - 「ヴ」以外は濁点付きワ行（片仮名のみ）となる。
+- 特殊な行
+  - わ行
+    - 「わ」「を」は「ウァ」「ウォ」となる。
+  - ヴァ行
+    - 「ヴ」は「ヴュ」となる。
+    - 「ヴ」以外は濁点付きワ行（片仮名のみ）となる。
 
 |                                   キー | 文字            |                                   キー | 文字            |                                   キー | 文字            |                                   キー | 文字            |                                   キー | 文字            |
 |---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|
@@ -181,8 +182,8 @@ gACT10 をベースに、以下を変更する。
 
 ### 撥音拡張
 
-子音キーの後、母音キーの代わりにその下の段のキーを押すと、続いて撥音「ん」が出力される（「か」→ <kbd>I</kbd> <kbd>A</kbd>、「かん」→ <kbd>I</kbd> <kbd>Z</kbd>）。
-ただし、子音を使わず母音だけの場合、撥音拡張はできないため、単独で撥音を入力する必要がある（「あん」→ <kbd>A</kbd> <kbd>N</kbd>）。
+- 子音キーの後、母音キーの代わりにその下の段のキーを押すと、続いて撥音「ん」が入力される（「か」→ <kbd>I</kbd> <kbd>A</kbd>、「かん」→ <kbd>I</kbd> <kbd>Z</kbd>）。
+- ただし、子音を使わず母音だけの場合、撥音拡張はできないため、単独で撥音を入力する必要がある（「あん」→ <kbd>A</kbd> <kbd>N</kbd>）。
 
 | 左小指            | 左薬指            | 左中指            | 左人差指          | 左人差指          |
 |:------------------|:------------------|:------------------|:------------------|:------------------|
@@ -190,10 +191,7 @@ gACT10 をベースに、以下を変更する。
 | <kbd>A</kbd> -a   | <kbd>S</kbd> -o   | <kbd>D</kbd> -e   | <kbd>F</kbd> -u   | <kbd>G</kbd> -i   |
 | <kbd>Z</kbd> -aん | <kbd>X</kbd> -oん | <kbd>C</kbd> -eん | <kbd>V</kbd> -uん | <kbd>B</kbd> -iん |
 
-わ行、ヴァ行の旧仮名に対する撥音拡張は無い。
-
-- わ行
-  - 「を」は「ウォ」となる。
+- わ行、ヴァ行の旧仮名に対する撥音拡張は無い。
 
 |                                   キー | 文字            |                                   キー | 文字            |                                   キー | 文字            |                                   キー | 文字            |                                   キー | 文字            |
 |---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|
@@ -210,7 +208,7 @@ gACT10 をベースに、以下を変更する。
 |              <kbd>M</kbd> <kbd>Z</kbd> | まん / マン     |              <kbd>M</kbd> <kbd>B</kbd> | みん / ミン     |              <kbd>M</kbd> <kbd>V</kbd> | むん / ムン     |              <kbd>M</kbd> <kbd>C</kbd> | めん / メン     |              <kbd>M</kbd> <kbd>X</kbd> | もん / モン     |
 |              <kbd>Y</kbd> <kbd>Z</kbd> | やん / ヤン     |                                        |                 |              <kbd>Y</kbd> <kbd>V</kbd> | ゆん / ユン     |              <kbd>Y</kbd> <kbd>C</kbd> | いぇん / イェン |              <kbd>Y</kbd> <kbd>X</kbd> | よん / ヨン     |
 |              <kbd>O</kbd> <kbd>Z</kbd> | らん / ラン     |              <kbd>O</kbd> <kbd>B</kbd> | りん / リン     |              <kbd>O</kbd> <kbd>V</kbd> | るん / ルン     |              <kbd>O</kbd> <kbd>C</kbd> | れん / レン     |              <kbd>O</kbd> <kbd>X</kbd> | ろん / ロン     |
-|              <kbd>H</kbd> <kbd>Z</kbd> | わん / ワン     |              <kbd>H</kbd> <kbd>B</kbd> | うぃん / ウィン |                                        |                 |              <kbd>H</kbd> <kbd>C</kbd> | うぇん / ウェン |              <kbd>H</kbd> <kbd>X</kbd> | うぉん / ウォン |
+|              <kbd>H</kbd> <kbd>Z</kbd> | わん / ワン     |              <kbd>H</kbd> <kbd>B</kbd> | うぃん / ウィン |                                        |                 |              <kbd>H</kbd> <kbd>C</kbd> | うぇん / ウェン |              <kbd>H</kbd> <kbd>X</kbd> | をん / ヲン     |
 |              <kbd>'</kbd> <kbd>Z</kbd> | ふぁん / ファン |              <kbd>'</kbd> <kbd>B</kbd> | ふぃん / フィン |              <kbd>'</kbd> <kbd>V</kbd> | ふゅん / フュン |              <kbd>'</kbd> <kbd>C</kbd> | ふぇん / フェン |              <kbd>'</kbd> <kbd>X</kbd> | ふぉん / フォン |
 |              <kbd>-</kbd> <kbd>Z</kbd> | ゔぁん / ヴァン |              <kbd>-</kbd> <kbd>B</kbd> | ゔぃん / ヴィン |              <kbd>-</kbd> <kbd>V</kbd> | ゔん / ヴン     |              <kbd>-</kbd> <kbd>C</kbd> | ゔぇん / ヴェン |              <kbd>-</kbd> <kbd>X</kbd> | ゔぉん / ヴォン |
 | <kbd>I</kbd> <kbd>U</kbd> <kbd>Z</kbd> | きゃん / キャン | <kbd>I</kbd> <kbd>U</kbd> <kbd>B</kbd> | きぃん / キィン | <kbd>I</kbd> <kbd>U</kbd> <kbd>V</kbd> | きゅん / キュン | <kbd>I</kbd> <kbd>U</kbd> <kbd>C</kbd> | きぇん / キェン | <kbd>I</kbd> <kbd>U</kbd> <kbd>X</kbd> | きょん / キョン |
@@ -230,8 +228,61 @@ gACT10 をベースに、以下を変更する。
 | <kbd>K</kbd> <kbd>,</kbd> <kbd>Z</kbd> | てゃん / テャン | <kbd>K</kbd> <kbd>,</kbd> <kbd>B</kbd> | てぃん / ティン | <kbd>K</kbd> <kbd>,</kbd> <kbd>V</kbd> | てゅん / テュン | <kbd>K</kbd> <kbd>,</kbd> <kbd>C</kbd> | てぇん / テェン | <kbd>K</kbd> <kbd>,</kbd> <kbd>X</kbd> | とぅん / トゥン |
 | <kbd>K</kbd> <kbd>I</kbd> <kbd>Z</kbd> | つぁん / ツァン | <kbd>K</kbd> <kbd>I</kbd> <kbd>B</kbd> | つぃん / ツィン | <kbd>K</kbd> <kbd>I</kbd> <kbd>V</kbd> | つぅん / ツゥン | <kbd>K</kbd> <kbd>I</kbd> <kbd>C</kbd> | つぇん / ツェン | <kbd>K</kbd> <kbd>I</kbd> <kbd>X</kbd> | つぉん / ツォン |
 | <kbd>J</kbd> <kbd>M</kbd> <kbd>Z</kbd> | でゃん / デャン | <kbd>J</kbd> <kbd>M</kbd> <kbd>B</kbd> | でぃん / ディン | <kbd>J</kbd> <kbd>M</kbd> <kbd>V</kbd> | でゅん / デュン | <kbd>J</kbd> <kbd>M</kbd> <kbd>C</kbd> | でぇん / デェン | <kbd>J</kbd> <kbd>M</kbd> <kbd>X</kbd> | どぅん / ドゥン |
+| <kbd>H</kbd> <kbd>N</kbd> <kbd>Z</kbd> | うぁん / ウァン |                                        |                 |                                        |                 |                                        |                 | <kbd>H</kbd> <kbd>N</kbd> <kbd>X</kbd> | うぉん / ウォン |
+|                                        |                 |                                        |                 | <kbd>-</kbd> <kbd>U</kbd> <kbd>V</kbd> | ゔゅん / ヴュン |                                        |                 |                                        |                 |
 
-### 二重母音拡張
+### 促音拡張
+
+- 子音キーの後、母音キーの代わりにその上の段のキーを押すと、続いて促音「っ」が入力される（「か」→ <kbd>I</kbd> <kbd>A</kbd>、「かっ」→ <kbd>I</kbd> <kbd>Z</kbd>）。
+- ただし、子音を使わず母音だけの場合、促音拡張はできないため、単独で促音を入力する必要がある（「あっ」→ <kbd>A</kbd> <kbd>E</kbd>）。
+
+| 左小指            | 左薬指            | 左中指            | 左人差指          | 左人差指          |
+|:------------------|:------------------|:------------------|:------------------|:------------------|
+| <kbd>Q</kbd> -aっ | <kbd>W</kbd> -oっ | <kbd>E</kbd> -eっ | <kbd>R</kbd> -uっ | <kbd>T</kbd> -iっ |
+| <kbd>A</kbd> -a   | <kbd>S</kbd> -o   | <kbd>D</kbd> -e   | <kbd>F</kbd> -u   | <kbd>G</kbd> -i   |
+| <kbd>Z</kbd>      | <kbd>X</kbd>      | <kbd>C</kbd>      | <kbd>V</kbd>      | <kbd>B</kbd>      |
+
+- わ行、ヴァ行の旧仮名に対する促音拡張は無い。
+
+|                                   キー | 文字            |                                   キー | 文字            |                                   キー | 文字            |                                   キー | 文字            |                                   キー | 文字            |
+|---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|---------------------------------------:|:---------------:|
+|              <kbd>I</kbd> <kbd>Q</kbd> | かっ / カッ     |              <kbd>I</kbd> <kbd>T</kbd> | きっ / キッ     |              <kbd>I</kbd> <kbd>R</kbd> | くっ / クッ     |              <kbd>I</kbd> <kbd>E</kbd> | けっ / ケッ     |              <kbd>I</kbd> <kbd>W</kbd> | こっ / コッ     |
+|              <kbd>U</kbd> <kbd>Q</kbd> | がっ / ガッ     |              <kbd>U</kbd> <kbd>T</kbd> | ぎっ / ギッ     |              <kbd>U</kbd> <kbd>R</kbd> | ぐっ / グッ     |              <kbd>U</kbd> <kbd>E</kbd> | げっ / ゲッ     |              <kbd>U</kbd> <kbd>W</kbd> | ごっ / ゴッ     |
+|              <kbd>;</kbd> <kbd>Q</kbd> | さっ / サッ     |              <kbd>;</kbd> <kbd>T</kbd> | しっ / シッ     |              <kbd>;</kbd> <kbd>R</kbd> | すっ / スッ     |              <kbd>;</kbd> <kbd>E</kbd> | せっ / セッ     |              <kbd>;</kbd> <kbd>W</kbd> | そっ / ソッ     |
+|              <kbd>/</kbd> <kbd>Q</kbd> | ざっ / ザッ     |              <kbd>/</kbd> <kbd>T</kbd> | じっ / ジッ     |              <kbd>/</kbd> <kbd>R</kbd> | ずっ / ズッ     |              <kbd>/</kbd> <kbd>E</kbd> | ぜっ / ゼッ     |              <kbd>/</kbd> <kbd>W</kbd> | ぞっ / ゾッ     |
+|              <kbd>K</kbd> <kbd>Q</kbd> | たっ / タッ     |              <kbd>K</kbd> <kbd>T</kbd> | ちっ / チッ     |              <kbd>K</kbd> <kbd>R</kbd> | つっ / ツッ     |              <kbd>K</kbd> <kbd>E</kbd> | てっ / テッ     |              <kbd>K</kbd> <kbd>W</kbd> | とっ / トッ     |
+|              <kbd>J</kbd> <kbd>Q</kbd> | だっ / ダッ     |              <kbd>J</kbd> <kbd>T</kbd> | ぢっ / ヂッ     |              <kbd>J</kbd> <kbd>R</kbd> | づっ / ヅッ     |              <kbd>J</kbd> <kbd>E</kbd> | でっ / デッ     |              <kbd>J</kbd> <kbd>W</kbd> | どっ / ドッ     |
+|              <kbd>L</kbd> <kbd>Q</kbd> | なっ / ナッ     |              <kbd>L</kbd> <kbd>T</kbd> | にっ / ニッ     |              <kbd>L</kbd> <kbd>R</kbd> | ぬっ / ヌッ     |              <kbd>L</kbd> <kbd>E</kbd> | ねっ / ネッ     |              <kbd>L</kbd> <kbd>W</kbd> | のっ / ノッ     |
+|              <kbd>,</kbd> <kbd>Q</kbd> | はっ / ハッ     |              <kbd>,</kbd> <kbd>T</kbd> | ふっ / ヒッ     |              <kbd>,</kbd> <kbd>R</kbd> | ふっ / フッ     |              <kbd>,</kbd> <kbd>E</kbd> | へっ / ヘッ     |              <kbd>,</kbd> <kbd>W</kbd> | ほっ / ホッ     |
+|              <kbd>.</kbd> <kbd>Q</kbd> | ばっ / バッ     |              <kbd>.</kbd> <kbd>T</kbd> | ぶっ / ビッ     |              <kbd>.</kbd> <kbd>R</kbd> | ぶっ / ブッ     |              <kbd>.</kbd> <kbd>E</kbd> | べっ / ベッ     |              <kbd>.</kbd> <kbd>W</kbd> | ぼっ / ボッ     |
+|              <kbd>P</kbd> <kbd>Q</kbd> | ぱっ / パッ     |              <kbd>P</kbd> <kbd>T</kbd> | ぷっ / ピッ     |              <kbd>P</kbd> <kbd>R</kbd> | ぷっ / プッ     |              <kbd>P</kbd> <kbd>E</kbd> | ぺっ / ペッ     |              <kbd>P</kbd> <kbd>W</kbd> | ぽっ / ポッ     |
+|              <kbd>M</kbd> <kbd>Q</kbd> | まっ / マッ     |              <kbd>M</kbd> <kbd>T</kbd> | むっ / ミッ     |              <kbd>M</kbd> <kbd>R</kbd> | むっ / ムッ     |              <kbd>M</kbd> <kbd>E</kbd> | めっ / メッ     |              <kbd>M</kbd> <kbd>W</kbd> | もっ / モッ     |
+|              <kbd>Y</kbd> <kbd>Q</kbd> | やっ / ヤッ     |                                        |                 |              <kbd>Y</kbd> <kbd>R</kbd> | ゆっ / ユッ     |              <kbd>Y</kbd> <kbd>E</kbd> | いぇっ / イェッ |              <kbd>Y</kbd> <kbd>W</kbd> | よっ / ヨッ     |
+|              <kbd>O</kbd> <kbd>Q</kbd> | らっ / ラッ     |              <kbd>O</kbd> <kbd>T</kbd> | りっ / リッ     |              <kbd>O</kbd> <kbd>R</kbd> | るっ / ルッ     |              <kbd>O</kbd> <kbd>E</kbd> | れっ / レッ     |              <kbd>O</kbd> <kbd>W</kbd> | ろっ / ロッ     |
+|              <kbd>H</kbd> <kbd>Q</kbd> | わっ / ワッ     |              <kbd>H</kbd> <kbd>T</kbd> | うぃっ / ウィッ |                                        |                 |              <kbd>H</kbd> <kbd>E</kbd> | うぇっ / ウェッ |              <kbd>H</kbd> <kbd>W</kbd> | をっ / ヲッ     |
+|              <kbd>'</kbd> <kbd>Q</kbd> | ふぁっ / ファッ |              <kbd>'</kbd> <kbd>T</kbd> | ふぃっ / フィッ |              <kbd>'</kbd> <kbd>R</kbd> | ふゅっ / フュッ |              <kbd>'</kbd> <kbd>E</kbd> | ふぇっ / フェッ |              <kbd>'</kbd> <kbd>W</kbd> | ふぉっ / フォッ |
+|              <kbd>-</kbd> <kbd>Q</kbd> | ゔぁっ / ヴァッ |              <kbd>-</kbd> <kbd>T</kbd> | ゔぃっ / ヴィッ |              <kbd>-</kbd> <kbd>R</kbd> | ゔっ / ヴッ     |              <kbd>-</kbd> <kbd>E</kbd> | ゔぇっ / ヴェッ |              <kbd>-</kbd> <kbd>W</kbd> | ゔぉっ / ヴォッ |
+| <kbd>I</kbd> <kbd>U</kbd> <kbd>Q</kbd> | きゃっ / キャッ | <kbd>I</kbd> <kbd>U</kbd> <kbd>T</kbd> | きぃっ / キィッ | <kbd>I</kbd> <kbd>U</kbd> <kbd>R</kbd> | きゅっ / キュッ | <kbd>I</kbd> <kbd>U</kbd> <kbd>E</kbd> | きぇっ / キェッ | <kbd>I</kbd> <kbd>U</kbd> <kbd>W</kbd> | きょっ / キョッ |
+| <kbd>U</kbd> <kbd>O</kbd> <kbd>Q</kbd> | ぎゃっ / ギャッ | <kbd>U</kbd> <kbd>O</kbd> <kbd>T</kbd> | ぎぃっ / ギィッ | <kbd>U</kbd> <kbd>O</kbd> <kbd>R</kbd> | ぎゅっ / ギュッ | <kbd>U</kbd> <kbd>O</kbd> <kbd>E</kbd> | ぎぇっ / ギェッ | <kbd>U</kbd> <kbd>O</kbd> <kbd>W</kbd> | ぎょっ / ギョッ |
+| <kbd>;</kbd> <kbd>J</kbd> <kbd>Q</kbd> | しゃっ / シャッ | <kbd>;</kbd> <kbd>J</kbd> <kbd>T</kbd> | しぃっ / シィッ | <kbd>;</kbd> <kbd>J</kbd> <kbd>R</kbd> | しゅっ / シュッ | <kbd>;</kbd> <kbd>J</kbd> <kbd>E</kbd> | しぇっ / シェッ | <kbd>;</kbd> <kbd>J</kbd> <kbd>W</kbd> | しょっ / ショッ |
+| <kbd>/</kbd> <kbd>M</kbd> <kbd>Q</kbd> | じゃっ / ジャッ | <kbd>/</kbd> <kbd>M</kbd> <kbd>T</kbd> | じぃっ / ジィッ | <kbd>/</kbd> <kbd>M</kbd> <kbd>R</kbd> | じゅっ / ジュッ | <kbd>/</kbd> <kbd>M</kbd> <kbd>E</kbd> | じぇっ / ジェッ | <kbd>/</kbd> <kbd>M</kbd> <kbd>W</kbd> | じょっ / ジョッ |
+| <kbd>K</kbd> <kbd>J</kbd> <kbd>Q</kbd> | ちゃっ / チャッ | <kbd>K</kbd> <kbd>J</kbd> <kbd>T</kbd> | ちぃっ / チィッ | <kbd>K</kbd> <kbd>J</kbd> <kbd>R</kbd> | ちゅっ / チュッ | <kbd>K</kbd> <kbd>J</kbd> <kbd>E</kbd> | ちぇっ / チェッ | <kbd>K</kbd> <kbd>J</kbd> <kbd>W</kbd> | ちょっ / チョッ |
+| <kbd>J</kbd> <kbd>L</kbd> <kbd>Q</kbd> | ぢゃっ / ヂャッ | <kbd>J</kbd> <kbd>L</kbd> <kbd>T</kbd> | ぢぃっ / ヂィッ | <kbd>J</kbd> <kbd>L</kbd> <kbd>R</kbd> | ぢゅっ / ヂュッ | <kbd>J</kbd> <kbd>L</kbd> <kbd>E</kbd> | ぢぇっ / ヂェッ | <kbd>J</kbd> <kbd>L</kbd> <kbd>W</kbd> | ぢょっ / ヂョッ |
+| <kbd>L</kbd> <kbd>J</kbd> <kbd>Q</kbd> | にゃっ / ニャッ | <kbd>L</kbd> <kbd>J</kbd> <kbd>T</kbd> | にぃっ / ニィッ | <kbd>L</kbd> <kbd>J</kbd> <kbd>R</kbd> | にゅっ / ニュッ | <kbd>L</kbd> <kbd>J</kbd> <kbd>E</kbd> | にぇっ / ニェッ | <kbd>L</kbd> <kbd>J</kbd> <kbd>W</kbd> | にょっ / ニョッ |
+| <kbd>,</kbd> <kbd>M</kbd> <kbd>Q</kbd> | ひゃっ / ヒャッ | <kbd>,</kbd> <kbd>M</kbd> <kbd>T</kbd> | ひぃっ / ヒィッ | <kbd>,</kbd> <kbd>M</kbd> <kbd>R</kbd> | ひゅっ / ヒュッ | <kbd>,</kbd> <kbd>M</kbd> <kbd>E</kbd> | ひぇっ / ヒェッ | <kbd>,</kbd> <kbd>M</kbd> <kbd>W</kbd> | ひょっ / ヒョッ |
+| <kbd>.</kbd> <kbd>M</kbd> <kbd>Q</kbd> | びゃっ / ビャッ | <kbd>.</kbd> <kbd>M</kbd> <kbd>T</kbd> | びぃっ / ビィッ | <kbd>.</kbd> <kbd>M</kbd> <kbd>R</kbd> | びゅっ / ビュッ | <kbd>.</kbd> <kbd>M</kbd> <kbd>E</kbd> | びぇっ / ビェッ | <kbd>.</kbd> <kbd>M</kbd> <kbd>W</kbd> | びょっ / ビョッ |
+| <kbd>P</kbd> <kbd>U</kbd> <kbd>Q</kbd> | ぴゃっ / ピャッ | <kbd>P</kbd> <kbd>U</kbd> <kbd>T</kbd> | ぴぃっ / ピィッ | <kbd>P</kbd> <kbd>U</kbd> <kbd>R</kbd> | ぴゅっ / ピュッ | <kbd>P</kbd> <kbd>U</kbd> <kbd>E</kbd> | ぴぇっ / ピェッ | <kbd>P</kbd> <kbd>U</kbd> <kbd>W</kbd> | ぴょっ / ピョッ |
+| <kbd>M</kbd> <kbd>.</kbd> <kbd>Q</kbd> | みゃっ / ミャッ | <kbd>M</kbd> <kbd>.</kbd> <kbd>T</kbd> | みぃっ / ミィッ | <kbd>M</kbd> <kbd>.</kbd> <kbd>R</kbd> | みゅっ / ミュッ | <kbd>M</kbd> <kbd>.</kbd> <kbd>E</kbd> | みぇっ / ミェッ | <kbd>M</kbd> <kbd>.</kbd> <kbd>W</kbd> | みょっ / ミョッ |
+| <kbd>O</kbd> <kbd>U</kbd> <kbd>Q</kbd> | りゃっ / リャッ | <kbd>O</kbd> <kbd>U</kbd> <kbd>T</kbd> | りぃっ / リィッ | <kbd>O</kbd> <kbd>U</kbd> <kbd>R</kbd> | りゅっ / リュッ | <kbd>O</kbd> <kbd>U</kbd> <kbd>E</kbd> | りぇっ / リェッ | <kbd>O</kbd> <kbd>U</kbd> <kbd>W</kbd> | りょっ / リョッ |
+| <kbd>I</kbd> <kbd>K</kbd> <kbd>Q</kbd> | くぁっ / クァッ | <kbd>I</kbd> <kbd>K</kbd> <kbd>T</kbd> | くぃっ / クィッ | <kbd>I</kbd> <kbd>K</kbd> <kbd>R</kbd> | くぅっ / クゥッ | <kbd>I</kbd> <kbd>K</kbd> <kbd>E</kbd> | くぇっ / クェッ | <kbd>I</kbd> <kbd>K</kbd> <kbd>W</kbd> | くぉっ / クォッ |
+| <kbd>U</kbd> <kbd>J</kbd> <kbd>Q</kbd> | ぐぁっ / グァッ | <kbd>U</kbd> <kbd>J</kbd> <kbd>T</kbd> | ぐぃっ / グィッ | <kbd>U</kbd> <kbd>J</kbd> <kbd>R</kbd> | ぐぅっ / グゥッ | <kbd>U</kbd> <kbd>J</kbd> <kbd>E</kbd> | ぐぇっ / グェッ | <kbd>U</kbd> <kbd>J</kbd> <kbd>W</kbd> | ぐぉっ / グォッ |
+| <kbd>K</kbd> <kbd>,</kbd> <kbd>Q</kbd> | てゃっ / テャッ | <kbd>K</kbd> <kbd>,</kbd> <kbd>T</kbd> | てぃっ / ティッ | <kbd>K</kbd> <kbd>,</kbd> <kbd>R</kbd> | てゅっ / テュッ | <kbd>K</kbd> <kbd>,</kbd> <kbd>E</kbd> | てぇっ / テェッ | <kbd>K</kbd> <kbd>,</kbd> <kbd>W</kbd> | とぅっ / トゥッ |
+| <kbd>K</kbd> <kbd>I</kbd> <kbd>Q</kbd> | つぁっ / ツァッ | <kbd>K</kbd> <kbd>I</kbd> <kbd>T</kbd> | つぃっ / ツィッ | <kbd>K</kbd> <kbd>I</kbd> <kbd>R</kbd> | つぅっ / ツゥッ | <kbd>K</kbd> <kbd>I</kbd> <kbd>E</kbd> | つぇっ / ツェッ | <kbd>K</kbd> <kbd>I</kbd> <kbd>W</kbd> | つぉっ / ツォッ |
+| <kbd>J</kbd> <kbd>M</kbd> <kbd>Q</kbd> | でゃっ / デャッ | <kbd>J</kbd> <kbd>M</kbd> <kbd>T</kbd> | でぃっ / ディッ | <kbd>J</kbd> <kbd>M</kbd> <kbd>R</kbd> | でゅっ / デュッ | <kbd>J</kbd> <kbd>M</kbd> <kbd>E</kbd> | でぇっ / デェッ | <kbd>J</kbd> <kbd>M</kbd> <kbd>W</kbd> | どぅっ / ドゥッ |
+| <kbd>H</kbd> <kbd>N</kbd> <kbd>Q</kbd> | うぁっ / ウァッ |                                        |                 |                                        |                 |                                        |                 | <kbd>H</kbd> <kbd>N</kbd> <kbd>W</kbd> | うぉっ / ウォッ |
+|                                        |                 |                                        |                 | <kbd>-</kbd> <kbd>U</kbd> <kbd>R</kbd> | ゔゅっ / ヴュッ |                                        |                 |                                        |                 |
+
+### ~~~二重母音拡張~~~
 
 子音キーの後、母音キーの代わりにその上の段のキーを押すと、続いて別の母音が出力される（「か」→ <kbd>I</kbd> <kbd>A</kbd>、「かい」→ <kbd>I</kbd> <kbd>Q</kbd>）。
 母音の組み合わせは「-aい」「-uい」「-uう」「-eい」「-oう」。
