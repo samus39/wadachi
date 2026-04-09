@@ -1,18 +1,18 @@
 {
-    "include": [
-        "default",
-        "common"
-    ],
-    "define": {
-        "keymap": {
-            "=": "set-input-mode-katakana",
-            "\n": "commit-unhandled",
-            "\t": "complete",
-            " ": "next-candidate",
-            "b": "previous-candidate",
-            "Multi_key": "previous-candidate", /* Pause */
-            "Delete": "purge-candidate",
-            "C-d": "purge-candidate"
-        }
+  "include": [
+    "default",
+    "common"
+  ],
+  "define": {
+    "keymap": {
+      /*"C-q": "set-input-mode-hankaku-katakana",*/
+      "\n": "commit-unhandled",
+      "\t": "complete",
+      /*" ": "next-candidate",*/
+      /*"b": "previous-candidate",*/
+      "Multi_key": "previous-candidate", /* Pause */
+      "Delete": "purge-candidate",
+      "C-d": "purge-candidate"
     }
+  }
 }

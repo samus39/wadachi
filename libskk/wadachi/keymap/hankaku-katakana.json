@@ -1,9 +1,9 @@
 {
-    "include": [
-        "default"
-    ],
-    "define": {
-        "keymap": {
-        }
+  "include": [
+    "default"
+  ],
+  "define": {
+    "keymap": {
     }
+  }
 }

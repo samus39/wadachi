@@ -1,11 +1,11 @@
 {
-    "include": [
-        "default"
-    ],
-    "define": {
-        "keymap": {
-            "Hiragana_Katakana": null,
-            "C-q": null
-        }
+  "include": [
+    "default"
+  ],
+  "define": {
+    "keymap": {
+      "Hiragana_Katakana": null
+      /*"C-q": null*/
     }
+  }
 }
