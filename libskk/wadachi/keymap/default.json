@@ -8,19 +8,19 @@
       "\\": "special-midasi",
       "=": "abbrev",
       "Henkan": "set-input-mode-hiragana",
-      "C-Henkan": "start-preedit",
       /*"A-Henkan": "special-midasi",*/
       "Muhenkan": "set-input-mode-latin",
-      "C-Muhenkan": "set-input-mode-wide-latin",
+      /*"C-Muhenkan": "set-input-mode-wide-latin",*/
       "A-Muhenkan": "kuten",
       "Hiragana_Katakana": "set-input-mode-katakana",
-      "C-Hiragana_Katakana": "set-input-mode-hankaku-katakana",
-      "A-Hiragana_Katakana": "abbrev",
+      /*"C-Hiragana_Katakana": "set-input-mode-hankaku-katakana",*/
+      /*"A-Hiragana_Katakana": "abbrev",*/
       "C-j": "set-input-mode-hiragana",
       "C-q": "set-input-mode-hankaku-katakana",
       "C-l": "set-input-mode-wide-latin",
       " ": "next-candidate",
       "C-n": "next-candidate",
+      "`": "previous-candidate",
       "C-p": "previous-candidate",
       "Escape": "abort",
       "C-g": "abort",

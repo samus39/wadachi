@@ -5,6 +5,7 @@
   ],
   "define": {
     "keymap": {
+      "Q": "start-preedit",
       /*"C-q": "set-input-mode-hankaku-katakana",*/
       "\n": "commit-unhandled",
       "\t": "complete",
