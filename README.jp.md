@@ -183,11 +183,11 @@ gACT10 をベースに、以下を変更する。
 
 - 各段の入力文字の構成は以下のパターンとなる。
   - 「-uァ」「-uィ」「-uゥ」「-uェ」「-uォ」
-    - か行 kw、が行 gw、た行 ts、だ行 dz、な行 nw、ば行 bw、ぱ行 pw、ま行 mw、ら行 rw
+    - か行 kw、が行 gw、さ行 sw、ざ行 zw、た行 ts、だ行 dz、な行 nw、ば行 bw、ぱ行 pw、ま行 mw、ら行 rw
       - た行 ts の、う段は「トゥ」
       - だ行 dz の、う段は「ドゥ」
   - 「-uァ」「-uィ」「-uュ」「-uェ」「-uォ」
-    - さ行 sw、ざ行 zw、は行 f、わ行 wh、わ行 v
+    - は行 f、わ行 wh、わ行 v
   - 「-eャ」「-eィ」「-eュ」「-eェ」「-eョ」
     - た行 th、だ行 dh
 
@@ -195,8 +195,8 @@ gACT10 をベースに、以下を変更する。
 |:----:|---------------------------------------:|:------:|---------------------------------------:|:------:|---------------------------------------:|:------:|---------------------------------------:|:------:|---------------------------------------:|:------:|
 | {kw} | <kbd>I</kbd> <kbd>K</kbd> <kbd>A</kbd> | クァ   | <kbd>I</kbd> <kbd>K</kbd> <kbd>G</kbd> | クィ   | <kbd>I</kbd> <kbd>K</kbd> <kbd>F</kbd> | クゥ   | <kbd>I</kbd> <kbd>K</kbd> <kbd>D</kbd> | クェ   | <kbd>I</kbd> <kbd>K</kbd> <kbd>S</kbd> | クォ   |
 | {gw} | <kbd>U</kbd> <kbd>J</kbd> <kbd>A</kbd> | グァ   | <kbd>U</kbd> <kbd>J</kbd> <kbd>G</kbd> | グィ   | <kbd>U</kbd> <kbd>J</kbd> <kbd>F</kbd> | グゥ   | <kbd>U</kbd> <kbd>J</kbd> <kbd>D</kbd> | グェ   | <kbd>U</kbd> <kbd>J</kbd> <kbd>S</kbd> | グォ   |
-| {sw} | <kbd>;</kbd> <kbd>/</kbd> <kbd>A</kbd> | スァ   | <kbd>;</kbd> <kbd>/</kbd> <kbd>G</kbd> | スィ   | <kbd>;</kbd> <kbd>/</kbd> <kbd>F</kbd> | スュ   | <kbd>;</kbd> <kbd>/</kbd> <kbd>D</kbd> | スェ   | <kbd>;</kbd> <kbd>/</kbd> <kbd>S</kbd> | スォ   |
-| {zw} | <kbd>/</kbd> <kbd>;</kbd> <kbd>A</kbd> | ズァ   | <kbd>/</kbd> <kbd>;</kbd> <kbd>G</kbd> | ズィ   | <kbd>/</kbd> <kbd>;</kbd> <kbd>F</kbd> | ズュ   | <kbd>/</kbd> <kbd>;</kbd> <kbd>D</kbd> | ズェ   | <kbd>/</kbd> <kbd>;</kbd> <kbd>S</kbd> | ズォ   |
+| {sw} | <kbd>;</kbd> <kbd>/</kbd> <kbd>A</kbd> | スァ   | <kbd>;</kbd> <kbd>/</kbd> <kbd>G</kbd> | スィ   | <kbd>;</kbd> <kbd>/</kbd> <kbd>F</kbd> | スゥ   | <kbd>;</kbd> <kbd>/</kbd> <kbd>D</kbd> | スェ   | <kbd>;</kbd> <kbd>/</kbd> <kbd>S</kbd> | スォ   |
+| {zw} | <kbd>/</kbd> <kbd>;</kbd> <kbd>A</kbd> | ズァ   | <kbd>/</kbd> <kbd>;</kbd> <kbd>G</kbd> | ズィ   | <kbd>/</kbd> <kbd>;</kbd> <kbd>F</kbd> | ズゥ   | <kbd>/</kbd> <kbd>;</kbd> <kbd>D</kbd> | ズェ   | <kbd>/</kbd> <kbd>;</kbd> <kbd>S</kbd> | ズォ   |
 | {th} | <kbd>K</kbd> <kbd>,</kbd> <kbd>A</kbd> | テャ   | <kbd>K</kbd> <kbd>,</kbd> <kbd>G</kbd> | ティ   | <kbd>K</kbd> <kbd>,</kbd> <kbd>F</kbd> | テュ   | <kbd>K</kbd> <kbd>,</kbd> <kbd>D</kbd> | テェ   | <kbd>K</kbd> <kbd>,</kbd> <kbd>S</kbd> | テョ   |
 | {ts} | <kbd>K</kbd> <kbd>I</kbd> <kbd>A</kbd> | ツァ   | <kbd>K</kbd> <kbd>I</kbd> <kbd>G</kbd> | ツィ   | <kbd>K</kbd> <kbd>I</kbd> <kbd>F</kbd> | トゥ   | <kbd>K</kbd> <kbd>I</kbd> <kbd>D</kbd> | ツェ   | <kbd>K</kbd> <kbd>I</kbd> <kbd>S</kbd> | ツォ   |
 | {dh} | <kbd>J</kbd> <kbd>M</kbd> <kbd>A</kbd> | デャ   | <kbd>J</kbd> <kbd>M</kbd> <kbd>G</kbd> | ディ   | <kbd>J</kbd> <kbd>M</kbd> <kbd>F</kbd> | デュ   | <kbd>J</kbd> <kbd>M</kbd> <kbd>D</kbd> | デェ   | <kbd>J</kbd> <kbd>M</kbd> <kbd>S</kbd> | デョ   |
@@ -231,10 +231,10 @@ gACT10 をベースに、以下を変更する。
 | {gw} | <kbd>U</kbd> <kbd>J</kbd> <kbd>Z</kbd> | グァン | <kbd>U</kbd> <kbd>J</kbd> <kbd>B</kbd> | グィン | <kbd>U</kbd> <kbd>J</kbd> <kbd>V</kbd> | グゥン | <kbd>U</kbd> <kbd>J</kbd> <kbd>C</kbd> | グェン | <kbd>U</kbd> <kbd>J</kbd> <kbd>X</kbd> | グォン |
 | さ行 |              <kbd>;</kbd> <kbd>Z</kbd> | さん   |              <kbd>;</kbd> <kbd>B</kbd> | しん   |              <kbd>;</kbd> <kbd>V</kbd> | すん   |              <kbd>;</kbd> <kbd>C</kbd> | せん   |              <kbd>;</kbd> <kbd>X</kbd> | そん   |
 | {sy} | <kbd>;</kbd> <kbd>J</kbd> <kbd>Z</kbd> | しゃん | <kbd>;</kbd> <kbd>J</kbd> <kbd>B</kbd> | シィン | <kbd>;</kbd> <kbd>J</kbd> <kbd>V</kbd> | しゅん | <kbd>;</kbd> <kbd>J</kbd> <kbd>C</kbd> | シェン | <kbd>;</kbd> <kbd>J</kbd> <kbd>X</kbd> | しょん |
-| {sw} | <kbd>;</kbd> <kbd>/</kbd> <kbd>Z</kbd> | スァン | <kbd>;</kbd> <kbd>/</kbd> <kbd>B</kbd> | スィン | <kbd>;</kbd> <kbd>/</kbd> <kbd>V</kbd> | スュン | <kbd>;</kbd> <kbd>/</kbd> <kbd>C</kbd> | スェン | <kbd>;</kbd> <kbd>/</kbd> <kbd>X</kbd> | スォン |
+| {sw} | <kbd>;</kbd> <kbd>/</kbd> <kbd>Z</kbd> | スァン | <kbd>;</kbd> <kbd>/</kbd> <kbd>B</kbd> | スィン | <kbd>;</kbd> <kbd>/</kbd> <kbd>V</kbd> | スゥン | <kbd>;</kbd> <kbd>/</kbd> <kbd>C</kbd> | スェン | <kbd>;</kbd> <kbd>/</kbd> <kbd>X</kbd> | スォン |
 | ざ行 |              <kbd>/</kbd> <kbd>Z</kbd> | ざん   |              <kbd>/</kbd> <kbd>B</kbd> | じん   |              <kbd>/</kbd> <kbd>V</kbd> | ずん   |              <kbd>/</kbd> <kbd>C</kbd> | ぜん   |              <kbd>/</kbd> <kbd>X</kbd> | ぞん   |
 | {zy} | <kbd>/</kbd> <kbd>M</kbd> <kbd>Z</kbd> | じゃん | <kbd>/</kbd> <kbd>M</kbd> <kbd>B</kbd> | ジィン | <kbd>/</kbd> <kbd>M</kbd> <kbd>V</kbd> | じゅん | <kbd>/</kbd> <kbd>M</kbd> <kbd>C</kbd> | ジェン | <kbd>/</kbd> <kbd>M</kbd> <kbd>X</kbd> | じょん |
-| {zw} | <kbd>/</kbd> <kbd>;</kbd> <kbd>Z</kbd> | ズァン | <kbd>/</kbd> <kbd>;</kbd> <kbd>B</kbd> | ズィン | <kbd>/</kbd> <kbd>;</kbd> <kbd>V</kbd> | ズュン | <kbd>/</kbd> <kbd>;</kbd> <kbd>C</kbd> | ズェン | <kbd>/</kbd> <kbd>;</kbd> <kbd>X</kbd> | ズォン |
+| {zw} | <kbd>/</kbd> <kbd>;</kbd> <kbd>Z</kbd> | ズァン | <kbd>/</kbd> <kbd>;</kbd> <kbd>B</kbd> | ズィン | <kbd>/</kbd> <kbd>;</kbd> <kbd>V</kbd> | ズゥン | <kbd>/</kbd> <kbd>;</kbd> <kbd>C</kbd> | ズェン | <kbd>/</kbd> <kbd>;</kbd> <kbd>X</kbd> | ズォン |
 | た行 |              <kbd>K</kbd> <kbd>Z</kbd> | たん   |              <kbd>K</kbd> <kbd>B</kbd> | ちん   |              <kbd>K</kbd> <kbd>V</kbd> | つん   |              <kbd>K</kbd> <kbd>C</kbd> | てん   |              <kbd>K</kbd> <kbd>X</kbd> | とん   |
 | {ty} | <kbd>K</kbd> <kbd>J</kbd> <kbd>Z</kbd> | ちゃん | <kbd>K</kbd> <kbd>J</kbd> <kbd>B</kbd> | チィン | <kbd>K</kbd> <kbd>J</kbd> <kbd>V</kbd> | ちゅん | <kbd>K</kbd> <kbd>J</kbd> <kbd>C</kbd> | チェン | <kbd>K</kbd> <kbd>J</kbd> <kbd>X</kbd> | ちょん |
 | {th} | <kbd>K</kbd> <kbd>,</kbd> <kbd>Z</kbd> | テャン | <kbd>K</kbd> <kbd>,</kbd> <kbd>B</kbd> | ティン | <kbd>K</kbd> <kbd>,</kbd> <kbd>V</kbd> | テュン | <kbd>K</kbd> <kbd>,</kbd> <kbd>C</kbd> | テェン | <kbd>K</kbd> <kbd>,</kbd> <kbd>X</kbd> | テョン |
@@ -288,10 +288,10 @@ gACT10 をベースに、以下を変更する。
 | {gw} | <kbd>U</kbd> <kbd>J</kbd> <kbd>Q</kbd> | グァイ | <kbd>U</kbd> <kbd>J</kbd> <kbd>T</kbd> | グゥイ | <kbd>U</kbd> <kbd>J</kbd> <kbd>R</kbd> | グゥウ | <kbd>U</kbd> <kbd>J</kbd> <kbd>E</kbd> | グェイ | <kbd>U</kbd> <kbd>J</kbd> <kbd>W</kbd> | グォウ |
 | さ行 |              <kbd>;</kbd> <kbd>Q</kbd> | さい   |              <kbd>;</kbd> <kbd>T</kbd> | すい   |              <kbd>;</kbd> <kbd>R</kbd> | すう   |              <kbd>;</kbd> <kbd>E</kbd> | せい   |              <kbd>;</kbd> <kbd>W</kbd> | そう   |
 | {sy} | <kbd>;</kbd> <kbd>J</kbd> <kbd>Q</kbd> | しゃい | <kbd>;</kbd> <kbd>J</kbd> <kbd>T</kbd> | しゅい | <kbd>;</kbd> <kbd>J</kbd> <kbd>R</kbd> | しゅう | <kbd>;</kbd> <kbd>J</kbd> <kbd>E</kbd> | シェイ | <kbd>;</kbd> <kbd>J</kbd> <kbd>W</kbd> | しょう |
-| {sw} | <kbd>;</kbd> <kbd>/</kbd> <kbd>Q</kbd> | スァイ | <kbd>;</kbd> <kbd>/</kbd> <kbd>T</kbd> | スュイ | <kbd>;</kbd> <kbd>/</kbd> <kbd>R</kbd> | スュウ | <kbd>;</kbd> <kbd>/</kbd> <kbd>E</kbd> | スェイ | <kbd>;</kbd> <kbd>/</kbd> <kbd>W</kbd> | スォウ |
+| {sw} | <kbd>;</kbd> <kbd>/</kbd> <kbd>Q</kbd> | スァイ | <kbd>;</kbd> <kbd>/</kbd> <kbd>T</kbd> | スゥイ | <kbd>;</kbd> <kbd>/</kbd> <kbd>R</kbd> | スゥウ | <kbd>;</kbd> <kbd>/</kbd> <kbd>E</kbd> | スェイ | <kbd>;</kbd> <kbd>/</kbd> <kbd>W</kbd> | スォウ |
 | ざ行 |              <kbd>/</kbd> <kbd>Q</kbd> | ざい   |              <kbd>/</kbd> <kbd>T</kbd> | ずい   |              <kbd>/</kbd> <kbd>R</kbd> | ずう   |              <kbd>/</kbd> <kbd>E</kbd> | ぜい   |              <kbd>/</kbd> <kbd>W</kbd> | ぞう   |
 | {zy} | <kbd>/</kbd> <kbd>M</kbd> <kbd>Q</kbd> | じゃい | <kbd>/</kbd> <kbd>M</kbd> <kbd>T</kbd> | じゅい | <kbd>/</kbd> <kbd>M</kbd> <kbd>R</kbd> | じゅう | <kbd>/</kbd> <kbd>M</kbd> <kbd>E</kbd> | ジェイ | <kbd>/</kbd> <kbd>M</kbd> <kbd>W</kbd> | じょう |
-| {zw} | <kbd>/</kbd> <kbd>;</kbd> <kbd>Q</kbd> | ズァイ | <kbd>/</kbd> <kbd>;</kbd> <kbd>T</kbd> | ズュイ | <kbd>/</kbd> <kbd>;</kbd> <kbd>R</kbd> | ズュウ | <kbd>/</kbd> <kbd>;</kbd> <kbd>E</kbd> | ズェイ | <kbd>/</kbd> <kbd>;</kbd> <kbd>W</kbd> | ズォウ |
+| {zw} | <kbd>/</kbd> <kbd>;</kbd> <kbd>Q</kbd> | ズァイ | <kbd>/</kbd> <kbd>;</kbd> <kbd>T</kbd> | ズゥイ | <kbd>/</kbd> <kbd>;</kbd> <kbd>R</kbd> | ズゥウ | <kbd>/</kbd> <kbd>;</kbd> <kbd>E</kbd> | ズェイ | <kbd>/</kbd> <kbd>;</kbd> <kbd>W</kbd> | ズォウ |
 | た行 |              <kbd>K</kbd> <kbd>Q</kbd> | たい   |              <kbd>K</kbd> <kbd>T</kbd> | つい   |              <kbd>K</kbd> <kbd>R</kbd> | つう   |              <kbd>K</kbd> <kbd>E</kbd> | てい   |              <kbd>K</kbd> <kbd>W</kbd> | とう   |
 | {ty} | <kbd>K</kbd> <kbd>J</kbd> <kbd>Q</kbd> | ちゃい | <kbd>K</kbd> <kbd>J</kbd> <kbd>T</kbd> | ちゅい | <kbd>K</kbd> <kbd>J</kbd> <kbd>R</kbd> | ちゅう | <kbd>K</kbd> <kbd>J</kbd> <kbd>E</kbd> | チェイ | <kbd>K</kbd> <kbd>J</kbd> <kbd>W</kbd> | ちょう |
 | {th} | <kbd>K</kbd> <kbd>,</kbd> <kbd>Q</kbd> | テャイ | <kbd>K</kbd> <kbd>,</kbd> <kbd>T</kbd> | テュイ | <kbd>K</kbd> <kbd>,</kbd> <kbd>R</kbd> | テュウ | <kbd>K</kbd> <kbd>,</kbd> <kbd>E</kbd> | テェイ | <kbd>K</kbd> <kbd>,</kbd> <kbd>W</kbd> | テョウ |
@@ -345,10 +345,10 @@ gACT10 をベースに、以下を変更する。
 | {gw} | <kbd>U</kbd> <kbd>J</kbd> <kbd>1</kbd> | グァー | <kbd>U</kbd> <kbd>J</kbd> <kbd>5</kbd> | グィー | <kbd>U</kbd> <kbd>J</kbd> <kbd>4</kbd> | グゥー | <kbd>U</kbd> <kbd>J</kbd> <kbd>3</kbd> | グェー | <kbd>U</kbd> <kbd>J</kbd> <kbd>2</kbd> | グォー |
 | さ行 |              <kbd>;</kbd> <kbd>1</kbd> | サー   |              <kbd>;</kbd> <kbd>5</kbd> | シー   |              <kbd>;</kbd> <kbd>4</kbd> | スー   |              <kbd>;</kbd> <kbd>3</kbd> | セー   |              <kbd>;</kbd> <kbd>2</kbd> | ソー   |
 | {sy} | <kbd>;</kbd> <kbd>J</kbd> <kbd>1</kbd> | シャー | <kbd>;</kbd> <kbd>J</kbd> <kbd>5</kbd> | シィー | <kbd>;</kbd> <kbd>J</kbd> <kbd>4</kbd> | シュー | <kbd>;</kbd> <kbd>J</kbd> <kbd>3</kbd> | シェー | <kbd>;</kbd> <kbd>J</kbd> <kbd>2</kbd> | ショー |
-| {sw} | <kbd>;</kbd> <kbd>/</kbd> <kbd>1</kbd> | スァー | <kbd>;</kbd> <kbd>/</kbd> <kbd>5</kbd> | スィー | <kbd>;</kbd> <kbd>/</kbd> <kbd>4</kbd> | スュー | <kbd>;</kbd> <kbd>/</kbd> <kbd>3</kbd> | スェー | <kbd>;</kbd> <kbd>/</kbd> <kbd>2</kbd> | スォー |
+| {sw} | <kbd>;</kbd> <kbd>/</kbd> <kbd>1</kbd> | スァー | <kbd>;</kbd> <kbd>/</kbd> <kbd>5</kbd> | スィー | <kbd>;</kbd> <kbd>/</kbd> <kbd>4</kbd> | スゥー | <kbd>;</kbd> <kbd>/</kbd> <kbd>3</kbd> | スェー | <kbd>;</kbd> <kbd>/</kbd> <kbd>2</kbd> | スォー |
 | ざ行 |              <kbd>/</kbd> <kbd>1</kbd> | ザー   |              <kbd>/</kbd> <kbd>5</kbd> | ジー   |              <kbd>/</kbd> <kbd>4</kbd> | ズー   |              <kbd>/</kbd> <kbd>3</kbd> | ゼー   |              <kbd>/</kbd> <kbd>2</kbd> | ゾー   |
 | {zy} | <kbd>/</kbd> <kbd>M</kbd> <kbd>1</kbd> | ジャー | <kbd>/</kbd> <kbd>M</kbd> <kbd>5</kbd> | ジィー | <kbd>/</kbd> <kbd>M</kbd> <kbd>4</kbd> | ジュー | <kbd>/</kbd> <kbd>M</kbd> <kbd>3</kbd> | ジェー | <kbd>/</kbd> <kbd>M</kbd> <kbd>2</kbd> | ジョー |
-| {zw} | <kbd>/</kbd> <kbd>;</kbd> <kbd>1</kbd> | ズァー | <kbd>/</kbd> <kbd>;</kbd> <kbd>5</kbd> | ズィー | <kbd>/</kbd> <kbd>;</kbd> <kbd>4</kbd> | ズュー | <kbd>/</kbd> <kbd>;</kbd> <kbd>3</kbd> | ズェー | <kbd>/</kbd> <kbd>;</kbd> <kbd>2</kbd> | ズォー |
+| {zw} | <kbd>/</kbd> <kbd>;</kbd> <kbd>1</kbd> | ズァー | <kbd>/</kbd> <kbd>;</kbd> <kbd>5</kbd> | ズィー | <kbd>/</kbd> <kbd>;</kbd> <kbd>4</kbd> | ズゥー | <kbd>/</kbd> <kbd>;</kbd> <kbd>3</kbd> | ズェー | <kbd>/</kbd> <kbd>;</kbd> <kbd>2</kbd> | ズォー |
 | た行 |              <kbd>K</kbd> <kbd>1</kbd> | ター   |              <kbd>K</kbd> <kbd>5</kbd> | チー   |              <kbd>K</kbd> <kbd>4</kbd> | ツー   |              <kbd>K</kbd> <kbd>3</kbd> | テー   |              <kbd>K</kbd> <kbd>2</kbd> | トー   |
 | {ty} | <kbd>K</kbd> <kbd>J</kbd> <kbd>1</kbd> | チャー | <kbd>K</kbd> <kbd>J</kbd> <kbd>5</kbd> | チィー | <kbd>K</kbd> <kbd>J</kbd> <kbd>4</kbd> | チュー | <kbd>K</kbd> <kbd>J</kbd> <kbd>3</kbd> | チェー | <kbd>K</kbd> <kbd>J</kbd> <kbd>2</kbd> | チョー |
 | {th} | <kbd>K</kbd> <kbd>,</kbd> <kbd>1</kbd> | テャー | <kbd>K</kbd> <kbd>,</kbd> <kbd>5</kbd> | ティー | <kbd>K</kbd> <kbd>,</kbd> <kbd>4</kbd> | テュー | <kbd>K</kbd> <kbd>,</kbd> <kbd>3</kbd> | テェー | <kbd>K</kbd> <kbd>,</kbd> <kbd>2</kbd> | テョー |
@@ -646,16 +646,16 @@ vi のカーソル移動と同じキーに割り当てる。
 |:--------------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:-------------|:------------------|:-------------|:-------------|:--------------------|
 | <kbd>;</kbd>              | <kbd>1</kbd> サー   | <kbd>2</kbd> ソー   | <kbd>3</kbd> セー   | <kbd>4</kbd> スー   | <kbd>5</kbd> シー   |              |                   |              |              |                     |
 | <kbd>;</kbd> <kbd>J</kbd> | <kbd>1</kbd> シャー | <kbd>2</kbd> ショー | <kbd>3</kbd> シェー | <kbd>4</kbd> シュー | <kbd>5</kbd> シィー |              |                   |              |              |                     |
-| <kbd>;</kbd> <kbd>/</kbd> | <kbd>1</kbd> スァー | <kbd>2</kbd> スォー | <kbd>3</kbd> スェー | <kbd>4</kbd> スュー | <kbd>5</kbd> スィー |              |                   |              |              |                     |
+| <kbd>;</kbd> <kbd>/</kbd> | <kbd>1</kbd> スァー | <kbd>2</kbd> スォー | <kbd>3</kbd> スェー | <kbd>4</kbd> スゥー | <kbd>5</kbd> スィー |              |                   |              |              |                     |
 | <kbd>;</kbd>              | <kbd>Q</kbd> さい   | <kbd>W</kbd> そう   | <kbd>E</kbd> せい   | <kbd>R</kbd> すう   | <kbd>T</kbd> すい   | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd>        |
 | <kbd>;</kbd> <kbd>J</kbd> | <kbd>Q</kbd> しゃい | <kbd>W</kbd> しょう | <kbd>E</kbd> シェイ | <kbd>R</kbd> しゅう | <kbd>T</kbd> しゅい | 〃           | 〃                | 〃           | 〃           | 〃                  |
-| <kbd>;</kbd> <kbd>/</kbd> | <kbd>Q</kbd> スァイ | <kbd>W</kbd> スォウ | <kbd>E</kbd> スェイ | <kbd>R</kbd> スュウ | <kbd>T</kbd> スュイ | 〃           | 〃                | 〃           | 〃           | 〃                  |
+| <kbd>;</kbd> <kbd>/</kbd> | <kbd>Q</kbd> スァイ | <kbd>W</kbd> スォウ | <kbd>E</kbd> スェイ | <kbd>R</kbd> スゥウ | <kbd>T</kbd> スゥイ | 〃           | 〃                | 〃           | 〃           | 〃                  |
 | <kbd>;</kbd>              | <kbd>A</kbd> さ     | <kbd>S</kbd> そ     | <kbd>D</kbd> せ     | <kbd>F</kbd> す     | <kbd>G</kbd> し     | <kbd>H</kbd> | <kbd>J</kbd> {sh} | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd> [さ行] |
 | <kbd>;</kbd> <kbd>J</kbd> | <kbd>A</kbd> しゃ   | <kbd>S</kbd> しょ   | <kbd>D</kbd> シェ   | <kbd>F</kbd> しゅ   | <kbd>G</kbd> シィ   | 〃           | 〃                | 〃           | 〃           | 〃                  |
-| <kbd>;</kbd> <kbd>/</kbd> | <kbd>A</kbd> スァ   | <kbd>S</kbd> スォ   | <kbd>D</kbd> スェ   | <kbd>F</kbd> スュ   | <kbd>G</kbd> スィ   | 〃           | 〃                | 〃           | 〃           | 〃                  |
+| <kbd>;</kbd> <kbd>/</kbd> | <kbd>A</kbd> スァ   | <kbd>S</kbd> スォ   | <kbd>D</kbd> スェ   | <kbd>F</kbd> スゥ   | <kbd>G</kbd> スィ   | 〃           | 〃                | 〃           | 〃           | 〃                  |
 | <kbd>;</kbd>              | <kbd>Z</kbd> さん   | <kbd>X</kbd> そん   | <kbd>C</kbd> せん   | <kbd>V</kbd> すん   | <kbd>B</kbd> しん   | <kbd>N</kbd> | <kbd>M</kbd>      | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd> {sw}   |
 | <kbd>;</kbd> <kbd>J</kbd> | <kbd>Z</kbd> しゃん | <kbd>X</kbd> しょん | <kbd>C</kbd> シェン | <kbd>V</kbd> しゅん | <kbd>B</kbd> シィン | 〃           | 〃                | 〃           | 〃           | 〃                  |
-| <kbd>;</kbd> <kbd>/</kbd> | <kbd>Z</kbd> スァン | <kbd>X</kbd> スォン | <kbd>C</kbd> スェン | <kbd>V</kbd> スュン | <kbd>B</kbd> スィン | 〃           | 〃                | 〃           | 〃           | 〃                  |
+| <kbd>;</kbd> <kbd>/</kbd> | <kbd>Z</kbd> スァン | <kbd>X</kbd> スォン | <kbd>C</kbd> スェン | <kbd>V</kbd> スゥン | <kbd>B</kbd> スィン | 〃           | 〃                | 〃           | 〃           | 〃                  |
 
 </section>
 <section>
@@ -666,16 +666,16 @@ vi のカーソル移動と同じキーに割り当てる。
 |:--------------------------|:--------------------|:--------------------|:--------------------|:--------------------|:--------------------|:-------------|:------------------|:-------------|:-------------|:--------------------|
 | <kbd>/</kbd>              | <kbd>1</kbd> ザー   | <kbd>2</kbd> ゾー   | <kbd>3</kbd> ゼー   | <kbd>4</kbd> ズー   | <kbd>5</kbd> ジー   |              |                   |              |              |                     |
 | <kbd>/</kbd> <kbd>M</kbd> | <kbd>1</kbd> ジャー | <kbd>2</kbd> ジョー | <kbd>3</kbd> ジェー | <kbd>4</kbd> ジュー | <kbd>5</kbd> ジィー |              |                   |              |              |                     |
-| <kbd>/</kbd> <kbd>;</kbd> | <kbd>1</kbd> ズァー | <kbd>2</kbd> ズォー | <kbd>3</kbd> ズェー | <kbd>4</kbd> ズュー | <kbd>5</kbd> ズィー |              |                   |              |              |                     |
+| <kbd>/</kbd> <kbd>;</kbd> | <kbd>1</kbd> ズァー | <kbd>2</kbd> ズォー | <kbd>3</kbd> ズェー | <kbd>4</kbd> ズゥー | <kbd>5</kbd> ズィー |              |                   |              |              |                     |
 | <kbd>/</kbd>              | <kbd>Q</kbd> ざい   | <kbd>W</kbd> ぞう   | <kbd>E</kbd> ぜい   | <kbd>R</kbd> ずう   | <kbd>T</kbd> ずい   | <kbd>Y</kbd> | <kbd>U</kbd>      | <kbd>I</kbd> | <kbd>O</kbd> | <kbd>P</kbd>        |
 | <kbd>/</kbd> <kbd>M</kbd> | <kbd>Q</kbd> じゃい | <kbd>W</kbd> じょう | <kbd>E</kbd> ジェイ | <kbd>R</kbd> じゅう | <kbd>T</kbd> じゅい | 〃           | 〃                | 〃           | 〃           | 〃                  |
-| <kbd>/</kbd> <kbd>;</kbd> | <kbd>Q</kbd> ズァイ | <kbd>W</kbd> ズォウ | <kbd>E</kbd> ズェイ | <kbd>R</kbd> ズュウ | <kbd>T</kbd> ズュイ | 〃           | 〃                | 〃           | 〃           | 〃                  |
+| <kbd>/</kbd> <kbd>;</kbd> | <kbd>Q</kbd> ズァイ | <kbd>W</kbd> ズォウ | <kbd>E</kbd> ズェイ | <kbd>R</kbd> ズゥウ | <kbd>T</kbd> ズゥイ | 〃           | 〃                | 〃           | 〃           | 〃                  |
 | <kbd>/</kbd>              | <kbd>A</kbd> ざ     | <kbd>S</kbd> ぞ     | <kbd>D</kbd> ぜ     | <kbd>F</kbd> ず     | <kbd>G</kbd> じ     | <kbd>H</kbd> | <kbd>J</kbd>      | <kbd>K</kbd> | <kbd>L</kbd> | <kbd>;</kbd> {zw}   |
 | <kbd>/</kbd> <kbd>M</kbd> | <kbd>A</kbd> じゃ   | <kbd>S</kbd> じょ   | <kbd>D</kbd> ジェ   | <kbd>F</kbd> じゅ   | <kbd>G</kbd> ジィ   | 〃           | 〃                | 〃           | 〃           | 〃                  |
-| <kbd>/</kbd> <kbd>;</kbd> | <kbd>A</kbd> ズァ   | <kbd>S</kbd> ズォ   | <kbd>D</kbd> ズェ   | <kbd>F</kbd> ズュ   | <kbd>G</kbd> ズィ   | 〃           | 〃                | 〃           | 〃           | 〃                  |
+| <kbd>/</kbd> <kbd>;</kbd> | <kbd>A</kbd> ズァ   | <kbd>S</kbd> ズォ   | <kbd>D</kbd> ズェ   | <kbd>F</kbd> ズゥ   | <kbd>G</kbd> ズィ   | 〃           | 〃                | 〃           | 〃           | 〃                  |
 | <kbd>/</kbd>              | <kbd>Z</kbd> ざん   | <kbd>X</kbd> ぞん   | <kbd>C</kbd> ぜん   | <kbd>V</kbd> ずん   | <kbd>B</kbd> じん   | <kbd>N</kbd> | <kbd>M</kbd> {j}  | <kbd>,</kbd> | <kbd>.</kbd> | <kbd>/</kbd> [ざ行] |
 | <kbd>/</kbd> <kbd>M</kbd> | <kbd>Z</kbd> じゃん | <kbd>X</kbd> じょん | <kbd>C</kbd> ジェン | <kbd>V</kbd> じゅん | <kbd>B</kbd> ジィン | 〃           | 〃                | 〃           | 〃           | 〃                  |
-| <kbd>/</kbd> <kbd>;</kbd> | <kbd>Z</kbd> ズァン | <kbd>X</kbd> ズォン | <kbd>C</kbd> ズェン | <kbd>V</kbd> ズュン | <kbd>B</kbd> ズィン | 〃           | 〃                | 〃           | 〃           | 〃                  |
+| <kbd>/</kbd> <kbd>;</kbd> | <kbd>Z</kbd> ズァン | <kbd>X</kbd> ズォン | <kbd>C</kbd> ズェン | <kbd>V</kbd> ズゥン | <kbd>B</kbd> ズィン | 〃           | 〃                | 〃           | 〃           | 〃                  |
 
 </section>
 <section>
