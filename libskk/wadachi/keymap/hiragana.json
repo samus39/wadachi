@@ -1,19 +1,9 @@
 {
   "include": [
-    "default",
-    "common"
+    "default"
   ],
   "define": {
     "keymap": {
-      "Q": "start-preedit",
-      /*"C-q": "set-input-mode-hankaku-katakana",*/
-      "\n": "commit-unhandled",
-      "\t": "complete",
-      /*" ": "next-candidate",*/
-      /*"b": "previous-candidate",*/
-      "Multi_key": "previous-candidate", /* Pause */
-      "Delete": "purge-candidate",
-      "C-d": "purge-candidate"
     }
   }
 }

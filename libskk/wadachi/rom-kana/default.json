@@ -1,5 +1,5 @@
 {
   "include": [
-    "libskk-wadachi"
+    "wadachi"
   ]
 }

@@ -1,11 +1,9 @@
 {
   "include": [
-    "default",
-    "common"
+    "default"
   ],
   "define": {
     "keymap": {
-      "Q": "start-preedit"
     }
   }
 }

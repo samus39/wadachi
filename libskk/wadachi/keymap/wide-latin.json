@@ -4,8 +4,10 @@
   ],
   "define": {
     "keymap": {
-      "Hiragana_Katakana": null
-      /*"C-q": null*/
+      "'": null,
+      "`": null,
+      "-": null,
+      "\\": null
     }
   }
 }

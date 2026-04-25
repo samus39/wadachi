@@ -1,0 +1,20 @@
+{
+  "define": {
+    "keymap": {
+      " ": "next-candidate",
+      "b": "previous-candidate",
+      "X": "purge-candidate",
+      "'": "set-input-mode-katakana",
+      "`": "set-input-mode-latin",
+      "\\": "set-input-mode-wide-latin",
+      "-": "start-preedit",
+      "=": "abbrev",
+      "|": "special-midasi",
+      "$": "kuten",
+      "<": "upper-,",
+      ">": "upper-.",
+      "?": "upper-/",
+      ":": "upper-;"
+    }
+  }
+}
